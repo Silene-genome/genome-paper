@@ -1,0 +1,19 @@
+################################################
+Filtering and Normalization
+################################################
+
+#### Description of Raw counts table ####
+Number of samples: 12 
+Number of genes: 35436 
+
+#### Filtering ####
+Number of genes discarded by the filtering: 18941 
+Number of genes analyzed after filtering: 16495 
+
+################################################
+ Statistics on the normalization factors 
+################################################
+
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+ 0.9041  0.9734  1.0223  1.0012  1.0302  1.0700 
+

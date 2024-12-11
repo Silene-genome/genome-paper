@@ -1,0 +1,69 @@
+# Map female samples against a genome reference without the Y chromosome
+ShortStack --genomefile genome/no_y.fa --readfile ../raw/fastq/F* --threads 8 --align_only --outdir females_no_y
+
+# Map male samples
+ShortStack --genomefile genome/genome3.fa --readfile ../raw/fastq/M* --threads 8 --align_only --outdir males
+
+# Extract bam files for 24-nt sRNA mapping
+# then 24, females
+samtools view  -h -e 'length(seq)==24' -@ 12 -o raw/bams_per_length/F1B_rddm.bam females_no_y/F1B_dicer.bam 
+samtools view  -h -e 'length(seq)==24' -@ 12 -o raw/bams_per_length/F2B_rddm.bam females_no_y/F2B_dicer.bam
+samtools view  -h -e 'length(seq)==24' -@ 12 -o raw/bams_per_length/F3B_rddm.bam females_no_y/F3B_dicer.bam 
+
+# males
+samtools view  -h -e 'length(seq)==24' -@ 12 -o raw/bams_per_length/M1B_rddm.bam males/M1B_dicer.bam 
+samtools view  -h -e 'length(seq)==24' -@ 12 -o raw/bams_per_length/M2B_rddm.bam males/M2B_dicer.bam
+samtools view  -h -e 'length(seq)==24' -@ 12 -o raw/bams_per_length/M4B_rddm.bam males/M4B_dicer.bam
+
+## now the site-level mapping per sample
+# females
+samtools depth -@ 12 raw/bams_per_length/F*B_rddm.bam | awk '{print $1 "\t" $2 "\t" $2 "\t" $3 "\t" $4 "\t" $5}' > raw/depth/females_flowers_rddm.bed
+# males
+samtools depth -@ 12 raw/bams_per_length/M*B_rddm.bam | awk '{print $1 "\t" $2 "\t" $2 "\t" $3 "\t" $4 "\t" $5}' > raw/depth/males_flowers_rddm.bed
+
+## intersect genes and depth files
+# flowers depth
+bedtools intersect -b annotation/mrnas.bed -a raw/depth/females_flowers_rddm.bed -wb -wa | cut -f 1-6,10 > raw/depth/females_flowers_rddm.depth
+bedtools intersect -b annotation/mrnas.bed -a raw/depth/males_flowers_rddm.bed -wb -wa | cut -f 1-6,10 > raw/depth/males_flowers_rddm.depth
+
+## Get the average RPM value per gene/window
+#!/usr/bin/env Rscript
+library(data.table)
+library(tidyverse)
+
+# function
+surco = function(toy, lib_size_1, lib_size_2, lib_size_3) {
+          # set column names
+          colnames(toy) = c("chr", "start", "end", "depth_1", "depth_2", "depth_3", "chr_w", "start_w", "end_w", "wind")
+          # calculate mead depth per window, normalize by library size
+          toy[, mean_depth_1 := mean(depth_1)/lib_size_1, by=.(wind)]
+          toy[, mean_depth_2 := mean(depth_2)/lib_size_2, by=.(wind)]
+          toy[, mean_depth_3 := mean(depth_3)/lib_size_3, by=.(wind)]
+          # get one row per window
+          toy = unique(toy, by = "wind")[, .(chr_w, start_w, end_w, wind, mean_depth_1, mean_depth_2, mean_depth_3)]
+          # overall mean and multiply by 1m
+          toy[, mean_depth := (mean_depth_1 + mean_depth_2 + mean_depth_3)*(1000000/3), by=1:nrow(toy)]
+          toy[, log_depth := log(mean_depth), by=1:nrow(toy)]
+          # print bed file + mean depth per million
+          toy[, .(chr_w, start_w, end_w, mean_depth)]
+}
+
+## Flowers
+
+# Females
+flo_w_fe_d = fread("raw/depth/females_flowers_rddm.depth")
+flo_w_fe_d = surco(flo_w_fe_d, 27241167, 29660632, 25216360)
+flo_w_fe_d = flo_w_fe_d %>% mutate(tissue = "flowers", sex = "female")
+
+# Males
+flo_w_ma_d = fread("raw/depth/males_flowers_rddm.depth")
+flo_w_ma_d = surco(flo_w_ma_d, 13200497, 23914694, 23578008)
+flo_w_ma_d = flo_w_ma_d %>% mutate(tissue = "flowers", sex = "male")
+
+# concatenate and save
+wind_map = rbind(flo_w_fe_d, flo_w_ma_d, le_w_fe_d, le_w_ma_d)
+write.table(wind_map, file = "results/gene_mapping.tsv", quote = F, sep = "\t", col.names = T, row.names = F)
+
+
+
+

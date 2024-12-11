@@ -1,0 +1,257 @@
+---
+title: "Silene-figs"
+author: "Carol Moraga"
+date: "2023-08-16"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Load libraries
+
+```{r libs}
+library(tidyverse)
+library(circlize)
+```
+
+## load data
+
+we do load Silene data
+
+```{r data}
+#gene density
+gene=read.table("data/genes.density1mb.rename.txt", header =T)
+gene_dens=gene %>% mutate(start=as.integer(x),end=as.integer(start+1000000)) %>% select(chr,start,end, count) %>% arrange(chr,start)
+gene_dens= gene_dens %>% mutate(color=if_else(count < mean(gene_dens$count)+1*sd(gene_dens$count), "#a6bddb","#014636"))
+head(gene_dens)
+dim(gene_dens)
+
+#coverage by region female
+cov1=read.table("data/sil-cov-female.bed")
+colnames(cov1)=c("chr","start","end","cov")
+cov1_f=cov1 %>% mutate(chr=if_else(chr=="Y","chrY",chr))
+head(cov1_f)
+dim(cov1_f)
+#coverage by region male
+cov2=read.table("data/sil-cov-male.bed")
+colnames(cov2)=c("chr","start","end","cov")
+cov2_m=cov2 %>% mutate(chr=if_else(chr=="Y","chrY",chr))
+head(cov2_m)
+dim(cov2_m)
+
+# we need to normalize male and female coverage
+#boxplot(cov2_m$cov,cov1_f$cov,outline=F)
+cov2_m$nd=cov2_m$cov/median(cov2_m$cov)
+cov1_f$nd=cov1_f$cov/median(cov1_f$cov)
+#we plot the normalized counts
+#boxplot(cov2_m$nd,cov1_f$nd,outline=F)
+
+cov_mf=data.frame(chr=cov2_m$chr,start=cov2_m$start,end=cov2_m$end,cov=cov2_m$nd/cov1_f$nd)
+cov_mf=cov_mf %>% filter(!is.na(cov)) %>% filter(cov < 4) %>% arrange(chr,start)
+
+cov_fm=data.frame(chr=cov2_m$chr,start=cov2_m$start,end=cov2_m$end,cov=cov1_f$nd/cov2_m$nd)
+cov_fm=cov_fm %>% filter(!is.na(cov)) %>% filter(cov < 4) %>% arrange(chr,start)
+
+cov_mix=data.frame(chr=cov2_m$chr,start=cov2_m$start,end=cov2_m$end,covfm=cov1_f$nd/cov2_m$nd,covmf=cov2_m$nd/cov1_f$nd)
+cov_mix=cov_mix %>% filter(!is.na(covfm)) %>% filter(!is.na(covfm)) %>% filter(covfm < 4) %>% filter(covmf < 4)%>% arrange(chr,start)
+```
+
+We load the repeats elements data
+
+```{r repeats}
+rep=read.table(file="data/Slat_v4_AYX_repDistrPattern_allChromosomes.tab",h=T)
+rep=rep %>% mutate(per=bps/(sec_end-sec_start) * 100) %>% filter(per > 0)
+#X43.1 telomere
+#STAR-C centromere
+# TRAYC Start specific
+
+rep_p=rep%>%select(ch,sec_start,sec_end,bps,supfam,fam) %>% filter(supfam %in% c("Ty3/Gypsy","Ty1/Copia","Helitron","Satellite","LINE")) %>% mutate(ch=if_else(ch=="chr12","chrX",ch))
+
+colnames(rep_p)=c("chr","start","end","bps","supfam","fam")
+rep_p %>% group_by(supfam) %>% summarize(total=sum(bps)/1000000) %>% arrange(desc(total))
+#we recapitulate by supfam
+rep2=rep_p %>% group_by(supfam,chr,start, end) %>% mutate(bbb=sum(bps)/(end-start) * 100) %>% select( chr,start,end,supfam,bbb) %>% unique()
+rep2=rep2 %>% pivot_wider(names_from=supfam,values_from=bbb,id_cols=c("chr","start","end")) %>% replace_na(list(`Ty1/Copia`=0,Satellite=0,LINE=0,Helitron=0, `Ty3/Gypsy`=0)) %>% arrange(chr,start)
+```
+we load gene expression
+
+```{r gexp}
+# ge=read.table("data/table_gene_DE_S5_F-S5_M.with_annotation.csv",h=T,sep=",")
+# ges=ge %>% select(chromosome,beg,end,log2FC) %>% arrange(chromosome,beg) %>% mutate(chromosome=if_else(chromosome=="chr12","chrX",chromosome))
+# colnames(ges)=c("chr","start","end","log2FC")
+
+```
+
+
+```{r snpdata}
+snpf=read.table("data/female_snps_windows.v4.0.bed",header=F)
+colnames(snpf)=c("chr","start","end","count") 
+snpf= snpf %>% arrange(chr,start)%>% mutate(chr=if_else(chr=="Y","chrY",chr))
+
+
+snpm=read.table("data/male_snps_windows.v4.0.bed",header=F)
+colnames(snpm)=c("chr","start","end","count")
+snpm= snpm %>% arrange(chr,start)%>% mutate(chr=if_else(chr=="Y","chrY",chr))
+snp_both=data.frame(chr=snpf$chr,start=snpf$start,end=snpf$end,count=snpf$count,countm=snpm$count)
+
+```
+
+```{r inner}
+sv2=read.table("data/gidx2annot4parsing.tsv",header=T)
+sv2_s = sv2 %>% select(startX, endX, stratum, startY, endY, OG) %>% mutate(chrY="chrY", chrX="chrX") %>% arrange(chrX, startX)
+sv2_f= sv2_s %>% select(chrX, startX, endX, OG, stratum)
+colnames(sv2_f)=c("chr","start","end", "name", "stratum")
+
+sv2_f2= sv2_s %>% select(chrY, startY, endY, OG, stratum) 
+colnames(sv2_f2)=c("chr","start","end", "name", "stratum")
+
+#inc=c("#4eb3d3","#4eb3d3","#4eb3d3","#4eb3d3","#fdae61","#abd9e9")
+#names(inc)=c("S1a","S1bL","S1bR","S1c","S2a","S2b")
+
+inc=c("white",
+               "white",
+               "white",
+               "white",
+               "white",
+               "white")
+names(inc)=c("S1a","S1bL","S1bR","S1c","S2a","S2b")
+
+
+sv2_f = sv2_f %>% mutate(color=inc[stratum])
+sv2_f2 = sv2_f2 %>% mutate(color=inc[stratum])
+
+t_col <- function(color, percent = 50, name = NULL) {
+  #      color = color name
+  #    percent = % transparency
+  #       name = an optional name for the color
+
+## Get RGB values for named color
+rgb.val <- col2rgb(color)
+
+## Make new color using input color as base and alpha set by transparency
+t.col <- rgb(rgb.val[1], rgb.val[2], rgb.val[3],
+             max = 255,
+             alpha = (100 - percent) * 255 / 100,
+             names = name)
+
+## Save the color
+invisible(t.col)
+}
+
+```
+
+```{r sexlinked}
+sex=read.table("data/circos-sex-linked.bed",header=F)
+colnames(sex)=c("chr","start","end", "valor")
+
+sex_s = sex %>% arrange(chr, start) %>% mutate(end=start+1) %>%
+mutate(color=if_else(valor==1,"#de2d26","#31a354")) %>% drop_na()
+```
+## Circos plot
+
+
+```{r init, fig,width=10,fig.height=10}
+pdf(file="Circos-silene-v02.pdf",15,15)
+df=read.table("data/S.latifolia_v5.0.genome.fasta.fai",header=F)
+chrs = data.frame(chr = factor(df$V1, levels = df$V1),
+                        length = df$V2)
+circos.par("track.height" = 0.1, cell.padding = c(0.02, 0, 0.02, 0))
+circos.initialize(chrs$chr, xlim = cbind(rep(1, 13), chrs$length))
+
+circos.track(ylim = c(0, 1), panel.fun = function(x, y) {
+    chr = CELL_META$sector.index
+    xlim = CELL_META$xlim
+    ylim = CELL_META$ylim
+    #circos.rect(xlim[1], 0, xlim[2], 1, col = rand_color(1))
+     circos.text(mean(xlim), mean(ylim), chr, cex = 1.5, col = "black",
+        facing = "bending.inside", niceFacing = TRUE)
+}, bg.col="grey90", track.height = 0.05, bg.border = F)
+
+#Circos axis
+
+# genomes x axis
+circos.track(track.index = get.current.track.index(), panel.fun = function(x, y) {
+  cex=1
+circos.axis(sector.index = "chr1", major.at = c(1, 50000000, 100000000, 150000000, 200709468), 
+            labels = c("0", "50", "100", "150", "200Mb"), labels.cex=cex)
+circos.axis(sector.index = "chr2", major.at = c(1, 50000000, 100000000, 150000000, 199635652), 
+            labels = c("0", "50", "100", "150", "200Mb"), labels.cex=cex)  
+circos.axis(sector.index = "chr3", major.at = c(1, 50000000, 100000000, 153359320), 
+            labels = c("0", "50", "100", "150Mb"), labels.cex=cex)  
+circos.axis(sector.index = "chr4", major.at = c(1, 50000000, 100000000), 
+            labels = c("0", "50", "100Mb"), labels.cex=cex)  
+circos.axis(sector.index = "chr5", major.at = c(1, 50000000), 
+            labels = c("0", "50Mb"), labels.cex=cex)  
+circos.axis(sector.index = "chr6", major.at = c(1, 50000000, 100000000), 
+            labels = c("0", "50", "100"), labels.cex=cex)  
+circos.axis(sector.index = "chr7", major.at = c(1, 50000000, 100000000), 
+            labels = c("0", "50", "100Mb"), labels.cex=cex)  
+circos.axis(sector.index = "chr8", major.at = c(1, 50000000, 100000000), 
+            labels = c("0", "50", "100Mb"), labels.cex=cex)  
+circos.axis(sector.index = "chr9", major.at = c(1, 50000000, 100000000, 150000000, 200000000), 
+            labels = c("0", "50", "100", "150", "200Mb"), labels.cex=cex)  
+circos.axis(sector.index = "chr10", major.at = c(1, 50000000, 100000000, 150000000), 
+            labels = c("0", "50", "100", "150Mb"), labels.cex=cex)  
+circos.axis(sector.index = "chr11", major.at = c(1, 50000000, 100000000, 150000000, 200000000), 
+            labels = c("0", "50", "100", "150", "200Mb"), labels.cex=cex)  
+circos.axis(sector.index = "chrX", major.at = c(1, 50000000, 100000000, 150000000, 200000000,250000000,300000000), 
+            labels = c("0", "50", "100", "150", "200","250","300Mb"), labels.cex=cex) 
+circos.axis(sector.index = "chrY", major.at = c(1, 50000000, 100000000, 150000000, 200000000,250000000,300000000,350000000, 400000000, 450000000), 
+            labels = c("0", "50", "100", "150", "200","250","300","350","400","450"), labels.cex=cex) 
+#circos.genomicAxis(h="top",major.by=50000000, labels.cex=1, labels.niceFacing=TRUE)
+})
+
+# 
+# coverage m/f y f/m
+cov_mix=cov_mix %>% filter(!(chr=="chrY" & end > 486335176))
+circos.genomicTrack(data=cov_mix,ylim = c(0, 2), panel.fun=function(region, value, ...) {
+circos.genomicLines(region, value$covfm, type="l", col="blue", lwd=2, area = F)
+#circos.genomicLines(region, value$covmf, type="l", col="#5ab4ac", lwd=2, area = F)
+circos.segments(x0=0, x1=max(chrs$length), y0=1, y1=1, col="grey50")
+
+}, track.height=0.1, bg.border=F)
+circos.yaxis(side="right",at=c(0,2,4),labels = c('0','1','2'),labels.cex=0.6, lwd=1, tick.length=1)
+# sex linked genes
+# circos.genomicTrack(sex_s, panel.fun=function(region, value, ...) {
+#      circos.genomicPoints(region, value$valor, col= value$color, type = "b",cex = 1,  pch = 16, lwd = 2)
+#  }, track.height=0.1, bg.border= F)
+
+# # gene density
+gene_dens=gene_dens %>% filter(!(chr=="chrY" & end > 486335176))
+circos.genomicTrack(
+  gene_dens,
+  ylim=c(0,40),
+  panel.fun = function(region, value, ...) {
+    circos.genomicLines(region, value$count,lwd=3, type = "h",col=value$color)
+  }, track.height=0.07, bg.border=F)
+circos.yaxis(side="right",at=c(0,20,40),labels = c('0','20', '40'),labels.cex=0.6, lwd=1, tick.length=1)
+
+# repeat data by family
+rep2=rep2 %>% filter(!(chr=="chrY" & end > 486335176))
+circos.genomicTrack(rep2, stack = FALSE, ylim = c(0, 70),
+    panel.fun = function(region, value, ...) {
+      circos.genomicLines(region, value$`Ty3/Gypsy`, type="l", col="#e66101", lwd=0.1, area = T)
+      circos.genomicLines(region, value$`Ty1/Copia`, type="l", col="#fdb863", lwd=0.1, area = T)
+      circos.genomicLines(region, value$Helitron, type="l", col="grey", lwd=0.1, area = T)
+     circos.genomicLines(region, value$LINE, type="l", col="#b2abd2", lwd=0.1, area = T)
+     circos.genomicLines(region, value$Satellite, type="l", col="black", lwd=0.1, area = T)
+}, track.height=0.15, bg.border=F)
+circos.yaxis(side="right",at=c(0,35,70),labels = c('0','35', '70'),labels.cex=0.6, lwd=1, tick.length=1)
+
+#SNP data
+snp_both=snp_both %>% filter(!(chr=="chrY" & end > 486335176))
+circos.genomicTrack(data=snp_both,ylim = c(1, 15200), panel.fun=function(region, value, ...) {
+circos.genomicLines(region, value$count, type="l", col="purple", lwd=2, area = F)
+circos.genomicLines(region, value$countm, type="l", col="orange", lwd=2, area = F)
+#circos.segments(x0=0, x1=max(chrs$length), y0=1, y1=1, col="grey50")
+}, track.height=0.1, bg.border=F)
+circos.yaxis(side="right",at=c(0,7500,15000),labels = c('0','7500', '15000'),labels.cex=0.6, lwd=1, tick.length=1)
+
+# strata
+circos.genomicLink(sv2_f, sv2_f2, col=sv2_f$color, h.ratio = 0.6)
+
+dev.off()
+
+```

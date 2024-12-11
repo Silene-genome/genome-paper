@@ -1,0 +1,4 @@
+"comparison","chr.type","no.RADtags.tot","no.SNP.tot","no.SNP.per.RADtag.med","no.SNP.per.RADtag.q1","no.SNP.per.RADtag.q3","window_length.med","window_length.min","window_length.max","dist.med","dist.q1","dist.q3"
+"1","within_FRAPOL","Autosomes",19463,121023,5,3,9,120,100,361,19023,311,103730
+"2","within_FRAPOL","X-chr.",6615,29100,3,1,6,123,101,341,15624,328,64429
+"3","within_FRAPOL","Y-chr.",26,62,2,1,2,120,115,125,8871121,387367,22920506

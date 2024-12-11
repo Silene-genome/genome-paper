@@ -1,0 +1,13 @@
+Contrasts	(Intercept)	SexM	StageS8	ReplicateR12	ReplicateR13	ReplicateR14	ReplicateR15	ReplicateR17	ReplicateR19	ReplicateR2	ReplicateR4	ReplicateR5	ReplicateR8	ReplicateR9	SexM:StageS8
+F_S5_R12	1	0	0	1	0	0	0	0	0	0	0	0	0	0	0
+F_S5_R13	1	0	0	0	1	0	0	0	0	0	0	0	0	0	0
+F_S5_R14	1	0	0	0	0	1	0	0	0	0	0	0	0	0	0
+F_S8_R15	1	0	1	0	0	0	1	0	0	0	0	0	0	0	0
+F_S8_R17	1	0	1	0	0	0	0	1	0	0	0	0	0	0	0
+F_S8_R19	1	0	1	0	0	0	0	0	1	0	0	0	0	0	0
+M_S5_R5	1	1	0	0	0	0	0	0	0	0	0	1	0	0	0
+M_S5_R8	1	1	0	0	0	0	0	0	0	0	0	0	1	0	0
+M_S5_R9	1	1	0	0	0	0	0	0	0	0	0	0	0	1	0
+M_S8_R1	1	1	1	0	0	0	0	0	0	0	0	0	0	0	1
+M_S8_R2	1	1	1	0	0	0	0	0	0	1	0	0	0	0	1
+M_S8_R4	1	1	1	0	0	0	0	0	0	0	1	0	0	0	1

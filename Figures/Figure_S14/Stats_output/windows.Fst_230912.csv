@@ -1,0 +1,7 @@
+"chr.type","window.size","no.RADtags.per.wind.med","no.RADtags.q1","no.RADtags.q3","no.SNP.per.wind.med","no.SNP.per.wind.q1","no.SNP.per.wind.q3","seq.length.per.wind.med","seq.length.per.wind.q1","seq.length.per.wind.q3"
+"1","Autosomes",5e+06,45,30,75,325,242.5,439,5513,3772,9272
+"2","X-chr.",5e+06,104,75,124.5,435,349,525,13231,9384,15953
+"3","Autosomes",5e+06,28,21,35,224,162.5,287.5,3414,2573,4294
+"4","X-chr.",5e+06,31,21.5,37,219,148,270,3805,2640,4612
+"5","Autosomes",5e+06,29,22,37,235,172.5,302,3568,2714,4536
+"6","X-chr.",5e+06,35,26,44,256,190,316,4262,3185,5380

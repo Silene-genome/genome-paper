@@ -1,0 +1,53 @@
+~/scripts>python 01_construction_orthogametolog_files.py 
+
+cd ~/scripts/badger/badger-1.02b/Data
+~/scripts/badger/badger-1.02b/Data>cp ~/data_cooked/silene.infile .
+~/scripts/badger/badger-1.02b/Data> rm -f silene.res*
+manually remove Y from silene.infile
+~/scripts/badger/badger-1.02b/Data> ../Src/badger <silene.rc
+~/scripts/badger/badger-1.02b/Data> cp silene.res.prm ~/data_cooked/
+
+cd ~/scripts
+~/scripts> python 02_read_ancestral_states_from_badger.py  > ~/data_cooked/chr_ancestor_speciation
+construct manually silene_anc_infile with X,Y,ancestor 
+
+~/scripts/badger/badger-1.02b/Data> cp ~/data_cooked/silene_anc.infile ./silene.infile
+~/scripts/badger/badger-1.02b/Data> rm -f silene.res*
+~/scripts/badger/badger-1.02b/Data> ../Src/badger <silene.rc
+~/scripts/badger/badger-1.02b/Data> cp silene.res.prm ~/data_cooked/
+
+cd ~/scripts
+~/scripts> python 02_read_ancestral_states_from_badger.py  > ~/data_cooked/chr_ancestor_sex
+
+add PAR to the 2 ancestors (one marker n+1 at the end)
+cd ~/scripts/dcj2hp/bin
+~/scripts/dcj2hp/bin> sh commandes_silene.sh
+
+cd ~/scripts
+~/scripts> python 03_drawing.py ../data_cooked/orthogametologs_cured.csv ../data_cooked/chr_ancestor_sex ../data_cooked/silene_DCJ2HP_OUTPUT_ax
+~/scripts> python 03_drawing.py ../data_cooked/orthogametologs_cured.csv ../data_cooked/chr_ancestor_sex ../data_cooked/silene_DCJ2HP_OUTPUT_ay
+~/scripts> python 03_drawing.py ../data_cooked/orthogametologs_cured.csv ../data_cooked/chr_ancestor_speciation ../data_cooked/silene_DCJ2HP_OUTPUT_aa 
+~/scripts> python 03_drawing.py ../data_cooked/orthogametologs_cured.csv ../data_cooked/chr_ancestor_speciation ../data_cooked/silene_DCJ2HP_OUTPUT_av
+~/scripts> python 03_drawing.py ../data_cooked/orthogametologs_cured.csv ../data_cooked/chr_ancestor_speciation ../data_cooked/silene_DCJ2HP_OUTPUT_ac
+
+
+Centromeres
+chrX: 2291 [229000000-229100000bp]
+chrY_origCentromere: 2191 [219000000-219100000bp]
+change filters in 01_construction_orthogametolog_files.py: 
+                uncomment line 
+                #(strata(orthologs[i][0]) == "S2")
+                and comment lines
+                (orthologs[i][21] >= 2) and # with Y
+                (orthologs[i][22] >= 2) and # with con
+                (orthologs[i][23] >= 2) and # with vulg
+~/scripts>python 01_construction_orthogametolog_files.py 
+add manually the centromeres to chr_X_with_centromere and chr_Y_with_centromere, an additional marker at the right position
+~/scripts/dcj2hp/bin> java -Xmx512M -server -cp .:.. mcmc/DCJCoupledPathMCMC s ~/data_cooked/chr_X_with_centromere ~/data_cooked/chr_Y_with_centromere 5000 100 500 20 0.01 > ~/data_cooked/silene_DCJ2HP_OUTPUT_xy_with_centromere
+~/scripts> python 03_drawing.py ../data_cooked/orthogametologs_cured.csv ../data_cooked/chr_X_with_centromere ../data_cooked/silene_DCJ2HP_OUTPUT_xy_with_centromere
+
+
+--------------------------------
+reproduce the 2009 result for human
+python 04_simulate_inversions_minimum_breakpoint.py 14 8 100000
+grep "11 3 1" ../data_cooked/scenarios_simulated_14_markers_8_inversions_100000_experiments  | wc

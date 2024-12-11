@@ -1,0 +1,57 @@
+10
+
+dir
+12441
+svn+ssh://miklosi@info.ilab.sztaki.hu/home/svnuser/repos/branches/mcmc/DCJ-Reversal-phylogeny/src
+svn+ssh://miklosi@info.ilab.sztaki.hu/home/svnuser/repos
+
+
+
+2010-01-12T21:46:55.069448Z
+11815
+miklosi
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+51ce4fbd-90e4-429c-83f2-5c2f88635739
+
+
+
+
+
+
+0
+empty
+
+genome
+dir
+
+io
+dir
+
+mcmc
+dir
+
+mutations
+dir
+
+phylogeny
+dir
+
+representation
+dir
+
+utils
+dir
+

@@ -1,0 +1,56 @@
+<html>
+<center>
+	<font size="24" face="Times" color="3526a0"><i>DCJ2HP</i></font>
+	<br>
+	<font face="Times" color="000000"><i>(c) 2010 Istv&aacute;n Mikl&oacute;s, Eric Tannier</i></font>
+</center>
+
+<p align="justify">
+DCJ2HP is written in Java 1.6. You do not need to install the program, on the other hand, you need
+a Java Virtual Machine (JVM) 1.6 or higher. If you do not have such JVM installed onto your 
+computer, please, visit <a href="http://www.sun.com">www.sun.com</a> for a free download.<br><br>
+
+<p align="justify">
+You can run the program from command line. To do so, please,
+change directory to bin/, and type<br><br>
+
+<center><b>
+java -Xmx512M -server -cp.:.. mcmc/DCJCoupledPathMCMC [s|d] file1
+file2 burnin_steps samples repeats_between_two_samples number_of_parallel_chains s
+</b></center><br><br>
+
+<p align="justify">
+The <b>s/d</b> flag sets if <b>s</b>ingle or <b>d</b>uplicated genomes are
+read. The syntheny blocks in simple genomes should be consecutively
+numbered starting from 1, each line should contain one chromosome. See
+<i>data/halved_ancestor.genome</i> for an example.The syntheny blocks
+in duplicated genomes should be numbered with 1a, 1b, 2a, 2b, etc. See
+<i>data/duplicated_ancestor.genome</i> for an example.
+
+<p align="justify">
+<b>file1</b> and <b>file2</b> are the two files
+containing the start and the end genome.
+
+<p align="justify">
+<b> burnin_steps</b>, <b>samples</b> and
+<b>repeats_between_two_samples</b> are the number of burnin steps,
+number of samples sampled after the burn-in phase of the MCMC and the
+number of MCMC steps between two samples.
+
+<p align="justify">
+<b>number_of_parallel_chains</b> is the number of parallel MCMC
+chains. Finally, <b>s</b> is the parameter defining the temperatures
+of the chains. The inverse temperature of the k<sup>th</sup> is
+defined as
+
+<center>
+1/T<sub>k</sub> = k<sup>2</sup> x s
+</center>
+
+<p align="justify">
+The output of the MCMC run is written onto the standard output, which
+might be pielined for further analyses.
+
+<p align="justify">
+Example files are in <a href="data/">data/</a>
+</html>

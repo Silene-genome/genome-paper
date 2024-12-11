@@ -1,0 +1,172 @@
+---
+title: "scl4_epigenetics"
+author: "Eddy Mendoza"
+date: "2024-11-11"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(reshape2)
+library(gggenes)
+library(MetBrewer)
+```
+
+
+This notebook includes all necessary code to replicate the figure S20 of Moraga et al, 2024 Science
+
+```{r SCL4 overlapping DMRs}
+# I found two TEM DMRs that are near the X copy
+SCL4_genome = read_tsv("science-paper/SCL4-genomic_elements.tsv")
+
+# add the repeats
+SCL4_repeats = read_tsv("science-paper/clean_neighbor_repeats.bed", col_names = c("chr", "start", "end", "name", "element"))
+# organize and modify
+SCL4_repeats = SCL4_repeats %>% 
+  mutate(bias = NA, 
+         orientation = TRUE,
+         identity = ifelse(chr == "chr1", "Autosomal", ifelse(chr == "chrX", "X-copy", "Y-copy"))) %>%
+  select(colnames(SCL4_genome))
+
+# merge into one table
+SCL4_elements = rbind(SCL4_genome, SCL4_repeats)
+
+# plot them
+ggplot(SCL4_elements, aes(xmin = as.numeric(start/1e3), xmax = as.numeric(end/1e3), y = element, fill = bias, forward = orientation)) +
+  geom_gene_arrow(size=0.75) +
+  facet_wrap(~identity, nrow = 3, scales = "free") +
+  scale_fill_manual(values = c("red", "blue", "white")) +
+  labs(x="Chr position", y=NULL, fill=NULL) +
+  theme_bw() +
+  theme(text = element_text(size = 20),
+        axis.text.x = element_blank(),
+        axis.ticks.x = element_blank(),
+        panel.border = element_rect(color = "black", fill=NA),
+        legend.position = "top")
+
+ggsave("science-paper/SCL4_elements.png", width = 8, height = 6, dpi = 600)
+```
+
+
+```{r SCL4 site-level methylation}
+# the files have the DSS format: chr pos N X, where X is the number of methylated cytosines in that position
+# read data for the male
+male_mC = read_tsv("science-paper/base/scl4_male_mC.tsv", col_names = c("chr", "start", "end", "depth", "methylated", "context", "gene"))
+
+# transform to proportions
+# remove low coverage sites ?
+male_mC = male_mC %>% 
+  filter(depth > 2) %>%
+  group_by(context) %>%
+  mutate(mC = methylated/depth,
+         sex = "male") %>%
+  drop_na() %>%
+  ungroup()
+
+# read methylation for the female
+female_mC = read_tsv("science-paper/base/scl4_female_mC.tsv", col_names = c("chr", "start", "end", "depth", "methylated", "context", "gene"))
+
+# transform to proportions
+# remove low coverage sites ?
+female_mC = female_mC %>% 
+  filter(depth > 2) %>%
+  group_by(context) %>%
+  mutate(mC_fem = methylated/depth,
+         sex = "female") %>%
+  drop_na() %>%
+  ungroup()
+
+# A copy difference in methylation
+# focusing in the sites covered in the male
+male_mC %>%
+  select(chr, start, context, mC) %>% 
+  left_join(select(female_mC, chr, start, context, mC_fem), by=c("chr", "start", "context")) %>%
+  mutate(mC_diff = mC - mC_fem) %>%
+  drop_na() %>%
+  filter(chr == "chr1") %>%
+  ggplot() +
+  geom_rect(aes(ymin=-Inf, ymax=Inf, xmin=195786653, xmax=195788680), fill="#F8CBAD") +
+  geom_rect(aes(ymin=-Inf, ymax=Inf, xmin=195784621, xmax=195785267), fill="gray80") +
+  geom_hline(aes(yintercept=0), linetype="dashed") +
+  geom_segment( aes(x=start, xend=start, y=0, yend=mC_diff)) +
+  #geom_rect(aes(ymin=-Inf, ymax=Inf, xmin=195787438, xmax=195787438+25), fill="red") +
+  facet_wrap(~context, ncol=1) +
+  labs(x="Chr1 position", y="Methylation %") +
+  scale_x_continuous(limits = c(195784615, 195790680))+
+  scale_y_continuous(limits = c(-0.6, 0.6), breaks = c(-0.5, 0, 0.5)) +
+  theme_bw() +
+  theme(text = element_text(size=20),
+        axis.text.x = element_blank(),
+        axis.ticks.x = element_blank(),
+        panel.grid.major = element_blank(),
+        panel.grid.major.y = element_blank(),
+        panel.grid.minor = element_blank(),
+        strip.background = element_blank(),
+        panel.border = element_rect(color = 'black'),
+    )
+ggsave("science-paper/mC_A-copy.png", width = 8, height = 4, dpi = 600)
+
+# X copy
+female_mC %>%
+  select(chr, start, context, mC_fem) %>% 
+  left_join(select(male_mC, chr, start, context, mC), by=c("chr", "start", "context")) %>%
+  mutate(mC_diff = mC - mC_fem) %>%
+  filter(chr == "chrX") %>%
+  ggplot() +
+  geom_rect(aes(ymin=-Inf, ymax=Inf, xmin=18898284, xmax=18900484), fill="#BDD7EE") +
+  geom_rect(aes(ymin=-Inf, ymax=Inf, xmin=18900702, xmax=18900853), fill="gray80") +
+  geom_rect(aes(ymin=-Inf, ymax=Inf, xmin=18901527, xmax=18901589), fill="gray80") +
+  geom_hline(aes(yintercept=0), linetype="dashed") +
+  geom_segment( aes(x=start, xend=start, y=0, yend=mC_diff)) +
+  #geom_rect(aes(ymin=-Inf, ymax=Inf, xmin=18899588, xmax=18899588+25), fill="red") +
+  scale_x_continuous(limits = c(18896284, 18902484))+
+  facet_wrap(~context, ncol=1) +
+  labs(x="ChrX position", y=("Male mC - Female mC")) +
+  theme_bw() +
+  theme(text = element_text(size=20),
+        axis.text.x = element_blank(),
+        axis.ticks.x = element_blank(),
+        panel.grid.major = element_blank(),
+        panel.grid.major.y = element_blank(),
+        panel.grid.minor = element_blank(),
+        strip.background = element_blank(),
+        panel.border = element_rect(color = 'black'),
+    )
+ggsave("science-paper/mC_X-copy.png", width = 8, height =4, dpi = 600)
+
+# Y copy (no sex differences)
+male_mC %>%
+  filter(chr == "chrY") %>%
+  ggplot() +
+  geom_rect(aes(ymin=-Inf, ymax=Inf, xmin=275334312, xmax=275336368), fill="#C5E0B4") +
+  geom_segment( aes(x=start, xend=start, y=0, yend=mC)) +
+  #geom_rect(aes(ymin=-Inf, ymax=Inf, xmin=275335566, xmax=275335566+25), fill="red") +
+  facet_wrap(~context, ncol=1)+
+  labs(x="ChrY position", y=NULL) +
+  scale_y_continuous(breaks = c(0, 0.5, 1)) +
+  theme_bw() +
+  theme(text = element_text(size=20),
+        axis.text.x = element_blank(),
+        axis.ticks.x = element_blank(),
+        panel.grid.major = element_blank(),
+        panel.grid.major.y = element_blank(),
+        panel.grid.minor = element_blank(),
+        strip.background = element_blank(),
+        panel.border = element_rect(color = 'black'),
+    )
+ggsave("science-paper/mC_Y-copy.png", width = 8, height =4, dpi = 600)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+

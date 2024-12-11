@@ -1,0 +1,3 @@
+"","chr.type","window.size","no.RADtags.per.wind.med","no.RADtags.q1","no.RADtags.q3","no.SNP.per.wind.med","no.SNP.per.wind.q1","no.SNP.per.wind.q3","seq.length.per.wind.med","seq.length.per.wind.q1","seq.length.per.wind.q3"
+"1","Autosomes",5e+06,45,30,75,325,242.5,439,5513,3772,9272
+"2","X-chr.",5e+06,104,75,124.5,435,349,525,13231,9384,15953

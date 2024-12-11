@@ -1,0 +1,3081 @@
+X_transcriptName	tissue	sRNA24_exp	strata	Allele
+_chr12_003487.1	flowers	0.0516668024485255	stratum 3	"(X+X)/2
+Female"
+_chr12_003487.1	leaves	0.0669659903360985	stratum 3	"(X+X)/2
+Female"
+_chr12_003488.1	flowers	0.02420461234317	stratum 3	"(X+X)/2
+Female"
+_chr12_003488.1	leaves	0.0200746657202513	stratum 3	"(X+X)/2
+Female"
+_chr12_001716.1	flowers	0.008808766071929	stratum 3	"(X+X)/2
+Female"
+_chr12_001716.1	leaves	0.0240052033093655	stratum 3	"(X+X)/2
+Female"
+_chr12_001717.1	flowers	0.065345835338696	stratum 3	"(X+X)/2
+Female"
+_chr12_001717.1	leaves	0.069632613075568	stratum 3	"(X+X)/2
+Female"
+_chr12_001148.1	flowers	0.0204319325778443	stratum 2	"(X+X)/2
+Female"
+_chr12_001148.1	leaves	0.042764440753556	stratum 2	"(X+X)/2
+Female"
+_chr12_000172.1	flowers	0.11653663565725	stratum 2	"(X+X)/2
+Female"
+_chr12_000172.1	leaves	0.212022305151969	stratum 2	"(X+X)/2
+Female"
+_chr12_004948.1	flowers	0.058395565072986	stratum 2	"(X+X)/2
+Female"
+_chr12_004948.1	leaves	0.0817306761536805	stratum 2	"(X+X)/2
+Female"
+_chr12_004949.1	flowers	0.05396095355885	stratum 2	"(X+X)/2
+Female"
+_chr12_004949.1	leaves	0.0616277203179515	stratum 2	"(X+X)/2
+Female"
+_chr12_003895.1	flowers	0.0212702146058255	stratum 2	"(X+X)/2
+Female"
+_chr12_003895.1	leaves	0.0256916894341097	stratum 2	"(X+X)/2
+Female"
+_chr12_004687.1	flowers	0.0439737749505866	stratum 2	"(X+X)/2
+Female"
+_chr12_004687.1	leaves	0.123152528206928	stratum 2	"(X+X)/2
+Female"
+_chr12_004954.1	flowers	0.0105463389316994	stratum 2	"(X+X)/2
+Female"
+_chr12_004954.1	leaves	0.0311055401716908	stratum 2	"(X+X)/2
+Female"
+_chr12_001531.1	flowers	0.0260846229281934	stratum 3	"(X+X)/2
+Female"
+_chr12_001531.1	leaves	0.0231743837547193	stratum 3	"(X+X)/2
+Female"
+_chr12_004662.1	flowers	0.0184824639254122	stratum 2	"(X+X)/2
+Female"
+_chr12_004662.1	leaves	0.0179688208382655	stratum 2	"(X+X)/2
+Female"
+_chr12_003517.1	flowers	0.0438295028337219	stratum 3	"(X+X)/2
+Female"
+_chr12_003517.1	leaves	0.070827163822648	stratum 3	"(X+X)/2
+Female"
+_chr12_001121.1	flowers	0.055128054842013	stratum 2	"(X+X)/2
+Female"
+_chr12_001121.1	leaves	0.0641468109030055	stratum 2	"(X+X)/2
+Female"
+_chr12_003512.1	flowers	0.0099156421800549	stratum 3	"(X+X)/2
+Female"
+_chr12_003512.1	leaves	0.024005050878259	stratum 3	"(X+X)/2
+Female"
+_chr12_005009.1	flowers	0.121643367171598	stratum 1	"(X+X)/2
+Female"
+_chr12_005009.1	leaves	0.0660068061144175	stratum 1	"(X+X)/2
+Female"
+_chr12_000170.1	flowers	0.0382114693092527	stratum 2	"(X+X)/2
+Female"
+_chr12_000170.1	leaves	0.0877984780845475	stratum 2	"(X+X)/2
+Female"
+_chr12_000034.1	flowers	0.0097891058289341	stratum 1	"(X+X)/2
+Female"
+_chr12_000034.1	leaves	0.0342721939243378	stratum 1	"(X+X)/2
+Female"
+_chr12_001086.1	flowers	0.0147964072602252	stratum 2	"(X+X)/2
+Female"
+_chr12_001086.1	leaves	0.0163450966843784	stratum 2	"(X+X)/2
+Female"
+_chr12_004192.1	flowers	0.0348250120972081	stratum 2	"(X+X)/2
+Female"
+_chr12_004192.1	leaves	0.11151893382118	stratum 2	"(X+X)/2
+Female"
+_chr12_003480.1	flowers	0.0215930244409368	stratum 3	"(X+X)/2
+Female"
+_chr12_003480.1	leaves	0.0283139196024003	stratum 3	"(X+X)/2
+Female"
+_chr12_003486.1	flowers	0.0161386843589829	stratum 3	"(X+X)/2
+Female"
+_chr12_003486.1	leaves	0.0377827565852318	stratum 3	"(X+X)/2
+Female"
+_chr12_001709.1	flowers	0.026087977574361	stratum 3	"(X+X)/2
+Female"
+_chr12_001709.1	leaves	0.0398377439063727	stratum 3	"(X+X)/2
+Female"
+_chr12_001710.1	flowers	0.074210826304397	stratum 3	"(X+X)/2
+Female"
+_chr12_001710.1	leaves	0.115721478788993	stratum 3	"(X+X)/2
+Female"
+_chr12_001711.1	flowers	0.0185744335075111	stratum 3	"(X+X)/2
+Female"
+_chr12_001711.1	leaves	0.0542391371710255	stratum 3	"(X+X)/2
+Female"
+_chr12_001713.1	flowers	0.0624700305139875	stratum 3	"(X+X)/2
+Female"
+_chr12_001713.1	leaves	0.091986623554673	stratum 3	"(X+X)/2
+Female"
+_chr12_004768.1	flowers	0.057811933652883	stratum 2	"(X+X)/2
+Female"
+_chr12_004768.1	leaves	0.0928238746361075	stratum 2	"(X+X)/2
+Female"
+_chr12_000342.1	flowers	0.034657418949166	stratum 2	"(X+X)/2
+Female"
+_chr12_000342.1	leaves	0.0616790853309035	stratum 2	"(X+X)/2
+Female"
+_chr12_004817.1	flowers	0.0153981960707983	stratum 2	"(X+X)/2
+Female"
+_chr12_004817.1	leaves	0.0348109196468876	stratum 2	"(X+X)/2
+Female"
+_chr12_004405.1	flowers	0.0568905483218605	stratum 2	"(X+X)/2
+Female"
+_chr12_004405.1	leaves	0.086159458403049	stratum 2	"(X+X)/2
+Female"
+_chr12_000887.1	flowers	0.0244893432826203	stratum 2	"(X+X)/2
+Female"
+_chr12_000887.1	leaves	0.061936099778213	stratum 2	"(X+X)/2
+Female"
+_chr12_000816.1	flowers	0.0061181911430838	stratum 2	"(X+X)/2
+Female"
+_chr12_000816.1	leaves	0.0101231763806373	stratum 2	"(X+X)/2
+Female"
+_chr12_000880.1	flowers	0.0445928827395232	stratum 2	"(X+X)/2
+Female"
+_chr12_000880.1	leaves	0.069793724870853	stratum 2	"(X+X)/2
+Female"
+_chr12_000754.1	flowers	0.010824481756537	stratum 2	"(X+X)/2
+Female"
+_chr12_000754.1	leaves	0.0278672675779541	stratum 2	"(X+X)/2
+Female"
+_chr12_004699.1	flowers	0.0752768050571625	stratum 2	"(X+X)/2
+Female"
+_chr12_004699.1	leaves	0.137005934329234	stratum 2	"(X+X)/2
+Female"
+_chr12_004706.1	flowers	0.299614708646737	stratum 2	"(X+X)/2
+Female"
+_chr12_004706.1	leaves	0.251489703287215	stratum 2	"(X+X)/2
+Female"
+_chr12_003859.1	flowers	0.095890876934831	stratum 2	"(X+X)/2
+Female"
+_chr12_003859.1	leaves	0.232235323945595	stratum 2	"(X+X)/2
+Female"
+_chr12_003860.1	flowers	0.0112582263141294	stratum 2	"(X+X)/2
+Female"
+_chr12_003860.1	leaves	0.0390984032895633	stratum 2	"(X+X)/2
+Female"
+_chr12_004975.1	flowers	0.017834312568551	stratum 1	"(X+X)/2
+Female"
+_chr12_004975.1	leaves	0.0214362504658277	stratum 1	"(X+X)/2
+Female"
+_chr12_004977.1	flowers	0.0135794044818018	stratum 1	"(X+X)/2
+Female"
+_chr12_004977.1	leaves	0.0204210040621611	stratum 1	"(X+X)/2
+Female"
+_chr12_001612.1	flowers	0.0395634870369727	stratum 3	"(X+X)/2
+Female"
+_chr12_001612.1	leaves	0.041674905926311	stratum 3	"(X+X)/2
+Female"
+_chr12_004455.1	flowers	0.0470863450726671	stratum 2	"(X+X)/2
+Female"
+_chr12_004455.1	leaves	0.073331783167155	stratum 2	"(X+X)/2
+Female"
+_chr12_001433.1	flowers	0.0906660737294275	stratum 2	"(X+X)/2
+Female"
+_chr12_001433.1	leaves	0.14841748571945	stratum 2	"(X+X)/2
+Female"
+_chr12_001434.1	flowers	0.0293040777432232	stratum 2	"(X+X)/2
+Female"
+_chr12_001434.1	leaves	0.05365588944742	stratum 2	"(X+X)/2
+Female"
+_chr12_000624.1	flowers	0.0076457899203765	stratum 2	"(X+X)/2
+Female"
+_chr12_000624.1	leaves	0	stratum 2	"(X+X)/2
+Female"
+_chr12_003591.1	flowers	0.0092308056735785	stratum 3	"(X+X)/2
+Female"
+_chr12_003591.1	leaves	0.0138002433519457	stratum 3	"(X+X)/2
+Female"
+_chr12_003592.1	flowers	0.0244740890386096	stratum 3	"(X+X)/2
+Female"
+_chr12_003592.1	leaves	0.0445613831654743	stratum 3	"(X+X)/2
+Female"
+_chr12_001154.1	flowers	0.0156861123739509	stratum 2	"(X+X)/2
+Female"
+_chr12_001154.1	leaves	0.033842326810689	stratum 2	"(X+X)/2
+Female"
+_chr12_001599.1	flowers	0.0214641522165315	stratum 3	"(X+X)/2
+Female"
+_chr12_001599.1	leaves	0.051237727715516	stratum 3	"(X+X)/2
+Female"
+_chr12_003516.1	flowers	0.0104553501931762	stratum 3	"(X+X)/2
+Female"
+_chr12_003516.1	leaves	0.0260636335858691	stratum 3	"(X+X)/2
+Female"
+_chr12_000471.1	flowers	0.0159996525728963	stratum 2	"(X+X)/2
+Female"
+_chr12_000471.1	leaves	0.0814226328594255	stratum 2	"(X+X)/2
+Female"
+_chr12_000482.1	flowers	0.0156786091127909	stratum 2	"(X+X)/2
+Female"
+_chr12_000482.1	leaves	0.0293252239956882	stratum 2	"(X+X)/2
+Female"
+_chr12_000483.1	flowers	0.0238088652992338	stratum 2	"(X+X)/2
+Female"
+_chr12_000483.1	leaves	0.0193743217112845	stratum 2	"(X+X)/2
+Female"
+_chr12_004925.1	flowers	0.0719116975626695	stratum 2	"(X+X)/2
+Female"
+_chr12_004925.1	leaves	0.217345412202395	stratum 2	"(X+X)/2
+Female"
+_chr12_004389.1	flowers	0.0175162609771259	stratum 2	"(X+X)/2
+Female"
+_chr12_004389.1	leaves	0.023481987408282	stratum 2	"(X+X)/2
+Female"
+_chr12_004400.1	flowers	0.0322923337916624	stratum 2	"(X+X)/2
+Female"
+_chr12_004400.1	leaves	0.06071433638814	stratum 2	"(X+X)/2
+Female"
+_chr12_000469.1	flowers	0.0261478040914294	stratum 2	"(X+X)/2
+Female"
+_chr12_000469.1	leaves	0.0299670401817106	stratum 2	"(X+X)/2
+Female"
+_chr12_003938.1	flowers	0.0379376829390887	stratum 2	"(X+X)/2
+Female"
+_chr12_003938.1	leaves	0.0357337957695773	stratum 2	"(X+X)/2
+Female"
+_chr12_001408.1	flowers	0.0286733470620058	stratum 2	"(X+X)/2
+Female"
+_chr12_001408.1	leaves	0.0563647308974635	stratum 2	"(X+X)/2
+Female"
+_chr12_003815.1	flowers	0.035048251108009	stratum 2	"(X+X)/2
+Female"
+_chr12_003815.1	leaves	0.0983945546500375	stratum 2	"(X+X)/2
+Female"
+_chr12_000158.1	flowers	0.00578461118543725	stratum 2	"(X+X)/2
+Female"
+_chr12_000158.1	leaves	0.0167064021370179	stratum 2	"(X+X)/2
+Female"
+_chr12_000072.1	flowers	0.0348257382811154	stratum 1	"(X+X)/2
+Female"
+_chr12_000072.1	leaves	0.0235914680283281	stratum 1	"(X+X)/2
+Female"
+_chr12_000580.1	flowers	0.0495396967262859	stratum 2	"(X+X)/2
+Female"
+_chr12_000580.1	leaves	0.079637308406689	stratum 2	"(X+X)/2
+Female"
+_chr12_004944.1	flowers	0.0316549195736633	stratum 2	"(X+X)/2
+Female"
+_chr12_004944.1	leaves	0.0304780984398464	stratum 2	"(X+X)/2
+Female"
+_chr12_004824.1	flowers	0.121231426378289	stratum 2	"(X+X)/2
+Female"
+_chr12_004824.1	leaves	0.145074483085006	stratum 2	"(X+X)/2
+Female"
+_chr12_004934.1	flowers	0.0171164559199395	stratum 2	"(X+X)/2
+Female"
+_chr12_004934.1	leaves	0.0210523625063825	stratum 2	"(X+X)/2
+Female"
+_chr12_003748.1	flowers	0.0149612342683729	stratum 3	"(X+X)/2
+Female"
+_chr12_003748.1	leaves	0.0169762932094085	stratum 3	"(X+X)/2
+Female"
+_chr12_004744.1	flowers	0.194609951597962	stratum 2	"(X+X)/2
+Female"
+_chr12_004744.1	leaves	0.190820432848482	stratum 2	"(X+X)/2
+Female"
+_chr12_000071.1	flowers	0.0694693193578715	stratum 1	"(X+X)/2
+Female"
+_chr12_000071.1	leaves	0.0856736850390155	stratum 1	"(X+X)/2
+Female"
+_chr12_000379.1	flowers	0.0181508046439231	stratum 2	"(X+X)/2
+Female"
+_chr12_000379.1	leaves	0.0331115885460688	stratum 2	"(X+X)/2
+Female"
+_chr12_004674.1	flowers	0.0447142795925226	stratum 2	"(X+X)/2
+Female"
+_chr12_004674.1	leaves	0.0975083747079	stratum 2	"(X+X)/2
+Female"
+_chr12_001587.1	flowers	0.0276969183222768	stratum 3	"(X+X)/2
+Female"
+_chr12_001587.1	leaves	0.0452451976173814	stratum 3	"(X+X)/2
+Female"
+_chr12_004190.1	flowers	0.0127237588327822	stratum 2	"(X+X)/2
+Female"
+_chr12_004190.1	leaves	0.013227617137366	stratum 2	"(X+X)/2
+Female"
+_chr12_000093.1	flowers	0.0482967550306607	stratum 1	"(X+X)/2
+Female"
+_chr12_000093.1	leaves	0.0903419057434595	stratum 1	"(X+X)/2
+Female"
+_chr12_000192.1	flowers	0.0342299480858208	stratum 2	"(X+X)/2
+Female"
+_chr12_000192.1	leaves	0.058256882458693	stratum 2	"(X+X)/2
+Female"
+_chr12_003603.1	flowers	0.10137438872161	stratum 3	"(X+X)/2
+Female"
+_chr12_003603.1	leaves	0.136299127680521	stratum 3	"(X+X)/2
+Female"
+_chr12_000752.1	flowers	0.104269138129282	stratum 2	"(X+X)/2
+Female"
+_chr12_000752.1	leaves	0.136139701349995	stratum 2	"(X+X)/2
+Female"
+_chr12_003919.1	flowers	0.0624858248335565	stratum 2	"(X+X)/2
+Female"
+_chr12_003919.1	leaves	0.071233698746579	stratum 2	"(X+X)/2
+Female"
+_chr12_004808.1	flowers	0.0171199283111754	stratum 2	"(X+X)/2
+Female"
+_chr12_004808.1	leaves	0.0255689929100281	stratum 2	"(X+X)/2
+Female"
+_chr12_003594.1	flowers	0.0359280484159671	stratum 3	"(X+X)/2
+Female"
+_chr12_003594.1	leaves	0.0494233554099121	stratum 3	"(X+X)/2
+Female"
+_chr12_003595.1	flowers	0.00774039668722265	stratum 3	"(X+X)/2
+Female"
+_chr12_003595.1	leaves	0.0101231763806373	stratum 3	"(X+X)/2
+Female"
+_chr12_004773.1	flowers	0.0685136901195715	stratum 2	"(X+X)/2
+Female"
+_chr12_004773.1	leaves	0.0901481548591325	stratum 2	"(X+X)/2
+Female"
+_chr12_004775.1	flowers	0.0209305560446992	stratum 2	"(X+X)/2
+Female"
+_chr12_004775.1	leaves	0.0588777574687735	stratum 2	"(X+X)/2
+Female"
+_chr12_000380.1	flowers	0.0665162208827345	stratum 2	"(X+X)/2
+Female"
+_chr12_000380.1	leaves	0.0580084635579465	stratum 2	"(X+X)/2
+Female"
+_chr12_003908.1	flowers	0.00676901884094905	stratum 2	"(X+X)/2
+Female"
+_chr12_003908.1	leaves	0.0269951370150327	stratum 2	"(X+X)/2
+Female"
+_chr12_000901.1	flowers	0.0226538014409735	stratum 2	"(X+X)/2
+Female"
+_chr12_000901.1	leaves	0.0323576967968916	stratum 2	"(X+X)/2
+Female"
+_chr12_004459.1	flowers	0.0188711984997605	stratum 2	"(X+X)/2
+Female"
+_chr12_004459.1	leaves	0.0180196034130134	stratum 2	"(X+X)/2
+Female"
+_chr12_000107.1	flowers	0.0568046757079065	stratum 1	"(X+X)/2
+Female"
+_chr12_000107.1	leaves	0.0573245509148585	stratum 1	"(X+X)/2
+Female"
+_chr12_004801.1	flowers	0.0580234644606815	stratum 2	"(X+X)/2
+Female"
+_chr12_004801.1	leaves	0.073907911819045	stratum 2	"(X+X)/2
+Female"
+_chr12_001327.1	flowers	0.067360916622311	stratum 2	"(X+X)/2
+Female"
+_chr12_001327.1	leaves	0.099137400957633	stratum 2	"(X+X)/2
+Female"
+_chr12_004854.1	flowers	0.0357090409330242	stratum 2	"(X+X)/2
+Female"
+_chr12_004854.1	leaves	0.0493370482642584	stratum 2	"(X+X)/2
+Female"
+_chr12_004855.1	flowers	0.0185706107692886	stratum 2	"(X+X)/2
+Female"
+_chr12_004855.1	leaves	0.0257429760473516	stratum 2	"(X+X)/2
+Female"
+_chr12_004858.1	flowers	0.194092570694538	stratum 2	"(X+X)/2
+Female"
+_chr12_004858.1	leaves	0.212106393269162	stratum 2	"(X+X)/2
+Female"
+_chr12_004859.1	flowers	0.018000970715507	stratum 2	"(X+X)/2
+Female"
+_chr12_004859.1	leaves	0.0165716751317285	stratum 2	"(X+X)/2
+Female"
+_chr12_004860.1	flowers	0.0477447009503947	stratum 2	"(X+X)/2
+Female"
+_chr12_004860.1	leaves	0.055679154884889	stratum 2	"(X+X)/2
+Female"
+_chr12_004861.1	flowers	0.056810617413704	stratum 2	"(X+X)/2
+Female"
+_chr12_004861.1	leaves	0.0953963323350545	stratum 2	"(X+X)/2
+Female"
+_chr12_004863.1	flowers	0.112945792152103	stratum 2	"(X+X)/2
+Female"
+_chr12_004863.1	leaves	0.156360339856406	stratum 2	"(X+X)/2
+Female"
+_chr12_004864.1	flowers	0.168254039464201	stratum 2	"(X+X)/2
+Female"
+_chr12_004864.1	leaves	0.277223753951355	stratum 2	"(X+X)/2
+Female"
+_chr12_004866.1	flowers	0.124032671142202	stratum 2	"(X+X)/2
+Female"
+_chr12_004866.1	leaves	0.0583618805115955	stratum 2	"(X+X)/2
+Female"
+_chr12_004869.1	flowers	0.0385985133799864	stratum 2	"(X+X)/2
+Female"
+_chr12_004869.1	leaves	0.0621721949043215	stratum 2	"(X+X)/2
+Female"
+_chr12_004871.1	flowers	0.055779716411077	stratum 2	"(X+X)/2
+Female"
+_chr12_004871.1	leaves	0.0670300561902615	stratum 2	"(X+X)/2
+Female"
+_chr12_004872.1	flowers	0.254814321067188	stratum 2	"(X+X)/2
+Female"
+_chr12_004872.1	leaves	0.214464076774807	stratum 2	"(X+X)/2
+Female"
+_chr12_004873.1	flowers	0.0657872447080285	stratum 2	"(X+X)/2
+Female"
+_chr12_004873.1	leaves	0.086526759694302	stratum 2	"(X+X)/2
+Female"
+_chr12_004875.1	flowers	0.0371984352869384	stratum 2	"(X+X)/2
+Female"
+_chr12_004875.1	leaves	0.09817466617723	stratum 2	"(X+X)/2
+Female"
+_chr12_004876.1	flowers	0.051537017302092	stratum 2	"(X+X)/2
+Female"
+_chr12_004876.1	leaves	0.111182356133555	stratum 2	"(X+X)/2
+Female"
+_chr12_004880.1	flowers	0.0282023717599116	stratum 2	"(X+X)/2
+Female"
+_chr12_004880.1	leaves	0.0376662339760676	stratum 2	"(X+X)/2
+Female"
+_chr12_004883.1	flowers	0.0100478264137506	stratum 2	"(X+X)/2
+Female"
+_chr12_004883.1	leaves	0.0231922954349184	stratum 2	"(X+X)/2
+Female"
+_chr12_004884.1	flowers	0.0112209952280961	stratum 2	"(X+X)/2
+Female"
+_chr12_004884.1	leaves	0.0245808947020685	stratum 2	"(X+X)/2
+Female"
+_chr12_005003.1	flowers	0.0436965976375948	stratum 1	"(X+X)/2
+Female"
+_chr12_005003.1	leaves	0.0257912430427051	stratum 1	"(X+X)/2
+Female"
+_chr12_000696.1	flowers	0.0323146710185247	stratum 2	"(X+X)/2
+Female"
+_chr12_000696.1	leaves	0.0863520663700815	stratum 2	"(X+X)/2
+Female"
+_chr12_001184.1	flowers	0.0384647868057421	stratum 2	"(X+X)/2
+Female"
+_chr12_001184.1	leaves	0.0434845629313126	stratum 2	"(X+X)/2
+Female"
+_chr12_004593.1	flowers	0.0119588983560005	stratum 2	"(X+X)/2
+Female"
+_chr12_004593.1	leaves	0.0178608067905994	stratum 2	"(X+X)/2
+Female"
+_chr12_000199.1	flowers	0.0860154091142865	stratum 2	"(X+X)/2
+Female"
+_chr12_000199.1	leaves	0.167083358267436	stratum 2	"(X+X)/2
+Female"
+_chr12_000200.1	flowers	0.0188612070767848	stratum 2	"(X+X)/2
+Female"
+_chr12_000200.1	leaves	0.0687138561218095	stratum 2	"(X+X)/2
+Female"
+_chr12_004928.1	flowers	0.017962797123159	stratum 2	"(X+X)/2
+Female"
+_chr12_004928.1	leaves	0.0295011042592604	stratum 2	"(X+X)/2
+Female"
+_chr12_000673.1	flowers	0.0079886326469793	stratum 2	"(X+X)/2
+Female"
+_chr12_000673.1	leaves	0.0208694762351471	stratum 2	"(X+X)/2
+Female"
+_chr12_004171.1	flowers	0.0794002837603585	stratum 2	"(X+X)/2
+Female"
+_chr12_004171.1	leaves	0.098192326449205	stratum 2	"(X+X)/2
+Female"
+_chr12_000145.1	flowers	0.0181783766504228	stratum 1	"(X+X)/2
+Female"
+_chr12_000145.1	leaves	0.0269438057229594	stratum 1	"(X+X)/2
+Female"
+_chr12_003880.1	flowers	0.168231888958123	stratum 2	"(X+X)/2
+Female"
+_chr12_003880.1	leaves	0.236640497548816	stratum 2	"(X+X)/2
+Female"
+_chr12_003882.1	flowers	0.0202371620679491	stratum 2	"(X+X)/2
+Female"
+_chr12_003882.1	leaves	0.0118949169607565	stratum 2	"(X+X)/2
+Female"
+_chr12_001733.1	flowers	0.06243514685406	stratum 3	"(X+X)/2
+Female"
+_chr12_001733.1	leaves	0.0680898307259965	stratum 3	"(X+X)/2
+Female"
+_chr12_001477.1	flowers	0.268608690630486	stratum 3	"(X+X)/2
+Female"
+_chr12_001477.1	leaves	0.505190452369365	stratum 3	"(X+X)/2
+Female"
+_chr12_001339.1	flowers	0.0105998146918676	stratum 2	"(X+X)/2
+Female"
+_chr12_001339.1	leaves	0.014590349104933	stratum 2	"(X+X)/2
+Female"
+_chr12_004972.1	flowers	0.0123504345742613	stratum 1	"(X+X)/2
+Female"
+_chr12_004972.1	leaves	0.0295029153237311	stratum 1	"(X+X)/2
+Female"
+_chr12_001651.1	flowers	0.0175491582263587	stratum 3	"(X+X)/2
+Female"
+_chr12_001651.1	leaves	0.0439483120981975	stratum 3	"(X+X)/2
+Female"
+_chr12_001666.1	flowers	0.0168295496837921	stratum 3	"(X+X)/2
+Female"
+_chr12_001666.1	leaves	0.0191067873695226	stratum 3	"(X+X)/2
+Female"
+_chr12_001581.1	flowers	0.0205913468252529	stratum 3	"(X+X)/2
+Female"
+_chr12_001581.1	leaves	0.0347740977454748	stratum 3	"(X+X)/2
+Female"
+_chr12_003618.1	flowers	0.065186792008361	stratum 3	"(X+X)/2
+Female"
+_chr12_003618.1	leaves	0.052596506323763	stratum 3	"(X+X)/2
+Female"
+_chr12_001575.1	flowers	0.0439349186226665	stratum 3	"(X+X)/2
+Female"
+_chr12_001575.1	leaves	0.082570365634428	stratum 3	"(X+X)/2
+Female"
+_chr12_003616.1	flowers	0.124488380384387	stratum 3	"(X+X)/2
+Female"
+_chr12_003616.1	leaves	0.119994937789869	stratum 3	"(X+X)/2
+Female"
+_chr12_005034.1	flowers	0.00815239083483635	stratum 1	"(X+X)/2
+Female"
+_chr12_005034.1	leaves	0.0198248616012609	stratum 1	"(X+X)/2
+Female"
+_chr12_004523.1	flowers	0.062735141647765	stratum 2	"(X+X)/2
+Female"
+_chr12_004523.1	leaves	0.126137895560683	stratum 2	"(X+X)/2
+Female"
+_chr12_000349.1	flowers	0.054463684271425	stratum 2	"(X+X)/2
+Female"
+_chr12_000349.1	leaves	0.05781552218922	stratum 2	"(X+X)/2
+Female"
+_chr12_003632.1	flowers	0.0598336809668395	stratum 3	"(X+X)/2
+Female"
+_chr12_003632.1	leaves	0.139126113952218	stratum 3	"(X+X)/2
+Female"
+_chr12_003557.1	flowers	0.0218056437934049	stratum 3	"(X+X)/2
+Female"
+_chr12_003557.1	leaves	0.108156610590137	stratum 3	"(X+X)/2
+Female"
+_chr12_001728.1	flowers	0.10267300985102	stratum 3	"(X+X)/2
+Female"
+_chr12_001728.1	leaves	0.21416407137483	stratum 3	"(X+X)/2
+Female"
+_chr12_000983.1	flowers	0.0332048263995048	stratum 2	"(X+X)/2
+Female"
+_chr12_000983.1	leaves	0.0366954178199479	stratum 2	"(X+X)/2
+Female"
+_chr12_000269.1	flowers	0.0101656089985868	stratum 2	"(X+X)/2
+Female"
+_chr12_000269.1	leaves	0.0129669999857163	stratum 2	"(X+X)/2
+Female"
+_chr12_001292.1	flowers	0.0178484647197678	stratum 2	"(X+X)/2
+Female"
+_chr12_001292.1	leaves	0.0179586842305364	stratum 2	"(X+X)/2
+Female"
+_chr12_003789.1	flowers	0.0155586980885773	stratum 2	"(X+X)/2
+Female"
+_chr12_003789.1	leaves	0.0479383766714806	stratum 2	"(X+X)/2
+Female"
+_chr12_001109.1	flowers	0.038447033040858	stratum 2	"(X+X)/2
+Female"
+_chr12_001109.1	leaves	0.0249642690722494	stratum 2	"(X+X)/2
+Female"
+_chr12_001102.1	flowers	0.0207396064484579	stratum 2	"(X+X)/2
+Female"
+_chr12_001102.1	leaves	0.037169338889728	stratum 2	"(X+X)/2
+Female"
+_chr12_001103.1	flowers	0.00611429312612725	stratum 2	"(X+X)/2
+Female"
+_chr12_001103.1	leaves	0.00602617334847915	stratum 2	"(X+X)/2
+Female"
+_chr12_000339.1	flowers	0.0210531631183008	stratum 2	"(X+X)/2
+Female"
+_chr12_000339.1	leaves	0.0394823489139332	stratum 2	"(X+X)/2
+Female"
+_chr12_003922.1	flowers	0.078207846617838	stratum 2	"(X+X)/2
+Female"
+_chr12_003922.1	leaves	0.1007018803777	stratum 2	"(X+X)/2
+Female"
+_chr12_004577.1	flowers	0.0167500810340147	stratum 2	"(X+X)/2
+Female"
+_chr12_004577.1	leaves	0.0193563896209032	stratum 2	"(X+X)/2
+Female"
+_chr12_000444.1	flowers	0.0061181911430838	stratum 2	"(X+X)/2
+Female"
+_chr12_000444.1	leaves	0.04044637426735	stratum 2	"(X+X)/2
+Female"
+_chr12_000179.1	flowers	0.0241999627208368	stratum 2	"(X+X)/2
+Female"
+_chr12_000179.1	leaves	0.07356141074651	stratum 2	"(X+X)/2
+Female"
+_chr12_004947.1	flowers	0.0119163970183985	stratum 2	"(X+X)/2
+Female"
+_chr12_004947.1	leaves	0.0161598476148643	stratum 2	"(X+X)/2
+Female"
+_chr12_000011.1	flowers	0.0259429726071564	stratum 1	"(X+X)/2
+Female"
+_chr12_000011.1	leaves	0.0147143827815305	stratum 1	"(X+X)/2
+Female"
+_chr12_003506.1	flowers	0.056669921974275	stratum 3	"(X+X)/2
+Female"
+_chr12_003506.1	leaves	0.08675626542754	stratum 3	"(X+X)/2
+Female"
+_chr12_000236.1	flowers	0.0056191205455995	stratum 2	"(X+X)/2
+Female"
+_chr12_000236.1	leaves	0.0257327487373296	stratum 2	"(X+X)/2
+Female"
+_chr12_003829.1	flowers	0.0233640889884084	stratum 2	"(X+X)/2
+Female"
+_chr12_003829.1	leaves	0.0339862143100003	stratum 2	"(X+X)/2
+Female"
+_chr12_001402.1	flowers	0.0413054526408691	stratum 2	"(X+X)/2
+Female"
+_chr12_001402.1	leaves	0.0675004829380325	stratum 2	"(X+X)/2
+Female"
+_chr12_001219.1	flowers	0.094651490085017	stratum 2	"(X+X)/2
+Female"
+_chr12_001219.1	leaves	0.244231101928744	stratum 2	"(X+X)/2
+Female"
+_chr12_000774.1	flowers	0.00657477257167215	stratum 2	"(X+X)/2
+Female"
+_chr12_000774.1	leaves	0.0215034792399157	stratum 2	"(X+X)/2
+Female"
+_chr12_000123.1	flowers	0.0428037025604578	stratum 1	"(X+X)/2
+Female"
+_chr12_000123.1	leaves	0.0419927862699664	stratum 1	"(X+X)/2
+Female"
+_chr12_004421.1	flowers	0.0359659901355896	stratum 2	"(X+X)/2
+Female"
+_chr12_004421.1	leaves	0.0580382679683985	stratum 2	"(X+X)/2
+Female"
+_chr12_000078.1	flowers	0.022216145418676	stratum 1	"(X+X)/2
+Female"
+_chr12_000078.1	leaves	0.0272469671726689	stratum 1	"(X+X)/2
+Female"
+_chr12_004902.1	flowers	0.079125512729139	stratum 2	"(X+X)/2
+Female"
+_chr12_004902.1	leaves	0.079196372671474	stratum 2	"(X+X)/2
+Female"
+_chr12_000253.1	flowers	0.033398249040262	stratum 2	"(X+X)/2
+Female"
+_chr12_000253.1	leaves	0.054064085953132	stratum 2	"(X+X)/2
+Female"
+_chr12_000255.1	flowers	0.0270732523553882	stratum 2	"(X+X)/2
+Female"
+_chr12_000255.1	leaves	0.0284662091183222	stratum 2	"(X+X)/2
+Female"
+_chr12_000259.1	flowers	0.023951194971401	stratum 2	"(X+X)/2
+Female"
+_chr12_000259.1	leaves	0.0307459621969936	stratum 2	"(X+X)/2
+Female"
+_chr12_000688.1	flowers	0.153998251624547	stratum 2	"(X+X)/2
+Female"
+_chr12_000688.1	leaves	0.124818950508195	stratum 2	"(X+X)/2
+Female"
+_chr12_004963.1	flowers	0.0206682089135986	stratum 1	"(X+X)/2
+Female"
+_chr12_004963.1	leaves	0.0153170670619915	stratum 1	"(X+X)/2
+Female"
+_chr12_004305.1	flowers	0.0352086830610921	stratum 2	"(X+X)/2
+Female"
+_chr12_004305.1	leaves	0.071475530407628	stratum 2	"(X+X)/2
+Female"
+_chr12_003764.1	flowers	0.0494392191818045	stratum 3	"(X+X)/2
+Female"
+_chr12_003764.1	leaves	0.0575294102051385	stratum 3	"(X+X)/2
+Female"
+_chr12_003965.1	flowers	0.045947496010457	stratum 2	"(X+X)/2
+Female"
+_chr12_003965.1	leaves	0.082360279000066	stratum 2	"(X+X)/2
+Female"
+_chr12_001293.1	flowers	0.0182032493016676	stratum 2	"(X+X)/2
+Female"
+_chr12_001293.1	leaves	0.05271917894269	stratum 2	"(X+X)/2
+Female"
+_chr12_001044.1	flowers	0.0245359140140795	stratum 2	"(X+X)/2
+Female"
+_chr12_001044.1	leaves	0.0507155814091015	stratum 2	"(X+X)/2
+Female"
+_chr12_001503.1	flowers	0.0366932266541717	stratum 3	"(X+X)/2
+Female"
+_chr12_001503.1	leaves	0.054936523583916	stratum 3	"(X+X)/2
+Female"
+_chr12_003844.1	flowers	0.0292303738944499	stratum 2	"(X+X)/2
+Female"
+_chr12_003844.1	leaves	0.059571673278242	stratum 2	"(X+X)/2
+Female"
+_chr12_000526.1	flowers	0.0621160923988065	stratum 2	"(X+X)/2
+Female"
+_chr12_000526.1	leaves	0.103581200342091	stratum 2	"(X+X)/2
+Female"
+_chr12_001125.1	flowers	0.0100306283726449	stratum 2	"(X+X)/2
+Female"
+_chr12_001125.1	leaves	0.00806118468347615	stratum 2	"(X+X)/2
+Female"
+_chr12_001126.1	flowers	0.0499515380414142	stratum 2	"(X+X)/2
+Female"
+_chr12_001126.1	leaves	0.1086122813805	stratum 2	"(X+X)/2
+Female"
+_chr12_004726.1	flowers	0.104935765057312	stratum 2	"(X+X)/2
+Female"
+_chr12_004726.1	leaves	0.117273427751569	stratum 2	"(X+X)/2
+Female"
+_chr12_004510.1	flowers	0.0153004526259123	stratum 2	"(X+X)/2
+Female"
+_chr12_004510.1	leaves	0.0157264651287898	stratum 2	"(X+X)/2
+Female"
+_chr12_000420.1	flowers	0.0661538223332715	stratum 2	"(X+X)/2
+Female"
+_chr12_000420.1	leaves	0.0428676647987287	stratum 2	"(X+X)/2
+Female"
+_chr12_004747.1	flowers	0.0319440475451619	stratum 2	"(X+X)/2
+Female"
+_chr12_004747.1	leaves	0.032502948296126	stratum 2	"(X+X)/2
+Female"
+_chr12_001700.1	flowers	0.0154547535756177	stratum 3	"(X+X)/2
+Female"
+_chr12_001700.1	leaves	0.0277773398044182	stratum 3	"(X+X)/2
+Female"
+_chr12_001701.1	flowers	0.066965723818086	stratum 3	"(X+X)/2
+Female"
+_chr12_001701.1	leaves	0.0906884429454255	stratum 3	"(X+X)/2
+Female"
+_chr12_001702.1	flowers	0.0114130878957483	stratum 3	"(X+X)/2
+Female"
+_chr12_001702.1	leaves	0.0120416987104602	stratum 3	"(X+X)/2
+Female"
+_chr12_001703.1	flowers	0.0494974300181538	stratum 3	"(X+X)/2
+Female"
+_chr12_001703.1	leaves	0.0523289048581265	stratum 3	"(X+X)/2
+Female"
+_chr12_001704.1	flowers	0.0201113652661522	stratum 3	"(X+X)/2
+Female"
+_chr12_001704.1	leaves	0.0284095058758079	stratum 3	"(X+X)/2
+Female"
+_chr12_001705.1	flowers	0.0560776340439685	stratum 3	"(X+X)/2
+Female"
+_chr12_001705.1	leaves	0.064979382079288	stratum 3	"(X+X)/2
+Female"
+_chr12_001648.1	flowers	0.0199369303767907	stratum 3	"(X+X)/2
+Female"
+_chr12_001648.1	leaves	0.0234764887805902	stratum 3	"(X+X)/2
+Female"
+_chr12_003521.1	flowers	0.0736382456617575	stratum 3	"(X+X)/2
+Female"
+_chr12_003521.1	leaves	0.222467659612404	stratum 3	"(X+X)/2
+Female"
+_chr12_003867.1	flowers	0.100975752187313	stratum 2	"(X+X)/2
+Female"
+_chr12_003867.1	leaves	0.112546262942037	stratum 2	"(X+X)/2
+Female"
+_chr12_001742.1	flowers	0.0232830818388149	stratum 3	"(X+X)/2
+Female"
+_chr12_001742.1	leaves	0.095422936370637	stratum 3	"(X+X)/2
+Female"
+_chr12_001743.1	flowers	0.0499611130159047	stratum 3	"(X+X)/2
+Female"
+_chr12_001743.1	leaves	0.0408853622544663	stratum 3	"(X+X)/2
+Female"
+_chr12_001744.1	flowers	0.0548900064673425	stratum 3	"(X+X)/2
+Female"
+_chr12_001744.1	leaves	0.0844696989521245	stratum 3	"(X+X)/2
+Female"
+_chr12_001745.1	flowers	0.0364631494864451	stratum 3	"(X+X)/2
+Female"
+_chr12_001745.1	leaves	0.0149232286162609	stratum 3	"(X+X)/2
+Female"
+_chr12_001746.1	flowers	0.0390040930061624	stratum 3	"(X+X)/2
+Female"
+_chr12_001746.1	leaves	0.0726492091822045	stratum 3	"(X+X)/2
+Female"
+_chr12_001748.1	flowers	0.0180476805659474	stratum 3	"(X+X)/2
+Female"
+_chr12_001748.1	leaves	0.0373381545986877	stratum 3	"(X+X)/2
+Female"
+_chr12_001749.1	flowers	0.0328334572447832	stratum 3	"(X+X)/2
+Female"
+_chr12_001749.1	leaves	0.0494699114192815	stratum 3	"(X+X)/2
+Female"
+_chr12_001719.1	flowers	0.0539355628036575	stratum 3	"(X+X)/2
+Female"
+_chr12_001719.1	leaves	0.099990743988041	stratum 3	"(X+X)/2
+Female"
+_chr12_001723.1	flowers	0.0164048092645212	stratum 3	"(X+X)/2
+Female"
+_chr12_001723.1	leaves	0.0337358518172567	stratum 3	"(X+X)/2
+Female"
+_chr12_001724.1	flowers	0.205932186121682	stratum 3	"(X+X)/2
+Female"
+_chr12_001724.1	leaves	0.15829218739063	stratum 3	"(X+X)/2
+Female"
+_chr12_001726.1	flowers	0.0596956769458785	stratum 3	"(X+X)/2
+Female"
+_chr12_001726.1	leaves	0.083060215080347	stratum 3	"(X+X)/2
+Female"
+_chr12_003449.1	flowers	0.0357802329216387	stratum 3	"(X+X)/2
+Female"
+_chr12_003449.1	leaves	0.0618449388524705	stratum 3	"(X+X)/2
+Female"
+_chr12_003450.1	flowers	0.0520880150605695	stratum 3	"(X+X)/2
+Female"
+_chr12_003450.1	leaves	0.107913805423764	stratum 3	"(X+X)/2
+Female"
+_chr12_000750.1	flowers	0.0226667492196748	stratum 2	"(X+X)/2
+Female"
+_chr12_000750.1	leaves	0.0405649447037648	stratum 2	"(X+X)/2
+Female"
+_chr12_004701.1	flowers	0.122332757626256	stratum 2	"(X+X)/2
+Female"
+_chr12_004701.1	leaves	0.129731389306683	stratum 2	"(X+X)/2
+Female"
+_chr12_004702.1	flowers	0.00815498951280735	stratum 2	"(X+X)/2
+Female"
+_chr12_004702.1	leaves	0.022695250078477	stratum 2	"(X+X)/2
+Female"
+_chr12_004703.1	flowers	0.0165784268085417	stratum 2	"(X+X)/2
+Female"
+_chr12_004703.1	leaves	0.0136435846047136	stratum 2	"(X+X)/2
+Female"
+_chr12_004705.1	flowers	0.0197448426774488	stratum 2	"(X+X)/2
+Female"
+_chr12_004705.1	leaves	0.0238689292766662	stratum 2	"(X+X)/2
+Female"
+_chr12_000216.1	flowers	0.0467103882091621	stratum 2	"(X+X)/2
+Female"
+_chr12_000216.1	leaves	0.0570399862093565	stratum 2	"(X+X)/2
+Female"
+_chr12_000177.1	flowers	0.0220721109403633	stratum 2	"(X+X)/2
+Female"
+_chr12_000177.1	leaves	0.054713132507176	stratum 2	"(X+X)/2
+Female"
+_chr12_001637.1	flowers	0.0395049321448782	stratum 3	"(X+X)/2
+Female"
+_chr12_001637.1	leaves	0.0369051767806623	stratum 3	"(X+X)/2
+Female"
+_chr12_000914.1	flowers	0.0211754303664966	stratum 2	"(X+X)/2
+Female"
+_chr12_000914.1	leaves	0.0220760086913586	stratum 2	"(X+X)/2
+Female"
+_chr12_000867.1	flowers	0.0161811873954189	stratum 2	"(X+X)/2
+Female"
+_chr12_000867.1	leaves	0.0242394952363339	stratum 2	"(X+X)/2
+Female"
+_chr12_000371.1	flowers	0.0206657652563259	stratum 2	"(X+X)/2
+Female"
+_chr12_000371.1	leaves	0.00602617334847915	stratum 2	"(X+X)/2
+Female"
+_chr12_000128.1	flowers	0.00826984852003	stratum 1	"(X+X)/2
+Female"
+_chr12_000128.1	leaves	0.0196763088268154	stratum 1	"(X+X)/2
+Female"
+_chr12_004746.1	flowers	0.0340957300980056	stratum 2	"(X+X)/2
+Female"
+_chr12_004746.1	leaves	0.091863692666505	stratum 2	"(X+X)/2
+Female"
+_chr12_004315.1	flowers	0.0236172120393441	stratum 2	"(X+X)/2
+Female"
+_chr12_004315.1	leaves	0.042848476549368	stratum 2	"(X+X)/2
+Female"
+_chr12_003584.1	flowers	0.0378005921156286	stratum 3	"(X+X)/2
+Female"
+_chr12_003584.1	leaves	0.060010645938452	stratum 3	"(X+X)/2
+Female"
+_chr12_004487.1	flowers	0.107674973585248	stratum 2	"(X+X)/2
+Female"
+_chr12_004487.1	leaves	0.158497529510067	stratum 2	"(X+X)/2
+Female"
+_chr12_001625.1	flowers	0.0119627750818299	stratum 3	"(X+X)/2
+Female"
+_chr12_001625.1	leaves	0.0163716048813277	stratum 3	"(X+X)/2
+Female"
+_chr12_001406.1	flowers	0.06307301190858	stratum 2	"(X+X)/2
+Female"
+_chr12_001406.1	leaves	0.122467498325116	stratum 2	"(X+X)/2
+Female"
+_chr12_005064.1	flowers	0.0297143750933953	stratum 1	"(X+X)/2
+Female"
+_chr12_005064.1	leaves	0.0424569543027684	stratum 1	"(X+X)/2
+Female"
+_chr12_004600.1	flowers	0.095566375128067	stratum 2	"(X+X)/2
+Female"
+_chr12_004600.1	leaves	0.28240487540637	stratum 2	"(X+X)/2
+Female"
+_chr12_004979.1	flowers	0.0222588858452362	stratum 1	"(X+X)/2
+Female"
+_chr12_004979.1	leaves	0.0180608086893425	stratum 1	"(X+X)/2
+Female"
+_chr12_003826.1	flowers	0.0170192469267432	stratum 2	"(X+X)/2
+Female"
+_chr12_003826.1	leaves	0.0405102640032885	stratum 2	"(X+X)/2
+Female"
+_chr12_001361.1	flowers	0.0632863508281565	stratum 2	"(X+X)/2
+Female"
+_chr12_001361.1	leaves	0.082428776210164	stratum 2	"(X+X)/2
+Female"
+_chr12_001261.1	flowers	0.0113051015524795	stratum 2	"(X+X)/2
+Female"
+_chr12_001261.1	leaves	0.0198529843287612	stratum 2	"(X+X)/2
+Female"
+_chr12_003581.1	flowers	0.0502633483813725	stratum 3	"(X+X)/2
+Female"
+_chr12_003581.1	leaves	0.096613870986258	stratum 3	"(X+X)/2
+Female"
+_chr12_001624.1	flowers	0.0474035779813816	stratum 3	"(X+X)/2
+Female"
+_chr12_001624.1	leaves	0.0606097989017965	stratum 3	"(X+X)/2
+Female"
+_chr12_000892.1	flowers	0.0233029021710904	stratum 2	"(X+X)/2
+Female"
+_chr12_000892.1	leaves	0.0344015634140179	stratum 2	"(X+X)/2
+Female"
+_chr12_000417.1	flowers	0.0842977568659725	stratum 2	"(X+X)/2
+Female"
+_chr12_000417.1	leaves	0.062058318035266	stratum 2	"(X+X)/2
+Female"
+_chr12_004988.1	flowers	0.0251999172616546	stratum 1	"(X+X)/2
+Female"
+_chr12_004988.1	leaves	0.0134975685075164	stratum 1	"(X+X)/2
+Female"
+_chr12_004796.1	flowers	0.0243465733775705	stratum 2	"(X+X)/2
+Female"
+_chr12_004796.1	leaves	0	stratum 2	"(X+X)/2
+Female"
+_chr12_000577.1	flowers	0.0402810232030439	stratum 2	"(X+X)/2
+Female"
+_chr12_000577.1	leaves	0.07007324818766	stratum 2	"(X+X)/2
+Female"
+_chr12_000160.1	flowers	0.073886836472114	stratum 2	"(X+X)/2
+Female"
+_chr12_000160.1	leaves	0.0899140115046795	stratum 2	"(X+X)/2
+Female"
+_chr12_000476.1	flowers	0.151983189008944	stratum 2	"(X+X)/2
+Female"
+_chr12_000476.1	leaves	0.280218523830015	stratum 2	"(X+X)/2
+Female"
+_chr12_000481.1	flowers	0.0330161030130761	stratum 2	"(X+X)/2
+Female"
+_chr12_000481.1	leaves	0.0424470371531122	stratum 2	"(X+X)/2
+Female"
+_chr12_000018.1	flowers	0.059293049045668	stratum 1	"(X+X)/2
+Female"
+_chr12_000018.1	leaves	0.127739942027547	stratum 1	"(X+X)/2
+Female"
+_chr12_000019.1	flowers	0.019147335836198	stratum 1	"(X+X)/2
+Female"
+_chr12_000019.1	leaves	0.0491161804326028	stratum 1	"(X+X)/2
+Female"
+_chr12_000896.1	flowers	0.0122363822861676	stratum 2	"(X+X)/2
+Female"
+_chr12_000896.1	leaves	0.0157368099263741	stratum 2	"(X+X)/2
+Female"
+_chr12_001737.1	flowers	0.0380307167431862	stratum 3	"(X+X)/2
+Female"
+_chr12_001737.1	leaves	0.0363289114456672	stratum 3	"(X+X)/2
+Female"
+_chr12_000183.1	flowers	0.134670330014101	stratum 2	"(X+X)/2
+Female"
+_chr12_000183.1	leaves	0.212643878343877	stratum 2	"(X+X)/2
+Female"
+_chr12_003432.1	flowers	0.18738826487227	stratum 3	"(X+X)/2
+Female"
+_chr12_003432.1	leaves	0.113475352089863	stratum 3	"(X+X)/2
+Female"
+_chr12_003438.1	flowers	0.008923853398927	stratum 3	"(X+X)/2
+Female"
+_chr12_003438.1	leaves	0.00918981989535145	stratum 3	"(X+X)/2
+Female"
+_chr12_003446.1	flowers	0.0158362071173654	stratum 3	"(X+X)/2
+Female"
+_chr12_003446.1	leaves	0.0332334761350922	stratum 3	"(X+X)/2
+Female"
+_chr12_003573.1	flowers	0.059091556830941	stratum 3	"(X+X)/2
+Female"
+_chr12_003573.1	leaves	0.112487545016726	stratum 3	"(X+X)/2
+Female"
+_chr12_003490.1	flowers	0.0218776764991398	stratum 3	"(X+X)/2
+Female"
+_chr12_003490.1	leaves	0.0519009109256575	stratum 3	"(X+X)/2
+Female"
+_chr12_000595.1	flowers	0.0313505950211943	stratum 2	"(X+X)/2
+Female"
+_chr12_000595.1	leaves	0.00777251490430255	stratum 2	"(X+X)/2
+Female"
+_chr12_000403.1	flowers	0.0124921485628998	stratum 2	"(X+X)/2
+Female"
+_chr12_000403.1	leaves	0.0178161371517679	stratum 2	"(X+X)/2
+Female"
+_chr12_005092.1	flowers	0.0192559205547772	stratum 1	"(X+X)/2
+Female"
+_chr12_005092.1	leaves	0.0277832205578357	stratum 1	"(X+X)/2
+Female"
+_chr12_004083.1	flowers	0.0238331632915469	stratum 2	"(X+X)/2
+Female"
+_chr12_004083.1	leaves	0.0466817780713311	stratum 2	"(X+X)/2
+Female"
+_chr12_004084.1	flowers	0.0240397868534774	stratum 2	"(X+X)/2
+Female"
+_chr12_004084.1	leaves	0.117291002131265	stratum 2	"(X+X)/2
+Female"
+_chr12_001054.1	flowers	0.0263129220258113	stratum 2	"(X+X)/2
+Female"
+_chr12_001054.1	leaves	0.190925273198021	stratum 2	"(X+X)/2
+Female"
+_chr12_001251.1	flowers	0.0138216477968205	stratum 2	"(X+X)/2
+Female"
+_chr12_001251.1	leaves	0.0180822037486383	stratum 2	"(X+X)/2
+Female"
+_chr12_001247.1	flowers	0.064647315624899	stratum 2	"(X+X)/2
+Female"
+_chr12_001247.1	leaves	0.0762804733243395	stratum 2	"(X+X)/2
+Female"
+_chr12_005021.1	flowers	0.0384351195468503	stratum 1	"(X+X)/2
+Female"
+_chr12_005021.1	leaves	0.0432566794021644	stratum 1	"(X+X)/2
+Female"
+_chr12_004893.1	flowers	0.0851997332700995	stratum 2	"(X+X)/2
+Female"
+_chr12_004893.1	leaves	0.0794452422703085	stratum 2	"(X+X)/2
+Female"
+_chr12_004897.1	flowers	0.0420120256682215	stratum 2	"(X+X)/2
+Female"
+_chr12_004897.1	leaves	0.0374116450340685	stratum 2	"(X+X)/2
+Female"
+_chr12_000248.1	flowers	0.0326594091920493	stratum 2	"(X+X)/2
+Female"
+_chr12_000248.1	leaves	0.0464740539373532	stratum 2	"(X+X)/2
+Female"
+_chr12_004765.1	flowers	0.0460439513074277	stratum 2	"(X+X)/2
+Female"
+_chr12_004765.1	leaves	0.090707632099148	stratum 2	"(X+X)/2
+Female"
+_chr12_000813.1	flowers	0.0312095619046908	stratum 2	"(X+X)/2
+Female"
+_chr12_000813.1	leaves	0.0384975636116414	stratum 2	"(X+X)/2
+Female"
+_chr12_001509.1	flowers	0.0211505467786933	stratum 3	"(X+X)/2
+Female"
+_chr12_001509.1	leaves	0.0292422284164176	stratum 3	"(X+X)/2
+Female"
+_chr12_003798.1	flowers	0.0115240303286012	stratum 2	"(X+X)/2
+Female"
+_chr12_003798.1	leaves	0.0272563047221685	stratum 2	"(X+X)/2
+Female"
+_chr12_004490.1	flowers	0.0285365881692234	stratum 2	"(X+X)/2
+Female"
+_chr12_004490.1	leaves	0.035090472155328	stratum 2	"(X+X)/2
+Female"
+_chr12_004996.1	flowers	0.176064356595588	stratum 1	"(X+X)/2
+Female"
+_chr12_004996.1	leaves	0.196176686467401	stratum 1	"(X+X)/2
+Female"
+_chr12_001449.1	flowers	0.0278410078851935	stratum 2	"(X+X)/2
+Female"
+_chr12_001449.1	leaves	0.0609050086218445	stratum 2	"(X+X)/2
+Female"
+_chr12_000398.1	flowers	0.109918462752257	stratum 2	"(X+X)/2
+Female"
+_chr12_000398.1	leaves	0.175057433722619	stratum 2	"(X+X)/2
+Female"
+_chr12_000168.1	flowers	0.0147129787600065	stratum 2	"(X+X)/2
+Female"
+_chr12_000168.1	leaves	0.0232839759688302	stratum 2	"(X+X)/2
+Female"
+_chr12_001009.1	flowers	0.0831674901962055	stratum 2	"(X+X)/2
+Female"
+_chr12_001009.1	leaves	0.187561169114653	stratum 2	"(X+X)/2
+Female"
+_chr12_003502.1	flowers	0.0349407497224357	stratum 3	"(X+X)/2
+Female"
+_chr12_003502.1	leaves	0.079377170315959	stratum 3	"(X+X)/2
+Female"
+_chr12_001683.1	flowers	0.057155450527795	stratum 3	"(X+X)/2
+Female"
+_chr12_001683.1	leaves	0.11837679602359	stratum 3	"(X+X)/2
+Female"
+_chr12_000167.1	flowers	0.0430478895490304	stratum 2	"(X+X)/2
+Female"
+_chr12_000167.1	leaves	0.0839225020690195	stratum 2	"(X+X)/2
+Female"
+_chr12_004956.1	flowers	0.0196976250546286	stratum 2	"(X+X)/2
+Female"
+_chr12_004956.1	leaves	0.0308072256611641	stratum 2	"(X+X)/2
+Female"
+_chr12_000547.1	flowers	0.0128097250837363	stratum 2	"(X+X)/2
+Female"
+_chr12_000547.1	leaves	0.0117141032944874	stratum 2	"(X+X)/2
+Female"
+_chr12_004618.1	flowers	0.179253395563328	stratum 2	"(X+X)/2
+Female"
+_chr12_004618.1	leaves	0.225753932565138	stratum 2	"(X+X)/2
+Female"
+_chr12_004806.1	flowers	0.0145787652460292	stratum 2	"(X+X)/2
+Female"
+_chr12_004806.1	leaves	0.0227265599804794	stratum 2	"(X+X)/2
+Female"
+_chr12_000362.1	flowers	0.071153636356248	stratum 2	"(X+X)/2
+Female"
+_chr12_000362.1	leaves	0.518169104100465	stratum 2	"(X+X)/2
+Female"
+_chr12_000363.1	flowers	0.117732327818373	stratum 2	"(X+X)/2
+Female"
+_chr12_000363.1	leaves	0.218818287156132	stratum 2	"(X+X)/2
+Female"
+_chr12_000828.1	flowers	0.0224588972855732	stratum 2	"(X+X)/2
+Female"
+_chr12_000828.1	leaves	0.0410714021756134	stratum 2	"(X+X)/2
+Female"
+_chr12_000832.1	flowers	0.0232554784333893	stratum 2	"(X+X)/2
+Female"
+_chr12_000832.1	leaves	0.0324150288743081	stratum 2	"(X+X)/2
+Female"
+_chr12_004825.1	flowers	0.00913679727734785	stratum 2	"(X+X)/2
+Female"
+_chr12_004825.1	leaves	0.0183618684765837	stratum 2	"(X+X)/2
+Female"
+_chr12_004828.1	flowers	0.0226175377917815	stratum 2	"(X+X)/2
+Female"
+_chr12_004828.1	leaves	0.0345649491367169	stratum 2	"(X+X)/2
+Female"
+_chr12_004830.1	flowers	0.114744047931274	stratum 2	"(X+X)/2
+Female"
+_chr12_004830.1	leaves	0.046560800792622	stratum 2	"(X+X)/2
+Female"
+_chr12_000106.1	flowers	0.0227954618630616	stratum 1	"(X+X)/2
+Female"
+_chr12_000106.1	leaves	0.0275794160151622	stratum 1	"(X+X)/2
+Female"
+_chr12_001634.1	flowers	0.0161102269734351	stratum 3	"(X+X)/2
+Female"
+_chr12_001634.1	leaves	0.0272465111146456	stratum 3	"(X+X)/2
+Female"
+_chr12_004886.1	flowers	0.0131420918250832	stratum 2	"(X+X)/2
+Female"
+_chr12_004886.1	leaves	0.0102523368917401	stratum 2	"(X+X)/2
+Female"
+_chr12_004887.1	flowers	0.0427978281349371	stratum 2	"(X+X)/2
+Female"
+_chr12_004887.1	leaves	0.0477282443994683	stratum 2	"(X+X)/2
+Female"
+_chr12_004002.1	flowers	0.0557718628876595	stratum 2	"(X+X)/2
+Female"
+_chr12_004002.1	leaves	0.0457587294581383	stratum 2	"(X+X)/2
+Female"
+_chr12_001411.1	flowers	0.02240601313548	stratum 2	"(X+X)/2
+Female"
+_chr12_001411.1	leaves	0.0427553882395735	stratum 2	"(X+X)/2
+Female"
+_chr12_000494.1	flowers	0.0408363423280833	stratum 2	"(X+X)/2
+Female"
+_chr12_000494.1	leaves	0.053789440651658	stratum 2	"(X+X)/2
+Female"
+_chr12_005014.1	flowers	0.115447496754676	stratum 1	"(X+X)/2
+Female"
+_chr12_005014.1	leaves	0.179848218122919	stratum 1	"(X+X)/2
+Female"
+_chr12_004464.1	flowers	0.006609465706655	stratum 2	"(X+X)/2
+Female"
+_chr12_004464.1	leaves	0.0339525864188171	stratum 2	"(X+X)/2
+Female"
+_chr12_003462.1	flowers	0.0166998339853682	stratum 3	"(X+X)/2
+Female"
+_chr12_003462.1	leaves	0.0221083880339746	stratum 3	"(X+X)/2
+Female"
+_chr12_003552.1	flowers	0.081330116071497	stratum 3	"(X+X)/2
+Female"
+_chr12_003552.1	leaves	0.082477043705615	stratum 3	"(X+X)/2
+Female"
+_chr12_003553.1	flowers	0.0311295716526457	stratum 3	"(X+X)/2
+Female"
+_chr12_003553.1	leaves	0.0408577514766087	stratum 3	"(X+X)/2
+Female"
+_chr12_003649.1	flowers	0.0523006347745125	stratum 3	"(X+X)/2
+Female"
+_chr12_003649.1	leaves	0.0681438144367425	stratum 3	"(X+X)/2
+Female"
+_chr12_000006.1	flowers	0.023294199197847	stratum 1	"(X+X)/2
+Female"
+_chr12_000006.1	leaves	0.0313444440688348	stratum 1	"(X+X)/2
+Female"
+_chr12_001258.1	flowers	0.0456982068578392	stratum 2	"(X+X)/2
+Female"
+_chr12_001258.1	leaves	0.074616344734044	stratum 2	"(X+X)/2
+Female"
+_chr12_003626.1	flowers	0.0857757715350765	stratum 3	"(X+X)/2
+Female"
+_chr12_003626.1	leaves	0.198203340212738	stratum 3	"(X+X)/2
+Female"
+_chr12_001583.1	flowers	0	stratum 3	"(X+X)/2
+Female"
+_chr12_001583.1	leaves	0.00674878425375815	stratum 3	"(X+X)/2
+Female"
+_chr12_001496.1	flowers	0.0291213215402924	stratum 3	"(X+X)/2
+Female"
+_chr12_001496.1	leaves	0.0606143259747235	stratum 3	"(X+X)/2
+Female"
+_chr12_003621.1	flowers	0.0114006537408713	stratum 3	"(X+X)/2
+Female"
+_chr12_003621.1	leaves	0.0295766620149415	stratum 3	"(X+X)/2
+Female"
+_chr12_003537.1	flowers	0.0146059385612846	stratum 3	"(X+X)/2
+Female"
+_chr12_003537.1	leaves	0.0352615577770338	stratum 3	"(X+X)/2
+Female"
+_chr12_003541.1	flowers	0.0732639104491355	stratum 3	"(X+X)/2
+Female"
+_chr12_003541.1	leaves	0.035111335101263	stratum 3	"(X+X)/2
+Female"
+_chr12_004134.1	flowers	0.012788386316346	stratum 2	"(X+X)/2
+Female"
+_chr12_004134.1	leaves	0.00983727996948305	stratum 2	"(X+X)/2
+Female"
+_chr12_003545.1	flowers	0.063230520245629	stratum 3	"(X+X)/2
+Female"
+_chr12_003545.1	leaves	0.0758701708990835	stratum 3	"(X+X)/2
+Female"
+_chr12_003885.1	flowers	0.0252353901690393	stratum 2	"(X+X)/2
+Female"
+_chr12_003885.1	leaves	0.0649324006777475	stratum 2	"(X+X)/2
+Female"
+_chr12_001639.1	flowers	0.0308179494764411	stratum 3	"(X+X)/2
+Female"
+_chr12_001639.1	leaves	0.068342191100472	stratum 3	"(X+X)/2
+Female"
+_chr12_003761.1	flowers	0.0257345212977399	stratum 3	"(X+X)/2
+Female"
+_chr12_003761.1	leaves	0.0418103893343949	stratum 3	"(X+X)/2
+Female"
+_chr12_003762.1	flowers	0.0329766911936766	stratum 3	"(X+X)/2
+Female"
+_chr12_003762.1	leaves	0.054567388426802	stratum 3	"(X+X)/2
+Female"
+_chr12_003451.1	flowers	0.00934902233027835	stratum 3	"(X+X)/2
+Female"
+_chr12_003451.1	leaves	0.00791182746932495	stratum 3	"(X+X)/2
+Female"
+_chr12_003452.1	flowers	0.0376771215449318	stratum 3	"(X+X)/2
+Female"
+_chr12_003452.1	leaves	0.062144242865278	stratum 3	"(X+X)/2
+Female"
+_chr12_004519.1	flowers	0.0239793804608162	stratum 2	"(X+X)/2
+Female"
+_chr12_004519.1	leaves	0.0414634641630464	stratum 2	"(X+X)/2
+Female"
+_chr12_004511.1	flowers	0.0134930057715007	stratum 2	"(X+X)/2
+Female"
+_chr12_004511.1	leaves	0.0162589123310958	stratum 2	"(X+X)/2
+Female"
+_chr12_000525.1	flowers	0.0275474642546816	stratum 2	"(X+X)/2
+Female"
+_chr12_000525.1	leaves	0.0477642955410937	stratum 2	"(X+X)/2
+Female"
+_chr12_001718.1	flowers	0.0135288291494704	stratum 3	"(X+X)/2
+Female"
+_chr12_001718.1	leaves	0.0388625745215127	stratum 3	"(X+X)/2
+Female"
+_chr12_000004.1	flowers	0.0071132399910105	stratum 1	"(X+X)/2
+Female"
+_chr12_000004.1	leaves	0.0134975685075164	stratum 1	"(X+X)/2
+Female"
+_chr12_000572.1	flowers	0.008490902091257	stratum 2	"(X+X)/2
+Female"
+_chr12_000572.1	leaves	0.0143019414482111	stratum 2	"(X+X)/2
+Female"
+_chr12_004609.1	flowers	0.0193948934507081	stratum 2	"(X+X)/2
+Female"
+_chr12_004609.1	leaves	0.0229833143989992	stratum 2	"(X+X)/2
+Female"
+_chr12_000586.1	flowers	0.00977682947646785	stratum 2	"(X+X)/2
+Female"
+_chr12_000586.1	leaves	0.0092600684220204	stratum 2	"(X+X)/2
+Female"
+_chr12_004362.1	flowers	0.0170819801463314	stratum 2	"(X+X)/2
+Female"
+_chr12_004362.1	leaves	0.0413266573659774	stratum 2	"(X+X)/2
+Female"
+_chr12_004500.1	flowers	0.0376171660785339	stratum 2	"(X+X)/2
+Female"
+_chr12_004500.1	leaves	0.119415926662686	stratum 2	"(X+X)/2
+Female"
+_chr12_000272.1	flowers	0.098194719518301	stratum 2	"(X+X)/2
+Female"
+_chr12_000272.1	leaves	0.0928072178831635	stratum 2	"(X+X)/2
+Female"
+_chr12_000275.1	flowers	0.00892775141588355	stratum 2	"(X+X)/2
+Female"
+_chr12_000275.1	leaves	0.0281579777655946	stratum 2	"(X+X)/2
+Female"
+_chr12_000277.1	flowers	0.230041152985509	stratum 2	"(X+X)/2
+Female"
+_chr12_000277.1	leaves	0.194208832772973	stratum 2	"(X+X)/2
+Female"
+_chr12_000279.1	flowers	0.233902332993054	stratum 2	"(X+X)/2
+Female"
+_chr12_000279.1	leaves	0.50912916445011	stratum 2	"(X+X)/2
+Female"
+_chr12_000280.1	flowers	0.0593308647479665	stratum 2	"(X+X)/2
+Female"
+_chr12_000280.1	leaves	0.102706366736178	stratum 2	"(X+X)/2
+Female"
+_chr12_000281.1	flowers	0.0335919975508133	stratum 2	"(X+X)/2
+Female"
+_chr12_000281.1	leaves	0.074734729119885	stratum 2	"(X+X)/2
+Female"
+_chr12_000282.1	flowers	0.0239994008854324	stratum 2	"(X+X)/2
+Female"
+_chr12_000282.1	leaves	0.0355841924089861	stratum 2	"(X+X)/2
+Female"
+_chr12_000284.1	flowers	0.132211183284062	stratum 2	"(X+X)/2
+Female"
+_chr12_000284.1	leaves	0.0936856249057805	stratum 2	"(X+X)/2
+Female"
+_chr12_000285.1	flowers	0.0101881046116413	stratum 2	"(X+X)/2
+Female"
+_chr12_000285.1	leaves	0	stratum 2	"(X+X)/2
+Female"
+_chr12_000286.1	flowers	0.104813820868003	stratum 2	"(X+X)/2
+Female"
+_chr12_000286.1	leaves	0.125359448027944	stratum 2	"(X+X)/2
+Female"
+_chr12_000288.1	flowers	0.0142219931256846	stratum 2	"(X+X)/2
+Female"
+_chr12_000288.1	leaves	0.0159106873296005	stratum 2	"(X+X)/2
+Female"
+_chr12_000289.1	flowers	0.0127503823647296	stratum 2	"(X+X)/2
+Female"
+_chr12_000289.1	leaves	0.014039590833971	stratum 2	"(X+X)/2
+Female"
+_chr12_000290.1	flowers	0.00644570751879795	stratum 2	"(X+X)/2
+Female"
+_chr12_000290.1	leaves	0	stratum 2	"(X+X)/2
+Female"
+_chr12_000298.1	flowers	0.070270515448656	stratum 2	"(X+X)/2
+Female"
+_chr12_000298.1	leaves	0.093741131459599	stratum 2	"(X+X)/2
+Female"
+_chr12_000300.1	flowers	0.054077396644681	stratum 2	"(X+X)/2
+Female"
+_chr12_000300.1	leaves	0.096552814460169	stratum 2	"(X+X)/2
+Female"
+_chr12_000301.1	flowers	0.0504596023932095	stratum 2	"(X+X)/2
+Female"
+_chr12_000301.1	leaves	0.0414998990634656	stratum 2	"(X+X)/2
+Female"
+_chr12_000306.1	flowers	0.0439899193094632	stratum 2	"(X+X)/2
+Female"
+_chr12_000306.1	leaves	0.0470436980927831	stratum 2	"(X+X)/2
+Female"
+_chr12_000321.1	flowers	0.043122347353217	stratum 2	"(X+X)/2
+Female"
+_chr12_000321.1	leaves	0.0419719504800784	stratum 2	"(X+X)/2
+Female"
+_chr12_000333.1	flowers	0.0154642191551416	stratum 2	"(X+X)/2
+Female"
+_chr12_000333.1	leaves	0.0201312415275457	stratum 2	"(X+X)/2
+Female"
+_chr12_000334.1	flowers	0.0310957332706159	stratum 2	"(X+X)/2
+Female"
+_chr12_000334.1	leaves	0.0256736195187215	stratum 2	"(X+X)/2
+Female"
+_chr12_003991.1	flowers	0.0301250453319841	stratum 2	"(X+X)/2
+Female"
+_chr12_003991.1	leaves	0.0421968755471388	stratum 2	"(X+X)/2
+Female"
+_chr12_004711.1	flowers	0.0507836272786095	stratum 2	"(X+X)/2
+Female"
+_chr12_004711.1	leaves	0.064249957589468	stratum 2	"(X+X)/2
+Female"
+_chr12_000426.1	flowers	0.0133463933475847	stratum 2	"(X+X)/2
+Female"
+_chr12_000426.1	leaves	0.0169157870388987	stratum 2	"(X+X)/2
+Female"
+_chr12_004639.1	flowers	0.0443523846318937	stratum 2	"(X+X)/2
+Female"
+_chr12_004639.1	leaves	0.071109009405178	stratum 2	"(X+X)/2
+Female"
+_chr12_004926.1	flowers	0.00815498951280735	stratum 2	"(X+X)/2
+Female"
+_chr12_004926.1	leaves	0.0199299478124184	stratum 2	"(X+X)/2
+Female"
+_chr12_004200.1	flowers	0.19304837882596	stratum 2	"(X+X)/2
+Female"
+_chr12_004200.1	leaves	0.591568417653785	stratum 2	"(X+X)/2
+Female"
+_chr12_004998.1	flowers	0.0056191205455995	stratum 1	"(X+X)/2
+Female"
+_chr12_004998.1	leaves	0.0143105535780539	stratum 1	"(X+X)/2
+Female"
+_chr12_000390.1	flowers	0.0067668417715589	stratum 2	"(X+X)/2
+Female"
+_chr12_000390.1	leaves	0.0359226558152979	stratum 2	"(X+X)/2
+Female"
+_chr12_004244.1	flowers	0.0109389725159724	stratum 2	"(X+X)/2
+Female"
+_chr12_004244.1	leaves	0.0207883428082996	stratum 2	"(X+X)/2
+Female"
+_chr12_001614.1	flowers	0.0181830192074812	stratum 3	"(X+X)/2
+Female"
+_chr12_001614.1	leaves	0.0202463527612745	stratum 3	"(X+X)/2
+Female"
+_chr12_000353.1	flowers	0.0234984800070985	stratum 2	"(X+X)/2
+Female"
+_chr12_000353.1	leaves	0.0341008539495748	stratum 2	"(X+X)/2
+Female"
+_chr12_000354.1	flowers	0.0264707617987066	stratum 2	"(X+X)/2
+Female"
+_chr12_000354.1	leaves	0.070104168903874	stratum 2	"(X+X)/2
+Female"
+_chr12_001358.1	flowers	0.0874589586569185	stratum 2	"(X+X)/2
+Female"
+_chr12_001358.1	leaves	0.105593707821682	stratum 2	"(X+X)/2
+Female"
+_chr12_003754.1	flowers	0.18660737726733	stratum 3	"(X+X)/2
+Female"
+_chr12_003754.1	leaves	0.190171049134151	stratum 3	"(X+X)/2
+Female"
+_chr12_004053.1	flowers	0.0646678593140755	stratum 2	"(X+X)/2
+Female"
+_chr12_004053.1	leaves	0.0645470741401865	stratum 2	"(X+X)/2
+Female"
+_chr12_005095.1	flowers	0.0092299307274132	stratum 1	"(X+X)/2
+Female"
+_chr12_005095.1	leaves	0.0146079277795595	stratum 1	"(X+X)/2
+Female"
+_chr12_001604.1	flowers	0.0184419886112142	stratum 3	"(X+X)/2
+Female"
+_chr12_001604.1	leaves	0.0519438014759935	stratum 3	"(X+X)/2
+Female"
+_chr12_000381.1	flowers	0.0490825960902082	stratum 2	"(X+X)/2
+Female"
+_chr12_000381.1	leaves	0.0417561991004072	stratum 2	"(X+X)/2
+Female"
+_chr12_001588.1	flowers	0.0137839655820703	stratum 3	"(X+X)/2
+Female"
+_chr12_001588.1	leaves	0.0104242961259027	stratum 3	"(X+X)/2
+Female"
+_chr12_000598.1	flowers	0.0145111529187309	stratum 2	"(X+X)/2
+Female"
+_chr12_000598.1	leaves	0.0106350417059095	stratum 2	"(X+X)/2
+Female"
+_chr12_004278.1	flowers	0.264557695920348	stratum 2	"(X+X)/2
+Female"
+_chr12_004278.1	leaves	0.533785031483425	stratum 2	"(X+X)/2
+Female"
+_chr12_001382.1	flowers	0.0332054990204552	stratum 2	"(X+X)/2
+Female"
+_chr12_001382.1	leaves	0.0447397191943339	stratum 2	"(X+X)/2
+Female"
+_chr12_004614.1	flowers	0.032051631688368	stratum 2	"(X+X)/2
+Female"
+_chr12_004614.1	leaves	0.063254435378567	stratum 2	"(X+X)/2
+Female"
+_chr12_004719.1	flowers	0.0126714256841591	stratum 2	"(X+X)/2
+Female"
+_chr12_004719.1	leaves	0.04190276901965	stratum 2	"(X+X)/2
+Female"
+_chr12_004047.1	flowers	0.0660152815978215	stratum 2	"(X+X)/2
+Female"
+_chr12_004047.1	leaves	0.0524113719586	stratum 2	"(X+X)/2
+Female"
+_chr12_004795.1	flowers	0.0857244561859845	stratum 2	"(X+X)/2
+Female"
+_chr12_004795.1	leaves	0.146966768500591	stratum 2	"(X+X)/2
+Female"
+_chr12_003084.1	flowers	0.0361242307778325	stratum 3	"(X+X)/2
+Female"
+_chr12_003084.1	leaves	0.0428352697045287	stratum 3	"(X+X)/2
+Female"
+_chr12_005031.1	flowers	0.06593996990766	stratum 1	"(X+X)/2
+Female"
+_chr12_005031.1	leaves	0.0913999547824835	stratum 1	"(X+X)/2
+Female"
+_chr12_000215.1	flowers	0.0139322916669282	stratum 2	"(X+X)/2
+Female"
+_chr12_000215.1	leaves	0.00777251490430255	stratum 2	"(X+X)/2
+Female"
+_chr12_004418.1	flowers	0.0412641853300919	stratum 2	"(X+X)/2
+Female"
+_chr12_004418.1	leaves	0.077926971816456	stratum 2	"(X+X)/2
+Female"
+_chr12_004598.1	flowers	0.0160005729244957	stratum 2	"(X+X)/2
+Female"
+_chr12_004598.1	leaves	0.0326903506409457	stratum 2	"(X+X)/2
+Female"
+_chr12_005083.1	flowers	0.0122952519943059	stratum 1	"(X+X)/2
+Female"
+_chr12_005083.1	leaves	0.0174485172364294	stratum 1	"(X+X)/2
+Female"
+_chr12_005070.1	flowers	0.0249375124685298	stratum 1	"(X+X)/2
+Female"
+_chr12_005070.1	leaves	0.0438825336257363	stratum 1	"(X+X)/2
+Female"
+_chr12_000927.1	flowers	0.0125612999839107	stratum 2	"(X+X)/2
+Female"
+_chr12_000927.1	leaves	0.0212700834118189	stratum 2	"(X+X)/2
+Female"
+_chr12_001081.1	flowers	0.105918631707533	stratum 2	"(X+X)/2
+Female"
+_chr12_001081.1	leaves	0.102591971290461	stratum 2	"(X+X)/2
+Female"
+_chr12_001324.1	flowers	0.0351580555431528	stratum 2	"(X+X)/2
+Female"
+_chr12_001324.1	leaves	0.0381868957697602	stratum 2	"(X+X)/2
+Female"
+_chr12_000541.1	flowers	0.0352019762804607	stratum 2	"(X+X)/2
+Female"
+_chr12_000541.1	leaves	0.0223640985207568	stratum 2	"(X+X)/2
+Female"
+_chr12_003751.1	flowers	0.170957980739893	stratum 3	"(X+X)/2
+Female"
+_chr12_003751.1	leaves	0.181965283781917	stratum 3	"(X+X)/2
+Female"
+_chr12_000137.1	flowers	0.0198779896188465	stratum 1	"(X+X)/2
+Female"
+_chr12_000137.1	leaves	0.050043417754357	stratum 1	"(X+X)/2
+Female"
+_chr12_001695.1	flowers	0.240512307965365	stratum 3	"(X+X)/2
+Female"
+_chr12_001695.1	leaves	0.250047297398032	stratum 3	"(X+X)/2
+Female"
+_chr12_003508.1	flowers	0.0136878122011198	stratum 3	"(X+X)/2
+Female"
+_chr12_003508.1	leaves	0.0190247815057056	stratum 3	"(X+X)/2
+Female"
+_chr12_000136.1	flowers	0.128304279546551	stratum 1	"(X+X)/2
+Female"
+_chr12_000136.1	leaves	0.07505543973924	stratum 1	"(X+X)/2
+Female"
+_chr12_004145.1	flowers	0.058349442698789	stratum 2	"(X+X)/2
+Female"
+_chr12_004145.1	leaves	0.06975315791879	stratum 2	"(X+X)/2
+Female"
+_chr12_000033.1	flowers	0.071117970151392	stratum 1	"(X+X)/2
+Female"
+_chr12_000033.1	leaves	0.084144618453678	stratum 1	"(X+X)/2
+Female"
+_chr12_003487.1	flowers	0.093081154472327	stratum 3	X Male
+_chr12_003487.1	leaves	0.11183166003661	stratum 3	X Male
+_chr12_003488.1	flowers	0.0423271027777158	stratum 3	X Male
+_chr12_003488.1	leaves	0.0642467409091104	stratum 3	X Male
+_chr12_001716.1	flowers	0.0358988741599141	stratum 3	X Male
+_chr12_001716.1	leaves	0.0275621550023528	stratum 3	X Male
+_chr12_001717.1	flowers	0.0648888152425658	stratum 3	X Male
+_chr12_001717.1	leaves	0.115585734966642	stratum 3	X Male
+_chr12_001148.1	flowers	0.0623981607850798	stratum 2	X Male
+_chr12_001148.1	leaves	0.0655197339005083	stratum 2	X Male
+_chr12_000172.1	flowers	0.157499625244913	stratum 2	X Male
+_chr12_000172.1	leaves	0.202635399163903	stratum 2	X Male
+_chr12_004948.1	flowers	0.0588950145804255	stratum 2	X Male
+_chr12_004948.1	leaves	0.0757493465850529	stratum 2	X Male
+_chr12_004949.1	flowers	0.0828457770596887	stratum 2	X Male
+_chr12_004949.1	leaves	0.231346856894946	stratum 2	X Male
+_chr12_003895.1	flowers	0.0358939986759647	stratum 2	X Male
+_chr12_003895.1	leaves	0.0302352808189944	stratum 2	X Male
+_chr12_004687.1	flowers	0.0847616573690457	stratum 2	X Male
+_chr12_004687.1	leaves	0.156843138490621	stratum 2	X Male
+_chr12_004954.1	flowers	0.05138790312504	stratum 2	X Male
+_chr12_004954.1	leaves	0.0144726881259932	stratum 2	X Male
+_chr12_001531.1	flowers	0.022826344277566	stratum 3	X Male
+_chr12_001531.1	leaves	0.0593574735283495	stratum 3	X Male
+_chr12_004662.1	flowers	0.0274879348806388	stratum 2	X Male
+_chr12_004662.1	leaves	0.0227517049558901	stratum 2	X Male
+_chr12_003517.1	flowers	0.0870908168880274	stratum 3	X Male
+_chr12_003517.1	leaves	0.0848405660403038	stratum 3	X Male
+_chr12_001121.1	flowers	0.0770039883540001	stratum 2	X Male
+_chr12_001121.1	leaves	0.0288979636465088	stratum 2	X Male
+_chr12_003512.1	flowers	0.0323203084867513	stratum 3	X Male
+_chr12_003512.1	leaves	0.0421890480687099	stratum 3	X Male
+_chr12_005009.1	flowers	0.177506512559134	stratum 1	X Male
+_chr12_005009.1	leaves	0.116608441111523	stratum 1	X Male
+_chr12_000170.1	flowers	0.100557366724665	stratum 2	X Male
+_chr12_000170.1	leaves	0.0786475479455702	stratum 2	X Male
+_chr12_000034.1	flowers	0.0271344580788379	stratum 1	X Male
+_chr12_000034.1	leaves	0.0785475989355291	stratum 1	X Male
+_chr12_001086.1	flowers	0.028208590608713	stratum 2	X Male
+_chr12_001086.1	leaves	0	stratum 2	X Male
+_chr12_004192.1	flowers	0.0777732321122032	stratum 2	X Male
+_chr12_004192.1	leaves	0.185205638558841	stratum 2	X Male
+_chr12_003480.1	flowers	0.0139881909097449	stratum 3	X Male
+_chr12_003480.1	leaves	0.0262856948786328	stratum 3	X Male
+_chr12_003486.1	flowers	0.0283518565989391	stratum 3	X Male
+_chr12_003486.1	leaves	0.0675763820438523	stratum 3	X Male
+_chr12_001709.1	flowers	0.0141374679885312	stratum 3	X Male
+_chr12_001709.1	leaves	0.0641004499827801	stratum 3	X Male
+_chr12_001710.1	flowers	0.165860033863281	stratum 3	X Male
+_chr12_001710.1	leaves	0.134989067314506	stratum 3	X Male
+_chr12_001711.1	flowers	0.0449460957329941	stratum 3	X Male
+_chr12_001711.1	leaves	0.0187651869003233	stratum 3	X Male
+_chr12_001713.1	flowers	0.0860798989026295	stratum 3	X Male
+_chr12_001713.1	leaves	0.0251499606868211	stratum 3	X Male
+_chr12_004768.1	flowers	0.116441539320446	stratum 2	X Male
+_chr12_004768.1	leaves	0.0787837609953156	stratum 2	X Male
+_chr12_000342.1	flowers	0.0462142934625488	stratum 2	X Male
+_chr12_000342.1	leaves	0.0645557029684242	stratum 2	X Male
+_chr12_004817.1	flowers	0.0824950070000717	stratum 2	X Male
+_chr12_004817.1	leaves	0.0640046864288944	stratum 2	X Male
+_chr12_004405.1	flowers	0.0843717144137657	stratum 2	X Male
+_chr12_004405.1	leaves	0.150360395019981	stratum 2	X Male
+_chr12_000887.1	flowers	0.0413811483603623	stratum 2	X Male
+_chr12_000887.1	leaves	0.0694823292505363	stratum 2	X Male
+_chr12_000816.1	flowers	0	stratum 2	X Male
+_chr12_000816.1	leaves	0	stratum 2	X Male
+_chr12_000880.1	flowers	0.0902124895906244	stratum 2	X Male
+_chr12_000880.1	leaves	0.0885894088052948	stratum 2	X Male
+_chr12_000754.1	flowers	0.0139384318834827	stratum 2	X Male
+_chr12_000754.1	leaves	0.0187651869003233	stratum 2	X Male
+_chr12_004699.1	flowers	0.0883801798087631	stratum 2	X Male
+_chr12_004699.1	leaves	0.169144406580108	stratum 2	X Male
+_chr12_004706.1	flowers	0.317367883841815	stratum 2	X Male
+_chr12_004706.1	leaves	0.346308305876842	stratum 2	X Male
+_chr12_003859.1	flowers	0.292195732563555	stratum 2	X Male
+_chr12_003859.1	leaves	0.216932702990914	stratum 2	X Male
+_chr12_003860.1	flowers	0.0140711226201817	stratum 2	X Male
+_chr12_003860.1	leaves	0.0758390165196338	stratum 2	X Male
+_chr12_004975.1	flowers	0.029998106464524	stratum 1	X Male
+_chr12_004975.1	leaves	0.0705206693826302	stratum 1	X Male
+_chr12_004977.1	flowers	0.0212327682599885	stratum 1	X Male
+_chr12_004977.1	leaves	0.0162581275599032	stratum 1	X Male
+_chr12_001612.1	flowers	0.0798936269162427	stratum 3	X Male
+_chr12_001612.1	leaves	0.088768184819153	stratum 3	X Male
+_chr12_004455.1	flowers	0.0896136148276915	stratum 2	X Male
+_chr12_004455.1	leaves	0.0828751508284821	stratum 2	X Male
+_chr12_001433.1	flowers	0.0638860104744765	stratum 2	X Male
+_chr12_001433.1	leaves	0.302521732042715	stratum 2	X Male
+_chr12_001434.1	flowers	0.0632720140836665	stratum 2	X Male
+_chr12_001434.1	leaves	0.0974851796418578	stratum 2	X Male
+_chr12_000624.1	flowers	0.0175225579068777	stratum 2	X Male
+_chr12_000624.1	leaves	0	stratum 2	X Male
+_chr12_003591.1	flowers	0.0296837707897945	stratum 3	X Male
+_chr12_003591.1	leaves	0.022578045603206	stratum 3	X Male
+_chr12_003592.1	flowers	0.0302138086112963	stratum 3	X Male
+_chr12_003592.1	leaves	0.0189597541299084	stratum 3	X Male
+_chr12_001154.1	flowers	0.0826679654356932	stratum 2	X Male
+_chr12_001154.1	leaves	0.177536791602785	stratum 2	X Male
+_chr12_001599.1	flowers	0.0270249921076776	stratum 3	X Male
+_chr12_001599.1	leaves	0.0940432243422345	stratum 3	X Male
+_chr12_003516.1	flowers	0.014037949936007	stratum 3	X Male
+_chr12_003516.1	leaves	0.0242684852862828	stratum 3	X Male
+_chr12_000471.1	flowers	0.0441240242415416	stratum 2	X Male
+_chr12_000471.1	leaves	0.0314611692850776	stratum 2	X Male
+_chr12_000482.1	flowers	0.0735408358781065	stratum 2	X Male
+_chr12_000482.1	leaves	0.102494785352207	stratum 2	X Male
+_chr12_000483.1	flowers	0.0494503177299325	stratum 2	X Male
+_chr12_000483.1	leaves	0.0634193575290378	stratum 2	X Male
+_chr12_004925.1	flowers	0.0943346128216146	stratum 2	X Male
+_chr12_004925.1	leaves	0.0760223338358433	stratum 2	X Male
+_chr12_004389.1	flowers	0.0328294411897428	stratum 2	X Male
+_chr12_004389.1	leaves	0.058334536097825	stratum 2	X Male
+_chr12_004400.1	flowers	0.05435553353455	stratum 2	X Male
+_chr12_004400.1	leaves	0.0738047283162078	stratum 2	X Male
+_chr12_000469.1	flowers	0.0561059632853344	stratum 2	X Male
+_chr12_000469.1	leaves	0.0699485558125317	stratum 2	X Male
+_chr12_003938.1	flowers	0.0378551885753961	stratum 2	X Male
+_chr12_003938.1	leaves	0.0538836843570565	stratum 2	X Male
+_chr12_001408.1	flowers	0.0446633513744755	stratum 2	X Male
+_chr12_001408.1	leaves	0.17293412256614	stratum 2	X Male
+_chr12_003815.1	flowers	0.049005241273508	stratum 2	X Male
+_chr12_003815.1	leaves	0.0456809056405464	stratum 2	X Male
+_chr12_000158.1	flowers	0.0201679491114663	stratum 2	X Male
+_chr12_000158.1	leaves	0.0375303738006465	stratum 2	X Male
+_chr12_000072.1	flowers	0.0389833961185349	stratum 1	X Male
+_chr12_000072.1	leaves	0.0497309701028806	stratum 1	X Male
+_chr12_000580.1	flowers	0.0658616044613679	stratum 2	X Male
+_chr12_000580.1	leaves	0.0621982852765879	stratum 2	X Male
+_chr12_004944.1	flowers	0.0796323327849551	stratum 2	X Male
+_chr12_004944.1	leaves	0.0562955607009698	stratum 2	X Male
+_chr12_004824.1	flowers	0.199078100403633	stratum 2	X Male
+_chr12_004824.1	leaves	0.164174959417861	stratum 2	X Male
+_chr12_004934.1	flowers	0.0459073729332332	stratum 2	X Male
+_chr12_004934.1	leaves	0.0404682175402037	stratum 2	X Male
+_chr12_003748.1	flowers	0.0264712083748481	stratum 3	X Male
+_chr12_003748.1	leaves	0.0279108681148625	stratum 3	X Male
+_chr12_004744.1	flowers	0.423901712946451	stratum 2	X Male
+_chr12_004744.1	leaves	0.365654646492394	stratum 2	X Male
+_chr12_000071.1	flowers	0.129330358059843	stratum 1	X Male
+_chr12_000071.1	leaves	0.19346755543869	stratum 1	X Male
+_chr12_000379.1	flowers	0.0291810932234509	stratum 2	X Male
+_chr12_000379.1	leaves	0	stratum 2	X Male
+_chr12_004674.1	flowers	0.0755761644177762	stratum 2	X Male
+_chr12_004674.1	leaves	0.271810959369674	stratum 2	X Male
+_chr12_001587.1	flowers	0.0480031913465781	stratum 3	X Male
+_chr12_001587.1	leaves	0.0762319870574526	stratum 3	X Male
+_chr12_004190.1	flowers	0.0139384318834827	stratum 2	X Male
+_chr12_004190.1	leaves	0	stratum 2	X Male
+_chr12_000093.1	flowers	0.0645421264702299	stratum 1	X Male
+_chr12_000093.1	leaves	0.104830848426313	stratum 1	X Male
+_chr12_000192.1	flowers	0.0505779739849102	stratum 2	X Male
+_chr12_000192.1	leaves	0.106619208075011	stratum 2	X Male
+_chr12_003603.1	flowers	0.0653023932818672	stratum 3	X Male
+_chr12_003603.1	leaves	0.139534630313238	stratum 3	X Male
+_chr12_000752.1	flowers	0.166756071608193	stratum 2	X Male
+_chr12_000752.1	leaves	0.256342438238288	stratum 2	X Male
+_chr12_003919.1	flowers	0.130858206082851	stratum 2	X Male
+_chr12_003919.1	leaves	0.142728682473137	stratum 2	X Male
+_chr12_004808.1	flowers	0.0315776645247285	stratum 2	X Male
+_chr12_004808.1	leaves	0.0565771479227385	stratum 2	X Male
+_chr12_003594.1	flowers	0.0525703386694542	stratum 3	X Male
+_chr12_003594.1	leaves	0.0393463674377903	stratum 3	X Male
+_chr12_003595.1	flowers	0	stratum 3	X Male
+_chr12_003595.1	leaves	0.0388361731631091	stratum 3	X Male
+_chr12_004773.1	flowers	0.124861700326862	stratum 2	X Male
+_chr12_004773.1	leaves	0.217771756731139	stratum 2	X Male
+_chr12_004775.1	flowers	0.0285160882662422	stratum 2	X Male
+_chr12_004775.1	leaves	0.0701599419644242	stratum 2	X Male
+_chr12_000380.1	flowers	0.145772955199974	stratum 2	X Male
+_chr12_000380.1	leaves	0.137360347283206	stratum 2	X Male
+_chr12_003908.1	flowers	0.0176084732378199	stratum 2	X Male
+_chr12_003908.1	leaves	0	stratum 2	X Male
+_chr12_000901.1	flowers	0.0348576596058694	stratum 2	X Male
+_chr12_000901.1	leaves	0.0500154934293042	stratum 2	X Male
+_chr12_004459.1	flowers	0.0632416148619811	stratum 2	X Male
+_chr12_004459.1	leaves	0.049379189732194	stratum 2	X Male
+_chr12_000107.1	flowers	0.133249176866262	stratum 1	X Male
+_chr12_000107.1	leaves	0.10811494952788	stratum 1	X Male
+_chr12_004801.1	flowers	0.097256603468469	stratum 2	X Male
+_chr12_004801.1	leaves	0.0240579068594562	stratum 2	X Male
+_chr12_001327.1	flowers	0.0770725469934314	stratum 2	X Male
+_chr12_001327.1	leaves	0.075907539646921	stratum 2	X Male
+_chr12_004854.1	flowers	0.0319423297633958	stratum 2	X Male
+_chr12_004854.1	leaves	0.0552795671730428	stratum 2	X Male
+_chr12_004855.1	flowers	0.049791573786261	stratum 2	X Male
+_chr12_004855.1	leaves	0.0550442523500895	stratum 2	X Male
+_chr12_004858.1	flowers	0.153923304814345	stratum 2	X Male
+_chr12_004858.1	leaves	0.179475623621939	stratum 2	X Male
+_chr12_004859.1	flowers	0.0282749359770625	stratum 2	X Male
+_chr12_004859.1	leaves	0.0187651869003233	stratum 2	X Male
+_chr12_004860.1	flowers	0.0984240300329218	stratum 2	X Male
+_chr12_004860.1	leaves	0.0346196698334605	stratum 2	X Male
+_chr12_004861.1	flowers	0.0940979502117903	stratum 2	X Male
+_chr12_004861.1	leaves	0.14940111055089	stratum 2	X Male
+_chr12_004863.1	flowers	0.105221755675701	stratum 2	X Male
+_chr12_004863.1	leaves	0.187030298482271	stratum 2	X Male
+_chr12_004864.1	flowers	0.0493006930567577	stratum 2	X Male
+_chr12_004864.1	leaves	0.166952969419921	stratum 2	X Male
+_chr12_004866.1	flowers	0.0835974557907644	stratum 2	X Male
+_chr12_004866.1	leaves	0.112416685048453	stratum 2	X Male
+_chr12_004869.1	flowers	0	stratum 2	X Male
+_chr12_004869.1	leaves	0	stratum 2	X Male
+_chr12_004871.1	flowers	0.128113903233243	stratum 2	X Male
+_chr12_004871.1	leaves	0.116752910741766	stratum 2	X Male
+_chr12_004872.1	flowers	0.10451659204954	stratum 2	X Male
+_chr12_004872.1	leaves	0.0554367826143935	stratum 2	X Male
+_chr12_004873.1	flowers	0.0743623678444168	stratum 2	X Male
+_chr12_004873.1	leaves	0.11037175768429	stratum 2	X Male
+_chr12_004875.1	flowers	0.0505169850866213	stratum 2	X Male
+_chr12_004875.1	leaves	0.198648341901265	stratum 2	X Male
+_chr12_004876.1	flowers	0.0195950031879842	stratum 2	X Male
+_chr12_004876.1	leaves	0	stratum 2	X Male
+_chr12_004880.1	flowers	0.0435683229867877	stratum 2	X Male
+_chr12_004880.1	leaves	0.085699467264044	stratum 2	X Male
+_chr12_004883.1	flowers	0.0225214868018517	stratum 2	X Male
+_chr12_004883.1	leaves	0.0523430572105209	stratum 2	X Male
+_chr12_004884.1	flowers	0.0185845758446436	stratum 2	X Male
+_chr12_004884.1	leaves	0.0611430419704882	stratum 2	X Male
+_chr12_005003.1	flowers	0.0748978756318004	stratum 1	X Male
+_chr12_005003.1	leaves	0.0351409728161584	stratum 1	X Male
+_chr12_000696.1	flowers	0.0712900926154627	stratum 2	X Male
+_chr12_000696.1	leaves	0.0722350661262995	stratum 2	X Male
+_chr12_001184.1	flowers	0.0564593279546694	stratum 2	X Male
+_chr12_001184.1	leaves	0.0864666425770586	stratum 2	X Male
+_chr12_004593.1	flowers	0.0224123913527385	stratum 2	X Male
+_chr12_004593.1	leaves	0.0397771755363341	stratum 2	X Male
+_chr12_000199.1	flowers	0.0817297164071386	stratum 2	X Male
+_chr12_000199.1	leaves	0.159001409668916	stratum 2	X Male
+_chr12_000200.1	flowers	0.0431789122344277	stratum 2	X Male
+_chr12_000200.1	leaves	0.0436274813310672	stratum 2	X Male
+_chr12_004928.1	flowers	0.0387337125731211	stratum 2	X Male
+_chr12_004928.1	leaves	0.0376185467211874	stratum 2	X Male
+_chr12_000673.1	flowers	0.0168662355882577	stratum 2	X Male
+_chr12_000673.1	leaves	0.0333704389788219	stratum 2	X Male
+_chr12_004171.1	flowers	0.158621166083277	stratum 2	X Male
+_chr12_004171.1	leaves	0.192528727932871	stratum 2	X Male
+_chr12_000145.1	flowers	0.0388806350908429	stratum 1	X Male
+_chr12_000145.1	leaves	0.0629732990455001	stratum 1	X Male
+_chr12_003880.1	flowers	0.330165443573187	stratum 2	X Male
+_chr12_003880.1	leaves	0.343190457856782	stratum 2	X Male
+_chr12_003882.1	flowers	0.0286281662211141	stratum 2	X Male
+_chr12_003882.1	leaves	0.0288910539122414	stratum 2	X Male
+_chr12_001733.1	flowers	0.0955764305618426	stratum 3	X Male
+_chr12_001733.1	leaves	0.0850641178442993	stratum 3	X Male
+_chr12_001477.1	flowers	0.217364884574346	stratum 3	X Male
+_chr12_001477.1	leaves	0.577045655078164	stratum 3	X Male
+_chr12_001339.1	flowers	0.0242206099440904	stratum 2	X Male
+_chr12_001339.1	leaves	0.0650325102396126	stratum 2	X Male
+_chr12_004972.1	flowers	0.0410142859354778	stratum 1	X Male
+_chr12_004972.1	leaves	0.0575365043202373	stratum 1	X Male
+_chr12_001651.1	flowers	0.0191514939426758	stratum 3	X Male
+_chr12_001651.1	leaves	0.107418424304686	stratum 3	X Male
+_chr12_001666.1	flowers	0.0495250202165867	stratum 3	X Male
+_chr12_001666.1	leaves	0.0895905748532647	stratum 3	X Male
+_chr12_001581.1	flowers	0.0295164221513555	stratum 3	X Male
+_chr12_001581.1	leaves	0.0667079355007442	stratum 3	X Male
+_chr12_003618.1	flowers	0.0956729210088254	stratum 3	X Male
+_chr12_003618.1	leaves	0.0748305012798558	stratum 3	X Male
+_chr12_001575.1	flowers	0.123688987262266	stratum 3	X Male
+_chr12_001575.1	leaves	0.208435216170305	stratum 3	X Male
+_chr12_003616.1	flowers	0.14090605913008	stratum 3	X Male
+_chr12_003616.1	leaves	0.193230783039324	stratum 3	X Male
+_chr12_005034.1	flowers	0.0245912919011433	stratum 1	X Male
+_chr12_005034.1	leaves	0.0562955607009698	stratum 1	X Male
+_chr12_004523.1	flowers	0.139024618845492	stratum 2	X Male
+_chr12_004523.1	leaves	0.129216526663409	stratum 2	X Male
+_chr12_000349.1	flowers	0.0810764302906099	stratum 2	X Male
+_chr12_000349.1	leaves	0.165464958947318	stratum 2	X Male
+_chr12_003632.1	flowers	0.101145957043966	stratum 3	X Male
+_chr12_003632.1	leaves	0.233649930766327	stratum 3	X Male
+_chr12_003557.1	flowers	0.0141374679885312	stratum 3	X Male
+_chr12_003557.1	leaves	0.0187651869003233	stratum 3	X Male
+_chr12_001728.1	flowers	0.0890838369199424	stratum 3	X Male
+_chr12_001728.1	leaves	0.138254036768653	stratum 3	X Male
+_chr12_000983.1	flowers	0.0689176295180953	stratum 2	X Male
+_chr12_000983.1	leaves	0.0788676029334489	stratum 2	X Male
+_chr12_000269.1	flowers	0.014037949936007	stratum 2	X Male
+_chr12_000269.1	leaves	0.0126398360866056	stratum 2	X Male
+_chr12_001292.1	flowers	0.0403222001236746	stratum 2	X Male
+_chr12_001292.1	leaves	0.0802854157142704	stratum 2	X Male
+_chr12_003789.1	flowers	0.0252515744924856	stratum 2	X Male
+_chr12_003789.1	leaves	0.0325162551198063	stratum 2	X Male
+_chr12_001109.1	flowers	0.0391444357718838	stratum 2	X Male
+_chr12_001109.1	leaves	0.0570107781952781	stratum 2	X Male
+_chr12_001102.1	flowers	0.0997591688014731	stratum 2	X Male
+_chr12_001102.1	leaves	0.0630700385200864	stratum 2	X Male
+_chr12_001103.1	flowers	0.0141374679885312	stratum 2	X Male
+_chr12_001103.1	leaves	0.0126398360866056	stratum 2	X Male
+_chr12_000339.1	flowers	0.0404666161708687	stratum 2	X Male
+_chr12_000339.1	leaves	0.0551630056043933	stratum 2	X Male
+_chr12_003922.1	flowers	0.133769204141311	stratum 2	X Male
+_chr12_003922.1	leaves	0.112103392156433	stratum 2	X Male
+_chr12_004577.1	flowers	0.0495015351781586	stratum 2	X Male
+_chr12_004577.1	leaves	0.114781035065076	stratum 2	X Male
+_chr12_000444.1	flowers	0.0218560476006958	stratum 2	X Male
+_chr12_000444.1	leaves	0.0252796721732113	stratum 2	X Male
+_chr12_000179.1	flowers	0.0462822572321377	stratum 2	X Male
+_chr12_000179.1	leaves	0.0587718082571506	stratum 2	X Male
+_chr12_004947.1	flowers	0.0255118631929388	stratum 2	X Male
+_chr12_004947.1	leaves	0.0236093288468405	stratum 2	X Male
+_chr12_000011.1	flowers	0.0389425856651009	stratum 1	X Male
+_chr12_000011.1	leaves	0.102562884040259	stratum 1	X Male
+_chr12_003506.1	flowers	0.0624244763310422	stratum 3	X Male
+_chr12_003506.1	leaves	0.0668314004315389	stratum 3	X Male
+_chr12_000236.1	flowers	0.0589203404824665	stratum 2	X Male
+_chr12_000236.1	leaves	0.0307071093831575	stratum 2	X Male
+_chr12_003829.1	flowers	0.0384836292924692	stratum 2	X Male
+_chr12_003829.1	leaves	0.0376466061999345	stratum 2	X Male
+_chr12_001402.1	flowers	0.106775118012027	stratum 2	X Male
+_chr12_001402.1	leaves	0.0914371121158705	stratum 2	X Male
+_chr12_001219.1	flowers	0.157763699167736	stratum 2	X Male
+_chr12_001219.1	leaves	0.309179134189945	stratum 2	X Male
+_chr12_000774.1	flowers	0.0141374679885312	stratum 2	X Male
+_chr12_000774.1	leaves	0.0441903541812321	stratum 2	X Male
+_chr12_000123.1	flowers	0.080252351865314	stratum 1	X Male
+_chr12_000123.1	leaves	0.0922403093697297	stratum 1	X Male
+_chr12_004421.1	flowers	0.131333390905431	stratum 2	X Male
+_chr12_004421.1	leaves	0.0800273958698873	stratum 2	X Male
+_chr12_000078.1	flowers	0.0441525823378643	stratum 1	X Male
+_chr12_000078.1	leaves	0.0519086129962618	stratum 1	X Male
+_chr12_004902.1	flowers	0.120777233059245	stratum 2	X Male
+_chr12_004902.1	leaves	0.157942564685036	stratum 2	X Male
+_chr12_000253.1	flowers	0.04528186343684	stratum 2	X Male
+_chr12_000253.1	leaves	0.103772521568167	stratum 2	X Male
+_chr12_000255.1	flowers	0.0598093596276343	stratum 2	X Male
+_chr12_000255.1	leaves	0.0298423507826781	stratum 2	X Male
+_chr12_000259.1	flowers	0.105462101090744	stratum 2	X Male
+_chr12_000259.1	leaves	0.146509385055383	stratum 2	X Male
+_chr12_000688.1	flowers	0.142453875914971	stratum 2	X Male
+_chr12_000688.1	leaves	0.149015410941531	stratum 2	X Male
+_chr12_004963.1	flowers	0.0560118512229203	stratum 1	X Male
+_chr12_004963.1	leaves	0.0538515466652375	stratum 1	X Male
+_chr12_004305.1	flowers	0.14419686286159	stratum 2	X Male
+_chr12_004305.1	leaves	0.0949603086043126	stratum 2	X Male
+_chr12_003764.1	flowers	0.17808197512796	stratum 3	X Male
+_chr12_003764.1	leaves	0.155936992787058	stratum 3	X Male
+_chr12_003965.1	flowers	0.139184027956093	stratum 2	X Male
+_chr12_003965.1	leaves	0.0730217479742899	stratum 2	X Male
+_chr12_001293.1	flowers	0.179678256839253	stratum 2	X Male
+_chr12_001293.1	leaves	0.0954470301238296	stratum 2	X Male
+_chr12_001044.1	flowers	0.05722282929221	stratum 2	X Male
+_chr12_001044.1	leaves	0.0874336015981631	stratum 2	X Male
+_chr12_001503.1	flowers	0.0645488009914985	stratum 3	X Male
+_chr12_001503.1	leaves	0.0348644687632024	stratum 3	X Male
+_chr12_003844.1	flowers	0.0581733313405197	stratum 2	X Male
+_chr12_003844.1	leaves	0.045650787210121	stratum 2	X Male
+_chr12_000526.1	flowers	0.0904882158193851	stratum 2	X Male
+_chr12_000526.1	leaves	0.137489881516891	stratum 2	X Male
+_chr12_001125.1	flowers	0	stratum 2	X Male
+_chr12_001125.1	leaves	0	stratum 2	X Male
+_chr12_001126.1	flowers	0.0393047163316565	stratum 2	X Male
+_chr12_001126.1	leaves	0.0908089617705422	stratum 2	X Male
+_chr12_004726.1	flowers	0.144629849126086	stratum 2	X Male
+_chr12_004726.1	leaves	0.12996219306886	stratum 2	X Male
+_chr12_004510.1	flowers	0.0358416819860985	stratum 2	X Male
+_chr12_004510.1	leaves	0.0631991804330281	stratum 2	X Male
+_chr12_000420.1	flowers	0.0705780297694418	stratum 2	X Male
+_chr12_000420.1	leaves	0.0843886782843867	stratum 2	X Male
+_chr12_004747.1	flowers	0.0618328316921822	stratum 2	X Male
+_chr12_004747.1	leaves	0.29406746495177	stratum 2	X Male
+_chr12_001700.1	flowers	0.0256219240690094	stratum 3	X Male
+_chr12_001700.1	leaves	0.0189597541299084	stratum 3	X Male
+_chr12_001701.1	flowers	0.0697790999856048	stratum 3	X Male
+_chr12_001701.1	leaves	0.0696283015397134	stratum 3	X Male
+_chr12_001702.1	flowers	0.0304947425659486	stratum 3	X Male
+_chr12_001702.1	leaves	0.0350191525433925	stratum 3	X Male
+_chr12_001703.1	flowers	0.108776516584594	stratum 3	X Male
+_chr12_001703.1	leaves	0.19396727917681	stratum 3	X Male
+_chr12_001704.1	flowers	0.0404504228086719	stratum 3	X Male
+_chr12_001704.1	leaves	0.0407100062344226	stratum 3	X Male
+_chr12_001705.1	flowers	0.0719017772579914	stratum 3	X Male
+_chr12_001705.1	leaves	0.0880458293990375	stratum 3	X Male
+_chr12_001648.1	flowers	0.0267459754857134	stratum 3	X Male
+_chr12_001648.1	leaves	0.0409980148864256	stratum 3	X Male
+_chr12_003521.1	flowers	0.0996013676008757	stratum 3	X Male
+_chr12_003521.1	leaves	0.406895265087832	stratum 3	X Male
+_chr12_003867.1	flowers	0.312279191684951	stratum 2	X Male
+_chr12_003867.1	leaves	0.212683750274938	stratum 2	X Male
+_chr12_001742.1	flowers	0.0649326201235345	stratum 3	X Male
+_chr12_001742.1	leaves	0	stratum 3	X Male
+_chr12_001743.1	flowers	0.0522991276349759	stratum 3	X Male
+_chr12_001743.1	leaves	0.0655996782867462	stratum 3	X Male
+_chr12_001744.1	flowers	0.0515145428016999	stratum 3	X Male
+_chr12_001744.1	leaves	0.0341429121227637	stratum 3	X Male
+_chr12_001745.1	flowers	0.0541471441060701	stratum 3	X Male
+_chr12_001745.1	leaves	0.139577396014155	stratum 3	X Male
+_chr12_001746.1	flowers	0.0692432730762607	stratum 3	X Male
+_chr12_001746.1	leaves	0.0546446864373068	stratum 3	X Male
+_chr12_001748.1	flowers	0.0298167438002835	stratum 3	X Male
+_chr12_001748.1	leaves	0.0382110187572706	stratum 3	X Male
+_chr12_001749.1	flowers	0.108821791410465	stratum 3	X Male
+_chr12_001749.1	leaves	0.127125697004439	stratum 3	X Male
+_chr12_001719.1	flowers	0.0430712089357254	stratum 3	X Male
+_chr12_001719.1	leaves	0.0191939083182871	stratum 3	X Male
+_chr12_001723.1	flowers	0.0724888835839232	stratum 3	X Male
+_chr12_001723.1	leaves	0.0314050229869289	stratum 3	X Male
+_chr12_001724.1	flowers	0.328965037384899	stratum 3	X Male
+_chr12_001724.1	leaves	0.430220324820142	stratum 3	X Male
+_chr12_001726.1	flowers	0.0531010361705447	stratum 3	X Male
+_chr12_001726.1	leaves	0.0940624973767888	stratum 3	X Male
+_chr12_003449.1	flowers	0.0153281384656265	stratum 3	X Male
+_chr12_003449.1	leaves	0.0256870787968967	stratum 3	X Male
+_chr12_003450.1	flowers	0.095330814439364	stratum 3	X Male
+_chr12_003450.1	leaves	0.167307037534595	stratum 3	X Male
+_chr12_000750.1	flowers	0.0543116084900548	stratum 2	X Male
+_chr12_000750.1	leaves	0.0567121294321849	stratum 2	X Male
+_chr12_004701.1	flowers	0.0418307372175342	stratum 2	X Male
+_chr12_004701.1	leaves	0.0293463144887816	stratum 2	X Male
+_chr12_004702.1	flowers	0.0325978282601519	stratum 2	X Male
+_chr12_004702.1	leaves	0	stratum 2	X Male
+_chr12_004703.1	flowers	0.0264254921179858	stratum 2	X Male
+_chr12_004703.1	leaves	0.023831575273416	stratum 2	X Male
+_chr12_004705.1	flowers	0.0520836784384039	stratum 2	X Male
+_chr12_004705.1	leaves	0.0566164185727519	stratum 2	X Male
+_chr12_000216.1	flowers	0.0372982245128799	stratum 2	X Male
+_chr12_000216.1	leaves	0.0670310133653749	stratum 2	X Male
+_chr12_000177.1	flowers	0.0858021366534814	stratum 2	X Male
+_chr12_000177.1	leaves	0.0464905634924652	stratum 2	X Male
+_chr12_001637.1	flowers	0.0472289006027986	stratum 3	X Male
+_chr12_001637.1	leaves	0.0842786740594557	stratum 3	X Male
+_chr12_000914.1	flowers	0.0530596540236469	stratum 2	X Male
+_chr12_000914.1	leaves	0.0450645845876436	stratum 2	X Male
+_chr12_000867.1	flowers	0.0431641761553014	stratum 2	X Male
+_chr12_000867.1	leaves	0.0375303738006465	stratum 2	X Male
+_chr12_000371.1	flowers	0.0381334612384301	stratum 2	X Male
+_chr12_000371.1	leaves	0.0187651869003233	stratum 2	X Male
+_chr12_000128.1	flowers	0.0418152956504482	stratum 1	X Male
+_chr12_000128.1	leaves	0.0187651869003233	stratum 1	X Male
+_chr12_004746.1	flowers	0.15718965928547	stratum 2	X Male
+_chr12_004746.1	leaves	0.0882078095203692	stratum 2	X Male
+_chr12_004315.1	flowers	0.0345275682795918	stratum 2	X Male
+_chr12_004315.1	leaves	0.0684549429739877	stratum 2	X Male
+_chr12_003584.1	flowers	0.117377127634295	stratum 3	X Male
+_chr12_003584.1	leaves	0.317957381009688	stratum 3	X Male
+_chr12_004487.1	flowers	0.0830240518708997	stratum 2	X Male
+_chr12_004487.1	leaves	0.0890109204876149	stratum 2	X Male
+_chr12_001625.1	flowers	0.0168455399232084	stratum 3	X Male
+_chr12_001625.1	leaves	0.0315995902165141	stratum 3	X Male
+_chr12_001406.1	flowers	0.106570176600327	stratum 2	X Male
+_chr12_001406.1	leaves	0.199586551468496	stratum 2	X Male
+_chr12_005064.1	flowers	0.0687669589192356	stratum 1	X Male
+_chr12_005064.1	leaves	0.0615016899977832	stratum 1	X Male
+_chr12_004600.1	flowers	0.145394144408228	stratum 2	X Male
+_chr12_004600.1	leaves	0.253445148122444	stratum 2	X Male
+_chr12_004979.1	flowers	0.0403043971151822	stratum 1	X Male
+_chr12_004979.1	leaves	0.0273728201653557	stratum 1	X Male
+_chr12_003826.1	flowers	0.0271608869189325	stratum 2	X Male
+_chr12_003826.1	leaves	0.0223021751449732	stratum 2	X Male
+_chr12_001361.1	flowers	0.0919166276548039	stratum 2	X Male
+_chr12_001361.1	leaves	0.104489437940567	stratum 2	X Male
+_chr12_001261.1	flowers	0.0222394072380726	stratum 2	X Male
+_chr12_001261.1	leaves	0.0538104490504845	stratum 2	X Male
+_chr12_003581.1	flowers	0.188033318596866	stratum 3	X Male
+_chr12_003581.1	leaves	0.114988258930029	stratum 3	X Male
+_chr12_001624.1	flowers	0.0545768545481127	stratum 3	X Male
+_chr12_001624.1	leaves	0.0567587524734467	stratum 3	X Male
+_chr12_000892.1	flowers	0.0280095545036645	stratum 2	X Male
+_chr12_000892.1	leaves	0.0474349794889737	stratum 2	X Male
+_chr12_000417.1	flowers	0.183373386345828	stratum 2	X Male
+_chr12_000417.1	leaves	0.105651803230865	stratum 2	X Male
+_chr12_004988.1	flowers	0.0710895552478926	stratum 1	X Male
+_chr12_004988.1	leaves	0.256065509068475	stratum 1	X Male
+_chr12_004796.1	flowers	0	stratum 2	X Male
+_chr12_004796.1	leaves	0	stratum 2	X Male
+_chr12_000577.1	flowers	0.0962063013582175	stratum 2	X Male
+_chr12_000577.1	leaves	0.0793255064703805	stratum 2	X Male
+_chr12_000160.1	flowers	0.269895545049867	stratum 2	X Male
+_chr12_000160.1	leaves	0.199615408326379	stratum 2	X Male
+_chr12_000476.1	flowers	0.400728481432083	stratum 2	X Male
+_chr12_000476.1	leaves	0.291624884986945	stratum 2	X Male
+_chr12_000481.1	flowers	0	stratum 2	X Male
+_chr12_000481.1	leaves	0	stratum 2	X Male
+_chr12_000018.1	flowers	0.104705445026933	stratum 1	X Male
+_chr12_000018.1	leaves	0.168941904838937	stratum 1	X Male
+_chr12_000019.1	flowers	0.031802380937945	stratum 1	X Male
+_chr12_000019.1	leaves	0.0593100000986879	stratum 1	X Male
+_chr12_000896.1	flowers	0.0234297559108531	stratum 2	X Male
+_chr12_000896.1	leaves	0.0187651869003233	stratum 2	X Male
+_chr12_001737.1	flowers	0.0307270396027112	stratum 3	X Male
+_chr12_001737.1	leaves	0.168791193853939	stratum 3	X Male
+_chr12_000183.1	flowers	0.240168040174069	stratum 2	X Male
+_chr12_000183.1	leaves	0.470169142868591	stratum 2	X Male
+_chr12_003432.1	flowers	0.214857786878828	stratum 3	X Male
+_chr12_003432.1	leaves	0.242534934499932	stratum 3	X Male
+_chr12_003438.1	flowers	0.0195536118578855	stratum 3	X Male
+_chr12_003438.1	leaves	0.0327079200415065	stratum 3	X Male
+_chr12_003446.1	flowers	0.0196332262999049	stratum 3	X Male
+_chr12_003446.1	leaves	0.0389063150252617	stratum 3	X Male
+_chr12_003573.1	flowers	0.0544576621284603	stratum 3	X Male
+_chr12_003573.1	leaves	0.0714675881529384	stratum 3	X Male
+_chr12_003490.1	flowers	0.0411920640867956	stratum 3	X Male
+_chr12_003490.1	leaves	0.082621090410291	stratum 3	X Male
+_chr12_000595.1	flowers	0.0162806748473027	stratum 2	X Male
+_chr12_000595.1	leaves	0.0187651869003233	stratum 2	X Male
+_chr12_000403.1	flowers	0.0212062019827969	stratum 2	X Male
+_chr12_000403.1	leaves	0.0233350820060412	stratum 2	X Male
+_chr12_005092.1	flowers	0.048382431019245	stratum 1	X Male
+_chr12_005092.1	leaves	0.0325162551198063	stratum 1	X Male
+_chr12_004083.1	flowers	0.0360892888701926	stratum 2	X Male
+_chr12_004083.1	leaves	0.0741427008448939	stratum 2	X Male
+_chr12_004084.1	flowers	0.0288407243987333	stratum 2	X Male
+_chr12_004084.1	leaves	0.0527841397147391	stratum 2	X Male
+_chr12_001054.1	flowers	0.0424020618901378	stratum 2	X Male
+_chr12_001054.1	leaves	0.0890591758183517	stratum 2	X Male
+_chr12_001251.1	flowers	0.0226870746392488	stratum 2	X Male
+_chr12_001251.1	leaves	0.0335490326779065	stratum 2	X Male
+_chr12_001247.1	flowers	0.145699991609523	stratum 2	X Male
+_chr12_001247.1	leaves	0.113265163492647	stratum 2	X Male
+_chr12_005021.1	flowers	0.0451478785311479	stratum 1	X Male
+_chr12_005021.1	leaves	0.110945984455627	stratum 1	X Male
+_chr12_004893.1	flowers	0.188181377918322	stratum 2	X Male
+_chr12_004893.1	leaves	0.149275125344241	stratum 2	X Male
+_chr12_004897.1	flowers	0.0463588241760043	stratum 2	X Male
+_chr12_004897.1	leaves	0.112181515078436	stratum 2	X Male
+_chr12_000248.1	flowers	0.116517694234973	stratum 2	X Male
+_chr12_000248.1	leaves	0.068955611299045	stratum 2	X Male
+_chr12_004765.1	flowers	0.0776486610579554	stratum 2	X Male
+_chr12_004765.1	leaves	0.0922586518931943	stratum 2	X Male
+_chr12_000813.1	flowers	0.0604198725723806	stratum 2	X Male
+_chr12_000813.1	leaves	0.064012885367697	stratum 2	X Male
+_chr12_001509.1	flowers	0.0550742832711756	stratum 3	X Male
+_chr12_001509.1	leaves	0.0782694906746399	stratum 3	X Male
+_chr12_003798.1	flowers	0.0288591493630994	stratum 2	X Male
+_chr12_003798.1	leaves	0.0605681033643175	stratum 2	X Male
+_chr12_004490.1	flowers	0.0304193116472811	stratum 2	X Male
+_chr12_004490.1	leaves	0.0609669966802977	stratum 2	X Male
+_chr12_004996.1	flowers	0.29675631151727	stratum 1	X Male
+_chr12_004996.1	leaves	0.274740670760404	stratum 1	X Male
+_chr12_001449.1	flowers	0.0541942141470688	stratum 2	X Male
+_chr12_001449.1	leaves	0.0877395996135411	stratum 2	X Male
+_chr12_000398.1	flowers	0.127010574095788	stratum 2	X Male
+_chr12_000398.1	leaves	0.130874862341233	stratum 2	X Male
+_chr12_000168.1	flowers	0.0475489979434181	stratum 2	X Male
+_chr12_000168.1	leaves	0.0500985388479859	stratum 2	X Male
+_chr12_001009.1	flowers	0.0618728650192124	stratum 2	X Male
+_chr12_001009.1	leaves	0.195085922365269	stratum 2	X Male
+_chr12_003502.1	flowers	0.0451944129296871	stratum 3	X Male
+_chr12_003502.1	leaves	0.0654643960123997	stratum 3	X Male
+_chr12_001683.1	flowers	0.0779889092481091	stratum 3	X Male
+_chr12_001683.1	leaves	0.055299803990568	stratum 3	X Male
+_chr12_000167.1	flowers	0.127846705552992	stratum 2	X Male
+_chr12_000167.1	leaves	0.144767669569282	stratum 2	X Male
+_chr12_004956.1	flowers	0.0474027343781696	stratum 2	X Male
+_chr12_004956.1	leaves	0.0545004263625419	stratum 2	X Male
+_chr12_000547.1	flowers	0.0213566005784195	stratum 2	X Male
+_chr12_000547.1	leaves	0.0806240040666295	stratum 2	X Male
+_chr12_004618.1	flowers	0.284807122501075	stratum 2	X Male
+_chr12_004618.1	leaves	0.425884654590277	stratum 2	X Male
+_chr12_004806.1	flowers	0.0513643887731025	stratum 2	X Male
+_chr12_004806.1	leaves	0.0439499940486461	stratum 2	X Male
+_chr12_000362.1	flowers	0.052301364024278	stratum 2	X Male
+_chr12_000362.1	leaves	0.0319401544920797	stratum 2	X Male
+_chr12_000363.1	flowers	0.268343431968245	stratum 2	X Male
+_chr12_000363.1	leaves	0.365585967622731	stratum 2	X Male
+_chr12_000828.1	flowers	0.0446034003072823	stratum 2	X Male
+_chr12_000828.1	leaves	0.0577089724874729	stratum 2	X Male
+_chr12_000832.1	flowers	0.0217022099911094	stratum 2	X Male
+_chr12_000832.1	leaves	0.039749586223812	stratum 2	X Male
+_chr12_004825.1	flowers	0.0407764842324975	stratum 2	X Male
+_chr12_004825.1	leaves	0.0293582073766642	stratum 2	X Male
+_chr12_004828.1	flowers	0.0324962963812373	stratum 2	X Male
+_chr12_004828.1	leaves	0.0321157387146624	stratum 2	X Male
+_chr12_004830.1	flowers	0.014037949936007	stratum 2	X Male
+_chr12_004830.1	leaves	0.0375303738006465	stratum 2	X Male
+_chr12_000106.1	flowers	0.0264258929535626	stratum 1	X Male
+_chr12_000106.1	leaves	0.0751512504452666	stratum 1	X Male
+_chr12_001634.1	flowers	0.051131903638903	stratum 3	X Male
+_chr12_001634.1	leaves	0.055335850275203	stratum 3	X Male
+_chr12_004886.1	flowers	0.017709479419817	stratum 2	X Male
+_chr12_004886.1	leaves	0	stratum 2	X Male
+_chr12_004887.1	flowers	0.0543746423678393	stratum 2	X Male
+_chr12_004887.1	leaves	0.0345136774817612	stratum 2	X Male
+_chr12_004002.1	flowers	0.0866904395142892	stratum 2	X Male
+_chr12_004002.1	leaves	0.106178056887403	stratum 2	X Male
+_chr12_001411.1	flowers	0.0432004950429897	stratum 2	X Male
+_chr12_001411.1	leaves	0.0574491192506565	stratum 2	X Male
+_chr12_000494.1	flowers	0.0712787739334958	stratum 2	X Male
+_chr12_000494.1	leaves	0.0618153167403829	stratum 2	X Male
+_chr12_005014.1	flowers	0.148546565875039	stratum 1	X Male
+_chr12_005014.1	leaves	0.250640120286793	stratum 1	X Male
+_chr12_004464.1	flowers	0.0141374679885312	stratum 2	X Male
+_chr12_004464.1	leaves	0	stratum 2	X Male
+_chr12_003462.1	flowers	0.0254233346449067	stratum 3	X Male
+_chr12_003462.1	leaves	0.0162581275599032	stratum 3	X Male
+_chr12_003552.1	flowers	0.0443662806197165	stratum 3	X Male
+_chr12_003552.1	leaves	0.0601102629169683	stratum 3	X Male
+_chr12_003553.1	flowers	0.0380359206452489	stratum 3	X Male
+_chr12_003553.1	leaves	0.0283423475800701	stratum 3	X Male
+_chr12_003649.1	flowers	0.0772390340860643	stratum 3	X Male
+_chr12_003649.1	leaves	0.0511476550700234	stratum 3	X Male
+_chr12_000006.1	flowers	0.0421470654852148	stratum 1	X Male
+_chr12_000006.1	leaves	0.0625506230010776	stratum 1	X Male
+_chr12_001258.1	flowers	0.0686739273567331	stratum 2	X Male
+_chr12_001258.1	leaves	0.131915261771952	stratum 2	X Male
+_chr12_003626.1	flowers	0.156576570612148	stratum 3	X Male
+_chr12_003626.1	leaves	0.300081012848688	stratum 3	X Male
+_chr12_001583.1	flowers	0	stratum 3	X Male
+_chr12_001583.1	leaves	0.0126398360866056	stratum 3	X Male
+_chr12_001496.1	flowers	0.0450456532861694	stratum 3	X Male
+_chr12_001496.1	leaves	0.12644080007855	stratum 3	X Male
+_chr12_003621.1	flowers	0.0191693004380676	stratum 3	X Male
+_chr12_003621.1	leaves	0.0831316107865384	stratum 3	X Male
+_chr12_003537.1	flowers	0.0636186059483905	stratum 3	X Male
+_chr12_003537.1	leaves	0.187543624054625	stratum 3	X Male
+_chr12_003541.1	flowers	0.0864358372476275	stratum 3	X Male
+_chr12_003541.1	leaves	0.0702302636289997	stratum 3	X Male
+_chr12_004134.1	flowers	0.0184588061035475	stratum 2	X Male
+_chr12_004134.1	leaves	0.0211647840816611	stratum 2	X Male
+_chr12_003545.1	flowers	0.132434084726544	stratum 3	X Male
+_chr12_003545.1	leaves	0	stratum 3	X Male
+_chr12_003885.1	flowers	0.137534655133765	stratum 2	X Male
+_chr12_003885.1	leaves	0.0961123383862108	stratum 2	X Male
+_chr12_001639.1	flowers	0.0430506479239495	stratum 3	X Male
+_chr12_001639.1	leaves	0.0740678185898149	stratum 3	X Male
+_chr12_003761.1	flowers	0.0336380177050498	stratum 3	X Male
+_chr12_003761.1	leaves	0.202944650757087	stratum 3	X Male
+_chr12_003762.1	flowers	0.0427607660761023	stratum 3	X Male
+_chr12_003762.1	leaves	0.0427798445341466	stratum 3	X Male
+_chr12_003451.1	flowers	0.0801102419180753	stratum 3	X Male
+_chr12_003451.1	leaves	0.0162581275599032	stratum 3	X Male
+_chr12_003452.1	flowers	0.0292152581905575	stratum 3	X Male
+_chr12_003452.1	leaves	0.0162581275599032	stratum 3	X Male
+_chr12_004519.1	flowers	0.0334161246002317	stratum 2	X Male
+_chr12_004519.1	leaves	0.029572794399852	stratum 2	X Male
+_chr12_004511.1	flowers	0.0191880970334894	stratum 2	X Male
+_chr12_004511.1	leaves	0.054008141990105	stratum 2	X Male
+_chr12_000525.1	flowers	0.0430273992806522	stratum 2	X Male
+_chr12_000525.1	leaves	0.0874036589707795	stratum 2	X Male
+_chr12_001718.1	flowers	0.0185845758446436	stratum 3	X Male
+_chr12_001718.1	leaves	0.10567782913937	stratum 3	X Male
+_chr12_000004.1	flowers	0.0441105908426332	stratum 1	X Male
+_chr12_000004.1	leaves	0.0187651869003233	stratum 1	X Male
+_chr12_000572.1	flowers	0.0498902561562225	stratum 2	X Male
+_chr12_000572.1	leaves	0.0162581275599032	stratum 2	X Male
+_chr12_004609.1	flowers	0.0373559191077109	stratum 2	X Male
+_chr12_004609.1	leaves	0.0481904875142663	stratum 2	X Male
+_chr12_000586.1	flowers	0.0191893701852058	stratum 2	X Male
+_chr12_000586.1	leaves	0.0187651869003233	stratum 2	X Male
+_chr12_004362.1	flowers	0.0263723784720947	stratum 2	X Male
+_chr12_004362.1	leaves	0.0711099732117527	stratum 2	X Male
+_chr12_004500.1	flowers	0.124737123903267	stratum 2	X Male
+_chr12_004500.1	leaves	0.260680497476033	stratum 2	X Male
+_chr12_000272.1	flowers	0.0905890068780948	stratum 2	X Male
+_chr12_000272.1	leaves	0.0293113395010244	stratum 2	X Male
+_chr12_000275.1	flowers	0.033099154302424	stratum 2	X Male
+_chr12_000275.1	leaves	0.0505593443464225	stratum 2	X Male
+_chr12_000277.1	flowers	0.210697335587907	stratum 2	X Male
+_chr12_000277.1	leaves	0.37624432073151	stratum 2	X Male
+_chr12_000279.1	flowers	0.172225667141215	stratum 2	X Male
+_chr12_000279.1	leaves	0.26881465955442	stratum 2	X Male
+_chr12_000280.1	flowers	0.146550695558208	stratum 2	X Male
+_chr12_000280.1	leaves	0.054641526831478	stratum 2	X Male
+_chr12_000281.1	flowers	0.0737002449944916	stratum 2	X Male
+_chr12_000281.1	leaves	0.099357687580726	stratum 2	X Male
+_chr12_000282.1	flowers	0.0389008683023248	stratum 2	X Male
+_chr12_000282.1	leaves	0.0395157691758983	stratum 2	X Male
+_chr12_000284.1	flowers	0.183840696109368	stratum 2	X Male
+_chr12_000284.1	leaves	0.15236784254392	stratum 2	X Male
+_chr12_000285.1	flowers	0.0332267004849946	stratum 2	X Male
+_chr12_000285.1	leaves	0	stratum 2	X Male
+_chr12_000286.1	flowers	0.039446057913103	stratum 2	X Male
+_chr12_000286.1	leaves	0.0998957585438679	stratum 2	X Male
+_chr12_000288.1	flowers	0	stratum 2	X Male
+_chr12_000288.1	leaves	0.10567782913937	stratum 2	X Male
+_chr12_000289.1	flowers	0.0267234741026803	stratum 2	X Male
+_chr12_000289.1	leaves	0.0153122228386682	stratum 2	X Male
+_chr12_000290.1	flowers	0	stratum 2	X Male
+_chr12_000290.1	leaves	0.0487743826797095	stratum 2	X Male
+_chr12_000298.1	flowers	0.0730191131776294	stratum 2	X Male
+_chr12_000298.1	leaves	0.112547067825973	stratum 2	X Male
+_chr12_000300.1	flowers	0.0523470765553775	stratum 2	X Male
+_chr12_000300.1	leaves	0.0962155199095304	stratum 2	X Male
+_chr12_000301.1	flowers	0.0790698917503041	stratum 2	X Male
+_chr12_000301.1	leaves	0.04058096074661	stratum 2	X Male
+_chr12_000306.1	flowers	0.0749291323686242	stratum 2	X Male
+_chr12_000306.1	leaves	0.117475775754626	stratum 2	X Male
+_chr12_000321.1	flowers	0.067236451381847	stratum 2	X Male
+_chr12_000321.1	leaves	0.086365280459593	stratum 2	X Male
+_chr12_000333.1	flowers	0.0166572281814452	stratum 2	X Male
+_chr12_000333.1	leaves	0.0435490643299139	stratum 2	X Male
+_chr12_000334.1	flowers	0.0141374679885312	stratum 2	X Male
+_chr12_000334.1	leaves	0.0650325102396126	stratum 2	X Male
+_chr12_003991.1	flowers	0.0653110887546753	stratum 2	X Male
+_chr12_003991.1	leaves	0.0669400313755194	stratum 2	X Male
+_chr12_004711.1	flowers	0.0523979550076514	stratum 2	X Male
+_chr12_004711.1	leaves	0.147682810357543	stratum 2	X Male
+_chr12_000426.1	flowers	0.0267553546985252	stratum 2	X Male
+_chr12_000426.1	leaves	0.0493311475303626	stratum 2	X Male
+_chr12_004639.1	flowers	0.0901353775585794	stratum 2	X Male
+_chr12_004639.1	leaves	0.12668502475994	stratum 2	X Male
+_chr12_004926.1	flowers	0	stratum 2	X Male
+_chr12_004926.1	leaves	0.0483691255072486	stratum 2	X Male
+_chr12_004200.1	flowers	0.150931472210736	stratum 2	X Male
+_chr12_004200.1	leaves	0.297096708438957	stratum 2	X Male
+_chr12_004998.1	flowers	0	stratum 1	X Male
+_chr12_004998.1	leaves	0.0162581275599032	stratum 1	X Male
+_chr12_000390.1	flowers	0.0271874384394831	stratum 2	X Male
+_chr12_000390.1	leaves	0	stratum 2	X Male
+_chr12_004244.1	flowers	0.0341294007755021	stratum 2	X Male
+_chr12_004244.1	leaves	0.0327774690222521	stratum 2	X Male
+_chr12_001614.1	flowers	0.0139384318834827	stratum 3	X Male
+_chr12_001614.1	leaves	0.0379195082598169	stratum 3	X Male
+_chr12_000353.1	flowers	0.0649658723751418	stratum 2	X Male
+_chr12_000353.1	leaves	0.0411459859648234	stratum 2	X Male
+_chr12_000354.1	flowers	0.0337290789769872	stratum 2	X Male
+_chr12_000354.1	leaves	0.0179749186431799	stratum 2	X Male
+_chr12_001358.1	flowers	0.151809602158193	stratum 2	X Male
+_chr12_001358.1	leaves	0.245520239736187	stratum 2	X Male
+_chr12_003754.1	flowers	0.216521687962617	stratum 3	X Male
+_chr12_003754.1	leaves	0.192845918708752	stratum 3	X Male
+_chr12_004053.1	flowers	0.057483662801158	stratum 2	X Male
+_chr12_004053.1	leaves	0.220289783376659	stratum 2	X Male
+_chr12_005095.1	flowers	0.0140711226201817	stratum 1	X Male
+_chr12_005095.1	leaves	0	stratum 1	X Male
+_chr12_001604.1	flowers	0.0609602484013537	stratum 3	X Male
+_chr12_001604.1	leaves	0.060671213215707	stratum 3	X Male
+_chr12_000381.1	flowers	0.051461409396374	stratum 2	X Male
+_chr12_000381.1	leaves	0.167092306508847	stratum 2	X Male
+_chr12_001588.1	flowers	0.0282749359770625	stratum 3	X Male
+_chr12_001588.1	leaves	0.0224708197095211	stratum 3	X Male
+_chr12_000598.1	flowers	0.117840680964933	stratum 2	X Male
+_chr12_000598.1	leaves	0.022578045603206	stratum 2	X Male
+_chr12_004278.1	flowers	0.423034573457756	stratum 2	X Male
+_chr12_004278.1	leaves	0.326770140233337	stratum 2	X Male
+_chr12_001382.1	flowers	0.0734370863232492	stratum 2	X Male
+_chr12_001382.1	leaves	0.101508379836862	stratum 2	X Male
+_chr12_004614.1	flowers	0.0637026117481347	stratum 2	X Male
+_chr12_004614.1	leaves	0.123863724983873	stratum 2	X Male
+_chr12_004719.1	flowers	0.0159566463883489	stratum 2	X Male
+_chr12_004719.1	leaves	0	stratum 2	X Male
+_chr12_004047.1	flowers	0.0798939448473628	stratum 2	X Male
+_chr12_004047.1	leaves	0.146322668136391	stratum 2	X Male
+_chr12_004795.1	flowers	0.0648257825111685	stratum 2	X Male
+_chr12_004795.1	leaves	0.0623408413282761	stratum 2	X Male
+_chr12_003084.1	flowers	0.114768130826569	stratum 3	X Male
+_chr12_003084.1	leaves	0.100488502313828	stratum 3	X Male
+_chr12_005031.1	flowers	0.18633729912928	stratum 1	X Male
+_chr12_005031.1	leaves	0.21481085828682	stratum 1	X Male
+_chr12_000215.1	flowers	0	stratum 2	X Male
+_chr12_000215.1	leaves	0.0162581275599032	stratum 2	X Male
+_chr12_004418.1	flowers	0.0863335857247572	stratum 2	X Male
+_chr12_004418.1	leaves	0.116583462379159	stratum 2	X Male
+_chr12_004598.1	flowers	0.101196513055526	stratum 2	X Male
+_chr12_004598.1	leaves	0.210034460378267	stratum 2	X Male
+_chr12_005083.1	flowers	0.0212280600413373	stratum 1	X Male
+_chr12_005083.1	leaves	0.0262134248114816	stratum 1	X Male
+_chr12_005070.1	flowers	0.0326420658053457	stratum 1	X Male
+_chr12_005070.1	leaves	0.0947808065362462	stratum 1	X Male
+_chr12_000927.1	flowers	0.0210071658777484	stratum 2	X Male
+_chr12_000927.1	leaves	0	stratum 2	X Male
+_chr12_001081.1	flowers	0.135393212811759	stratum 2	X Male
+_chr12_001081.1	leaves	0.161849724191657	stratum 2	X Male
+_chr12_001324.1	flowers	0.0266172536597581	stratum 2	X Male
+_chr12_001324.1	leaves	0.0575813537166975	stratum 2	X Male
+_chr12_000541.1	flowers	0.0503669380058524	stratum 2	X Male
+_chr12_000541.1	leaves	0.0553602315997265	stratum 2	X Male
+_chr12_003751.1	flowers	0.191592510028925	stratum 3	X Male
+_chr12_003751.1	leaves	0.074684723836779	stratum 3	X Male
+_chr12_000137.1	flowers	0.0293615751125002	stratum 1	X Male
+_chr12_000137.1	leaves	0.163004840011402	stratum 1	X Male
+_chr12_001695.1	flowers	0.21898763780992	stratum 3	X Male
+_chr12_001695.1	leaves	0.355845392006533	stratum 3	X Male
+_chr12_003508.1	flowers	0.0139384318834827	stratum 3	X Male
+_chr12_003508.1	leaves	0.0187651869003233	stratum 3	X Male
+_chr12_000136.1	flowers	0.293940975313836	stratum 1	X Male
+_chr12_000136.1	leaves	0.200066851163891	stratum 1	X Male
+_chr12_004145.1	flowers	0.218397941842442	stratum 2	X Male
+_chr12_004145.1	leaves	0.148305680872278	stratum 2	X Male
+_chr12_000033.1	flowers	0.108735795007376	stratum 1	X Male
+_chr12_000033.1	leaves	0.1245756168344	stratum 1	X Male
+_chr12_003487.1	flowers	0.0310074775721948	stratum 3	Y Male
+_chr12_003487.1	leaves	0.0456052728151695	stratum 3	Y Male
+_chr12_003488.1	flowers	0.046604905897513	stratum 3	Y Male
+_chr12_003488.1	leaves	0.0705304322878367	stratum 3	Y Male
+_chr12_001716.1	flowers	0.246872761607054	stratum 3	Y Male
+_chr12_001716.1	leaves	0.291818586288267	stratum 3	Y Male
+_chr12_001717.1	flowers	0.0525262301217178	stratum 3	Y Male
+_chr12_001717.1	leaves	0.122582561292741	stratum 3	Y Male
+_chr12_001148.1	flowers	0.0168057327021987	stratum 2	Y Male
+_chr12_001148.1	leaves	0.0513810857968587	stratum 2	Y Male
+_chr12_000172.1	flowers	0	stratum 2	Y Male
+_chr12_000172.1	leaves	0.0325162551198063	stratum 2	Y Male
+_chr12_004948.1	flowers	0.0295595854957844	stratum 2	Y Male
+_chr12_004948.1	leaves	0.0482658505167068	stratum 2	Y Male
+_chr12_004949.1	flowers	0.0616160547241785	stratum 2	Y Male
+_chr12_004949.1	leaves	0.046455735445454	stratum 2	Y Male
+_chr12_003895.1	flowers	0.0914529411454849	stratum 2	Y Male
+_chr12_003895.1	leaves	0.123235850223545	stratum 2	Y Male
+_chr12_004687.1	flowers	0.0337147446896512	stratum 2	Y Male
+_chr12_004687.1	leaves	0.0965239837573696	stratum 2	Y Male
+_chr12_004954.1	flowers	0.0241621656422443	stratum 2	Y Male
+_chr12_004954.1	leaves	0.0375303738006465	stratum 2	Y Male
+_chr12_001531.1	flowers	0.114294593553008	stratum 3	Y Male
+_chr12_001531.1	leaves	0.128351306148594	stratum 3	Y Male
+_chr12_004662.1	flowers	0.0754323657026571	stratum 2	Y Male
+_chr12_004662.1	leaves	0.105239810647675	stratum 2	Y Male
+_chr12_003517.1	flowers	0.19217911837945	stratum 3	Y Male
+_chr12_003517.1	leaves	0.294518642041444	stratum 3	Y Male
+_chr12_001121.1	flowers	0.0598779051088971	stratum 2	Y Male
+_chr12_001121.1	leaves	0	stratum 2	Y Male
+_chr12_003512.1	flowers	0.115355236850328	stratum 3	Y Male
+_chr12_003512.1	leaves	0.183705448446246	stratum 3	Y Male
+_chr12_005009.1	flowers	0.0475326921526063	stratum 1	Y Male
+_chr12_005009.1	leaves	0.0385041394510521	stratum 1	Y Male
+_chr12_000170.1	flowers	0.184587045306108	stratum 2	Y Male
+_chr12_000170.1	leaves	0.391710785977306	stratum 2	Y Male
+_chr12_000034.1	flowers	0.346868984806968	stratum 1	Y Male
+_chr12_000034.1	leaves	0.416341211062683	stratum 1	Y Male
+_chr12_001086.1	flowers	0.0426012496144677	stratum 2	Y Male
+_chr12_001086.1	leaves	0.0126398360866056	stratum 2	Y Male
+_chr12_004192.1	flowers	0.157424861874733	stratum 2	Y Male
+_chr12_004192.1	leaves	0.226424474941173	stratum 2	Y Male
+_chr12_003480.1	flowers	0.047934876831541	stratum 3	Y Male
+_chr12_003480.1	leaves	0.0631919803949561	stratum 3	Y Male
+_chr12_003486.1	flowers	0.0669746250965459	stratum 3	Y Male
+_chr12_003486.1	leaves	0.12726924377839	stratum 3	Y Male
+_chr12_001709.1	flowers	0.0941440627879547	stratum 3	Y Male
+_chr12_001709.1	leaves	0.0854442406735227	stratum 3	Y Male
+_chr12_001710.1	flowers	0.173575357575065	stratum 3	Y Male
+_chr12_001710.1	leaves	0.192447835747541	stratum 3	Y Male
+_chr12_001711.1	flowers	0.058449911773638	stratum 3	Y Male
+_chr12_001711.1	leaves	0.0418818870370217	stratum 3	Y Male
+_chr12_001713.1	flowers	0.304961674178907	stratum 3	Y Male
+_chr12_001713.1	leaves	0.680500578792698	stratum 3	Y Male
+_chr12_004768.1	flowers	0.0185659863159284	stratum 2	Y Male
+_chr12_004768.1	leaves	0.0249110265837373	stratum 2	Y Male
+_chr12_000342.1	flowers	0.04408026821517	stratum 2	Y Male
+_chr12_000342.1	leaves	0.066728156451426	stratum 2	Y Male
+_chr12_004817.1	flowers	0.0452042483911424	stratum 2	Y Male
+_chr12_004817.1	leaves	0.042382662569398	stratum 2	Y Male
+_chr12_004405.1	flowers	0.0892785260346337	stratum 2	Y Male
+_chr12_004405.1	leaves	0.0830438744727366	stratum 2	Y Male
+_chr12_000887.1	flowers	0.0906324684495567	stratum 2	Y Male
+_chr12_000887.1	leaves	0.0447135807571474	stratum 2	Y Male
+_chr12_000816.1	flowers	0.0227664602181023	stratum 2	Y Male
+_chr12_000816.1	leaves	0.063421937351404	stratum 2	Y Male
+_chr12_000880.1	flowers	0.0693344356620524	stratum 2	Y Male
+_chr12_000880.1	leaves	0.0777969031375003	stratum 2	Y Male
+_chr12_000754.1	flowers	0.221294410828651	stratum 2	Y Male
+_chr12_000754.1	leaves	0.359334608868855	stratum 2	Y Male
+_chr12_004699.1	flowers	0.0284927471360232	stratum 2	Y Male
+_chr12_004699.1	leaves	0.0464520811394999	stratum 2	Y Male
+_chr12_004706.1	flowers	0.0997984082838908	stratum 2	Y Male
+_chr12_004706.1	leaves	0.14131613930714	stratum 2	Y Male
+_chr12_003859.1	flowers	0.10870665698902	stratum 2	Y Male
+_chr12_003859.1	leaves	0.0487743826797095	stratum 2	Y Male
+_chr12_003860.1	flowers	0.169958076198606	stratum 2	Y Male
+_chr12_003860.1	leaves	0.387206099887066	stratum 2	Y Male
+_chr12_004975.1	flowers	0.0621914457377861	stratum 1	Y Male
+_chr12_004975.1	leaves	0.106997805780775	stratum 1	Y Male
+_chr12_004977.1	flowers	0.112230242118051	stratum 1	Y Male
+_chr12_004977.1	leaves	0.329552852379911	stratum 1	Y Male
+_chr12_001612.1	flowers	0.0241591762345575	stratum 3	Y Male
+_chr12_001612.1	leaves	0.053900934118129	stratum 3	Y Male
+_chr12_004455.1	flowers	0.0369216423335868	stratum 2	Y Male
+_chr12_004455.1	leaves	0.0894917326232065	stratum 2	Y Male
+_chr12_001433.1	flowers	0.0377768269447382	stratum 2	Y Male
+_chr12_001433.1	leaves	0.0252796721732113	stratum 2	Y Male
+_chr12_001434.1	flowers	0.0509905107264188	stratum 2	Y Male
+_chr12_001434.1	leaves	0.066444251495592	stratum 2	Y Male
+_chr12_000624.1	flowers	0.0500152830067239	stratum 2	Y Male
+_chr12_000624.1	leaves	0.0596393574688988	stratum 2	Y Male
+_chr12_003591.1	flowers	0.0528844487142937	stratum 3	Y Male
+_chr12_003591.1	leaves	0.0943810569012698	stratum 3	Y Male
+_chr12_003592.1	flowers	0.239352705396812	stratum 3	Y Male
+_chr12_003592.1	leaves	0.280437688016223	stratum 3	Y Male
+_chr12_001154.1	flowers	0.0527903347478483	stratum 2	Y Male
+_chr12_001154.1	leaves	0.0809383964503523	stratum 2	Y Male
+_chr12_001599.1	flowers	0.0419877804210268	stratum 3	Y Male
+_chr12_001599.1	leaves	0.0923277185801971	stratum 3	Y Male
+_chr12_003516.1	flowers	0.104222888041484	stratum 3	Y Male
+_chr12_003516.1	leaves	0.166032146440964	stratum 3	Y Male
+_chr12_000471.1	flowers	0.0242366313331654	stratum 2	Y Male
+_chr12_000471.1	leaves	0.0244390934283225	stratum 2	Y Male
+_chr12_000482.1	flowers	0.0811306311099921	stratum 2	Y Male
+_chr12_000482.1	leaves	0.160757602149616	stratum 2	Y Male
+_chr12_000483.1	flowers	0.0351102016466855	stratum 2	Y Male
+_chr12_000483.1	leaves	0.035802749371128	stratum 2	Y Male
+_chr12_004925.1	flowers	0.113726017800027	stratum 2	Y Male
+_chr12_004925.1	leaves	0.161086362147367	stratum 2	Y Male
+_chr12_004389.1	flowers	0.0783249715349756	stratum 2	Y Male
+_chr12_004389.1	leaves	0.078046501595254	stratum 2	Y Male
+_chr12_004400.1	flowers	0.0747773415560943	stratum 2	Y Male
+_chr12_004400.1	leaves	0.0470394041979053	stratum 2	Y Male
+_chr12_000469.1	flowers	0.118008433533078	stratum 2	Y Male
+_chr12_000469.1	leaves	0.189263383960254	stratum 2	Y Male
+_chr12_003938.1	flowers	0.1196163002342	stratum 2	Y Male
+_chr12_003938.1	leaves	0.166256426301581	stratum 2	Y Male
+_chr12_001408.1	flowers	0	stratum 2	Y Male
+_chr12_001408.1	leaves	0.175396641594007	stratum 2	Y Male
+_chr12_003815.1	flowers	0.123006588405862	stratum 2	Y Male
+_chr12_003815.1	leaves	0.174747685529745	stratum 2	Y Male
+_chr12_000158.1	flowers	0.0251957203888303	stratum 2	Y Male
+_chr12_000158.1	leaves	0.0517930492658095	stratum 2	Y Male
+_chr12_000072.1	flowers	0.0193912300409985	stratum 1	Y Male
+_chr12_000072.1	leaves	0.055130247210421	stratum 1	Y Male
+_chr12_000580.1	flowers	0.0171685519276223	stratum 2	Y Male
+_chr12_000580.1	leaves	0.0700505015515121	stratum 2	Y Male
+_chr12_004944.1	flowers	0.114673450013964	stratum 2	Y Male
+_chr12_004944.1	leaves	0.20919563124379	stratum 2	Y Male
+_chr12_004824.1	flowers	0.24110029910717	stratum 2	Y Male
+_chr12_004824.1	leaves	0.353031675095716	stratum 2	Y Male
+_chr12_004934.1	flowers	0.105571779917765	stratum 2	Y Male
+_chr12_004934.1	leaves	0.127364219705692	stratum 2	Y Male
+_chr12_003748.1	flowers	0.0454248502285814	stratum 3	Y Male
+_chr12_003748.1	leaves	0.0725944300349164	stratum 3	Y Male
+_chr12_004744.1	flowers	0.105209035214003	stratum 2	Y Male
+_chr12_004744.1	leaves	0.134494499176064	stratum 2	Y Male
+_chr12_000071.1	flowers	0.0620174584254684	stratum 1	Y Male
+_chr12_000071.1	leaves	0.0751435241936325	stratum 1	Y Male
+_chr12_000379.1	flowers	0.149978915989781	stratum 2	Y Male
+_chr12_000379.1	leaves	0.154089790975747	stratum 2	Y Male
+_chr12_004674.1	flowers	0.0725829441603498	stratum 2	Y Male
+_chr12_004674.1	leaves	0.125930530255615	stratum 2	Y Male
+_chr12_001587.1	flowers	0.048306977137935	stratum 3	Y Male
+_chr12_001587.1	leaves	0.0449465632159895	stratum 3	Y Male
+_chr12_004190.1	flowers	0.0894672352924351	stratum 2	Y Male
+_chr12_004190.1	leaves	0.0451698660896342	stratum 2	Y Male
+_chr12_000093.1	flowers	0.064034485563792	stratum 1	Y Male
+_chr12_000093.1	leaves	0.121910688009019	stratum 1	Y Male
+_chr12_000192.1	flowers	0.0410553000914838	stratum 2	Y Male
+_chr12_000192.1	leaves	0.0686116372100917	stratum 2	Y Male
+_chr12_003603.1	flowers	0.161998434449009	stratum 3	Y Male
+_chr12_003603.1	leaves	0.177889175548684	stratum 3	Y Male
+_chr12_000752.1	flowers	0.0605447863985658	stratum 2	Y Male
+_chr12_000752.1	leaves	0.116202264597792	stratum 2	Y Male
+_chr12_003919.1	flowers	0.130298606290979	stratum 2	Y Male
+_chr12_003919.1	leaves	0.112681866850385	stratum 2	Y Male
+_chr12_004808.1	flowers	0.0264211118653067	stratum 2	Y Male
+_chr12_004808.1	leaves	0.045793909962938	stratum 2	Y Male
+_chr12_003594.1	flowers	0.11605142104136	stratum 3	Y Male
+_chr12_003594.1	leaves	0.0809492749300986	stratum 3	Y Male
+_chr12_003595.1	flowers	0.0762621987570035	stratum 3	Y Male
+_chr12_003595.1	leaves	0.0785160027385229	stratum 3	Y Male
+_chr12_004773.1	flowers	0.0838778082459866	stratum 2	Y Male
+_chr12_004773.1	leaves	0.0907959146304962	stratum 2	Y Male
+_chr12_004775.1	flowers	0.286575653385985	stratum 2	Y Male
+_chr12_004775.1	leaves	0.216471853526158	stratum 2	Y Male
+_chr12_000380.1	flowers	0.0942254726583609	stratum 2	Y Male
+_chr12_000380.1	leaves	0.0984948697304649	stratum 2	Y Male
+_chr12_003908.1	flowers	0.0958991871573551	stratum 2	Y Male
+_chr12_003908.1	leaves	0.0780763834507212	stratum 2	Y Male
+_chr12_000901.1	flowers	0.145106118572802	stratum 2	Y Male
+_chr12_000901.1	leaves	0.137313581787412	stratum 2	Y Male
+_chr12_004459.1	flowers	0.0350141875356166	stratum 2	Y Male
+_chr12_004459.1	leaves	0.117807663355036	stratum 2	Y Male
+_chr12_000107.1	flowers	0.060759300746938	stratum 1	Y Male
+_chr12_000107.1	leaves	0.0508299593802325	stratum 1	Y Male
+_chr12_004801.1	flowers	0.0168429652474658	stratum 2	Y Male
+_chr12_004801.1	leaves	0.0518617972923352	stratum 2	Y Male
+_chr12_001327.1	flowers	0.313465869034731	stratum 2	Y Male
+_chr12_001327.1	leaves	0.0778189327779209	stratum 2	Y Male
+_chr12_004854.1	flowers	0.0414025269476646	stratum 2	Y Male
+_chr12_004854.1	leaves	0.0885270666846948	stratum 2	Y Male
+_chr12_004855.1	flowers	0.250694539638898	stratum 2	Y Male
+_chr12_004855.1	leaves	0.252787948821268	stratum 2	Y Male
+_chr12_004858.1	flowers	0.143121896145723	stratum 2	Y Male
+_chr12_004858.1	leaves	0.230871634604584	stratum 2	Y Male
+_chr12_004859.1	flowers	0	stratum 2	Y Male
+_chr12_004859.1	leaves	0	stratum 2	Y Male
+_chr12_004860.1	flowers	0.107309009597707	stratum 2	Y Male
+_chr12_004860.1	leaves	0.0323664602065415	stratum 2	Y Male
+_chr12_004861.1	flowers	0.067684607710636	stratum 2	Y Male
+_chr12_004861.1	leaves	0.0659335262623312	stratum 2	Y Male
+_chr12_004863.1	flowers	0.119399771142847	stratum 2	Y Male
+_chr12_004863.1	leaves	0.121385253725191	stratum 2	Y Male
+_chr12_004864.1	flowers	0.192474444999048	stratum 2	Y Male
+_chr12_004864.1	leaves	0.063762151182264	stratum 2	Y Male
+_chr12_004866.1	flowers	0.0673272011885859	stratum 2	Y Male
+_chr12_004866.1	leaves	0.0354600463273745	stratum 2	Y Male
+_chr12_004869.1	flowers	0.0522618661484146	stratum 2	Y Male
+_chr12_004869.1	leaves	0.10357079505331	stratum 2	Y Male
+_chr12_004871.1	flowers	0.071810952508356	stratum 2	Y Male
+_chr12_004871.1	leaves	0.120806845861667	stratum 2	Y Male
+_chr12_004872.1	flowers	0.0698889901418328	stratum 2	Y Male
+_chr12_004872.1	leaves	0.136408224770315	stratum 2	Y Male
+_chr12_004873.1	flowers	0.075562509900994	stratum 2	Y Male
+_chr12_004873.1	leaves	0.0895594389363181	stratum 2	Y Male
+_chr12_004875.1	flowers	0.126960555631957	stratum 2	Y Male
+_chr12_004875.1	leaves	0.224624359966229	stratum 2	Y Male
+_chr12_004876.1	flowers	0.0904556537550334	stratum 2	Y Male
+_chr12_004876.1	leaves	0.094940709899076	stratum 2	Y Male
+_chr12_004880.1	flowers	0.0699352176355486	stratum 2	Y Male
+_chr12_004880.1	leaves	0.0584924650873714	stratum 2	Y Male
+_chr12_004883.1	flowers	0.0652930965648031	stratum 2	Y Male
+_chr12_004883.1	leaves	0.125893610712552	stratum 2	Y Male
+_chr12_004884.1	flowers	0.0139384318834827	stratum 2	Y Male
+_chr12_004884.1	leaves	0.0162581275599032	stratum 2	Y Male
+_chr12_005003.1	flowers	0.0942335331559179	stratum 1	Y Male
+_chr12_005003.1	leaves	0.0906313608936442	stratum 1	Y Male
+_chr12_000696.1	flowers	0.102224970852216	stratum 2	Y Male
+_chr12_000696.1	leaves	0.153713826978848	stratum 2	Y Male
+_chr12_001184.1	flowers	0.0573256889734286	stratum 2	Y Male
+_chr12_001184.1	leaves	0.110766851669152	stratum 2	Y Male
+_chr12_004593.1	flowers	0.0896073982729198	stratum 2	Y Male
+_chr12_004593.1	leaves	0.0813214282769958	stratum 2	Y Male
+_chr12_000199.1	flowers	0.0711378459086041	stratum 2	Y Male
+_chr12_000199.1	leaves	0.0937771455463459	stratum 2	Y Male
+_chr12_000200.1	flowers	0.126971526977527	stratum 2	Y Male
+_chr12_000200.1	leaves	0.162574994979515	stratum 2	Y Male
+_chr12_004928.1	flowers	0.0728176479376005	stratum 2	Y Male
+_chr12_004928.1	leaves	0.0812630389738747	stratum 2	Y Male
+_chr12_000673.1	flowers	0.0923173379893409	stratum 2	Y Male
+_chr12_000673.1	leaves	0.136297609794719	stratum 2	Y Male
+_chr12_004171.1	flowers	0.0956861670057588	stratum 2	Y Male
+_chr12_004171.1	leaves	0.0722944979598045	stratum 2	Y Male
+_chr12_000145.1	flowers	0.0519763988515241	stratum 1	Y Male
+_chr12_000145.1	leaves	0.0690598132873286	stratum 1	Y Male
+_chr12_003880.1	flowers	0	stratum 2	Y Male
+_chr12_003880.1	leaves	0	stratum 2	Y Male
+_chr12_003882.1	flowers	0.0607567422135699	stratum 2	Y Male
+_chr12_003882.1	leaves	0.10905213405047	stratum 2	Y Male
+_chr12_001733.1	flowers	0.10005335164612	stratum 3	Y Male
+_chr12_001733.1	leaves	0.0522862762490327	stratum 3	Y Male
+_chr12_001477.1	flowers	0.248717838257092	stratum 3	Y Male
+_chr12_001477.1	leaves	0.243677230820154	stratum 3	Y Male
+_chr12_001339.1	flowers	0.0337954678475884	stratum 2	Y Male
+_chr12_001339.1	leaves	0.0313101579620405	stratum 2	Y Male
+_chr12_004972.1	flowers	0.0367312844180927	stratum 1	Y Male
+_chr12_004972.1	leaves	0.137311648045155	stratum 1	Y Male
+_chr12_001651.1	flowers	0.0400799751494271	stratum 3	Y Male
+_chr12_001651.1	leaves	0.0979086107391086	stratum 3	Y Male
+_chr12_001666.1	flowers	0.0879920071759679	stratum 3	Y Male
+_chr12_001666.1	leaves	0.096430595172304	stratum 3	Y Male
+_chr12_001581.1	flowers	0.0483376009747908	stratum 3	Y Male
+_chr12_001581.1	leaves	0.0727032415679181	stratum 3	Y Male
+_chr12_003618.1	flowers	0.10300612034063	stratum 3	Y Male
+_chr12_003618.1	leaves	0.0653277825984714	stratum 3	Y Male
+_chr12_001575.1	flowers	0.0745166315985767	stratum 3	Y Male
+_chr12_001575.1	leaves	0.0826669239656666	stratum 3	Y Male
+_chr12_003616.1	flowers	0.125967570787038	stratum 3	Y Male
+_chr12_003616.1	leaves	0.245374271373687	stratum 3	Y Male
+_chr12_005034.1	flowers	0.0603410737886387	stratum 1	Y Male
+_chr12_005034.1	leaves	0.0505593443464225	stratum 1	Y Male
+_chr12_004523.1	flowers	0.100551349552585	stratum 2	Y Male
+_chr12_004523.1	leaves	0.183358079787357	stratum 2	Y Male
+_chr12_000349.1	flowers	0.0706977894832475	stratum 2	Y Male
+_chr12_000349.1	leaves	0.185535846755902	stratum 2	Y Male
+_chr12_003632.1	flowers	0.0654535729184633	stratum 3	Y Male
+_chr12_003632.1	leaves	0.109274372991776	stratum 3	Y Male
+_chr12_003557.1	flowers	0.035444343387893	stratum 3	Y Male
+_chr12_003557.1	leaves	0.0731997810632887	stratum 3	Y Male
+_chr12_001728.1	flowers	0.0408326549550708	stratum 3	Y Male
+_chr12_001728.1	leaves	0.0544117204882908	stratum 3	Y Male
+_chr12_000983.1	flowers	0.108649462164477	stratum 2	Y Male
+_chr12_000983.1	leaves	0.259885262362424	stratum 2	Y Male
+_chr12_000269.1	flowers	0.0191740430235951	stratum 2	Y Male
+_chr12_000269.1	leaves	0.0391681726743001	stratum 2	Y Male
+_chr12_001292.1	flowers	0.0626740147471028	stratum 2	Y Male
+_chr12_001292.1	leaves	0.0454078298574719	stratum 2	Y Male
+_chr12_003789.1	flowers	0.0568737454081162	stratum 2	Y Male
+_chr12_003789.1	leaves	0.103355374970167	stratum 2	Y Male
+_chr12_001109.1	flowers	0.0516151073187963	stratum 2	Y Male
+_chr12_001109.1	leaves	0.0622981368734027	stratum 2	Y Male
+_chr12_001102.1	flowers	0.479508450884121	stratum 2	Y Male
+_chr12_001102.1	leaves	0.857360545432826	stratum 2	Y Male
+_chr12_001103.1	flowers	0	stratum 2	Y Male
+_chr12_001103.1	leaves	0	stratum 2	Y Male
+_chr12_000339.1	flowers	0.0567932519576266	stratum 2	Y Male
+_chr12_000339.1	leaves	0.0824544928920492	stratum 2	Y Male
+_chr12_003922.1	flowers	0.0243733493053806	stratum 2	Y Male
+_chr12_003922.1	leaves	0.0223774883805427	stratum 2	Y Male
+_chr12_004577.1	flowers	0.0739237505882721	stratum 2	Y Male
+_chr12_004577.1	leaves	0.111677383357004	stratum 2	Y Male
+_chr12_000444.1	flowers	0.0383473507841539	stratum 2	Y Male
+_chr12_000444.1	leaves	0.0750607476012931	stratum 2	Y Male
+_chr12_000179.1	flowers	0.0647378981955121	stratum 2	Y Male
+_chr12_000179.1	leaves	0.108091258574093	stratum 2	Y Male
+_chr12_004947.1	flowers	0.0940488066965818	stratum 2	Y Male
+_chr12_004947.1	leaves	0.251570594278277	stratum 2	Y Male
+_chr12_000011.1	flowers	0.089654016600467	stratum 1	Y Male
+_chr12_000011.1	leaves	0.11239401215618	stratum 1	Y Male
+_chr12_003506.1	flowers	0.0342226614476896	stratum 3	Y Male
+_chr12_003506.1	leaves	0.0500203081979051	stratum 3	Y Male
+_chr12_000236.1	flowers	0.0621866236578893	stratum 2	Y Male
+_chr12_000236.1	leaves	0.10408090888581	stratum 2	Y Male
+_chr12_003829.1	flowers	0.0607470387377151	stratum 2	Y Male
+_chr12_003829.1	leaves	0.0599495851735172	stratum 2	Y Male
+_chr12_001402.1	flowers	0.0314417327452666	stratum 2	Y Male
+_chr12_001402.1	leaves	0.0320586993606667	stratum 2	Y Male
+_chr12_001219.1	flowers	0.0423329203314374	stratum 2	Y Male
+_chr12_001219.1	leaves	0.0583717776542055	stratum 2	Y Male
+_chr12_000774.1	flowers	0.0252515744924856	stratum 2	Y Male
+_chr12_000774.1	leaves	0.0416825457289956	stratum 2	Y Male
+_chr12_000123.1	flowers	0.0139384318834827	stratum 1	Y Male
+_chr12_000123.1	leaves	0.0126398360866056	stratum 1	Y Male
+_chr12_004421.1	flowers	0.0677521072942372	stratum 2	Y Male
+_chr12_004421.1	leaves	0.140790839485756	stratum 2	Y Male
+_chr12_000078.1	flowers	0.025410585814495	stratum 1	Y Male
+_chr12_000078.1	leaves	0.0783973250799439	stratum 1	Y Male
+_chr12_004902.1	flowers	0.063315503837278	stratum 2	Y Male
+_chr12_004902.1	leaves	0.0334302111435298	stratum 2	Y Male
+_chr12_000253.1	flowers	0.0210632973358574	stratum 2	Y Male
+_chr12_000253.1	leaves	0.0522369239357871	stratum 2	Y Male
+_chr12_000255.1	flowers	0.0292606305230295	stratum 2	Y Male
+_chr12_000255.1	leaves	0.0537959290538453	stratum 2	Y Male
+_chr12_000259.1	flowers	0.0464552825912863	stratum 2	Y Male
+_chr12_000259.1	leaves	0.0809546666456959	stratum 2	Y Male
+_chr12_000688.1	flowers	0.0215857523889568	stratum 2	Y Male
+_chr12_000688.1	leaves	0.0785184534439763	stratum 2	Y Male
+_chr12_004963.1	flowers	0.0906476070953143	stratum 1	Y Male
+_chr12_004963.1	leaves	0.13511718754003	stratum 1	Y Male
+_chr12_004305.1	flowers	0.0328632482396644	stratum 2	Y Male
+_chr12_004305.1	leaves	0.0566630879591006	stratum 2	Y Male
+_chr12_003764.1	flowers	0.0790537408506938	stratum 3	Y Male
+_chr12_003764.1	leaves	0.10351159490784	stratum 3	Y Male
+_chr12_003965.1	flowers	0.0324114878797721	stratum 2	Y Male
+_chr12_003965.1	leaves	0.0225777539321337	stratum 2	Y Male
+_chr12_001293.1	flowers	0.0719054620297672	stratum 2	Y Male
+_chr12_001293.1	leaves	0.074133971291419	stratum 2	Y Male
+_chr12_001044.1	flowers	0.0324053567509161	stratum 2	Y Male
+_chr12_001044.1	leaves	0.0552448506672274	stratum 2	Y Male
+_chr12_001503.1	flowers	0.0815071534039898	stratum 3	Y Male
+_chr12_001503.1	leaves	0.117067880278934	stratum 3	Y Male
+_chr12_003844.1	flowers	0.131226723620272	stratum 2	Y Male
+_chr12_003844.1	leaves	0.0554349356426956	stratum 2	Y Male
+_chr12_000526.1	flowers	0.183443429382397	stratum 2	Y Male
+_chr12_000526.1	leaves	0.177246237540513	stratum 2	Y Male
+_chr12_001125.1	flowers	0.181968460852752	stratum 2	Y Male
+_chr12_001125.1	leaves	0.274309657119495	stratum 2	Y Male
+_chr12_001126.1	flowers	0.167092905531507	stratum 2	Y Male
+_chr12_001126.1	leaves	0.493322221483335	stratum 2	Y Male
+_chr12_004726.1	flowers	0.165922945388664	stratum 2	Y Male
+_chr12_004726.1	leaves	0.303172490327171	stratum 2	Y Male
+_chr12_004510.1	flowers	0.0248111223343613	stratum 2	Y Male
+_chr12_004510.1	leaves	0.0428337119797895	stratum 2	Y Male
+_chr12_000420.1	flowers	0.0565498719541249	stratum 2	Y Male
+_chr12_000420.1	leaves	0	stratum 2	Y Male
+_chr12_004747.1	flowers	0.065835297511874	stratum 2	Y Male
+_chr12_004747.1	leaves	0.10939247053265	stratum 2	Y Male
+_chr12_001700.1	flowers	0.0139384318834827	stratum 3	Y Male
+_chr12_001700.1	leaves	0.0184364488142209	stratum 3	Y Male
+_chr12_001701.1	flowers	0.0420143317554967	stratum 3	Y Male
+_chr12_001701.1	leaves	0.0708361385965029	stratum 3	Y Male
+_chr12_001702.1	flowers	0.0288999012292884	stratum 3	Y Male
+_chr12_001702.1	leaves	0.0361693379123877	stratum 3	Y Male
+_chr12_001703.1	flowers	0.267568252888414	stratum 3	Y Male
+_chr12_001703.1	leaves	0.587889861982622	stratum 3	Y Male
+_chr12_001704.1	flowers	0.0670058451116526	stratum 3	Y Male
+_chr12_001704.1	leaves	0.0872824552029433	stratum 3	Y Male
+_chr12_001705.1	flowers	0.071116597454624	stratum 3	Y Male
+_chr12_001705.1	leaves	0.037353907149493	stratum 3	Y Male
+_chr12_001648.1	flowers	0.0478311872156865	stratum 3	Y Male
+_chr12_001648.1	leaves	0.0834419291228843	stratum 3	Y Male
+_chr12_003521.1	flowers	0.0697560657282423	stratum 3	Y Male
+_chr12_003521.1	leaves	0.0596562746433825	stratum 3	Y Male
+_chr12_003867.1	flowers	0.0976676117919685	stratum 2	Y Male
+_chr12_003867.1	leaves	0.101339182074786	stratum 2	Y Male
+_chr12_001742.1	flowers	0.28155707913779	stratum 3	Y Male
+_chr12_001742.1	leaves	0.241633864686527	stratum 3	Y Male
+_chr12_001743.1	flowers	0.0355916613882451	stratum 3	Y Male
+_chr12_001743.1	leaves	0.0468913086231741	stratum 3	Y Male
+_chr12_001744.1	flowers	0.0321627658228384	stratum 3	Y Male
+_chr12_001744.1	leaves	0.0174028064641517	stratum 3	Y Male
+_chr12_001745.1	flowers	0.0649765142893712	stratum 3	Y Male
+_chr12_001745.1	leaves	0.0311533497998358	stratum 3	Y Male
+_chr12_001746.1	flowers	0.0868197075716804	stratum 3	Y Male
+_chr12_001746.1	leaves	0.0947909346350828	stratum 3	Y Male
+_chr12_001748.1	flowers	0.108347932901932	stratum 3	Y Male
+_chr12_001748.1	leaves	0.117264260551417	stratum 3	Y Male
+_chr12_001749.1	flowers	0.028071228395442	stratum 3	Y Male
+_chr12_001749.1	leaves	0.034607824636268	stratum 3	Y Male
+_chr12_001719.1	flowers	0.0482505581641402	stratum 3	Y Male
+_chr12_001719.1	leaves	0.0925432427281377	stratum 3	Y Male
+_chr12_001723.1	flowers	0.0352441519188038	stratum 3	Y Male
+_chr12_001723.1	leaves	0	stratum 3	Y Male
+_chr12_001724.1	flowers	0.0423607101753357	stratum 3	Y Male
+_chr12_001724.1	leaves	0.10118993085297	stratum 3	Y Male
+_chr12_001726.1	flowers	0.0818949587673655	stratum 3	Y Male
+_chr12_001726.1	leaves	0.120385477067596	stratum 3	Y Male
+_chr12_003449.1	flowers	0.0401580840001197	stratum 3	Y Male
+_chr12_003449.1	leaves	0.02706530507598	stratum 3	Y Male
+_chr12_003450.1	flowers	0.0680130560319918	stratum 3	Y Male
+_chr12_003450.1	leaves	0.220814957554556	stratum 3	Y Male
+_chr12_000750.1	flowers	0.363011407849256	stratum 2	Y Male
+_chr12_000750.1	leaves	0.510878060407228	stratum 2	Y Male
+_chr12_004701.1	flowers	0.0473766996698702	stratum 2	Y Male
+_chr12_004701.1	leaves	0.0905090102163519	stratum 2	Y Male
+_chr12_004702.1	flowers	0.190062114674021	stratum 2	Y Male
+_chr12_004702.1	leaves	0.256242598219571	stratum 2	Y Male
+_chr12_004703.1	flowers	0.0218546075201754	stratum 2	Y Male
+_chr12_004703.1	leaves	0.0569436384427849	stratum 2	Y Male
+_chr12_004705.1	flowers	0.0651943055362774	stratum 2	Y Male
+_chr12_004705.1	leaves	0.104834425185645	stratum 2	Y Male
+_chr12_000216.1	flowers	0.0569310969992346	stratum 2	Y Male
+_chr12_000216.1	leaves	0.0812219681956289	stratum 2	Y Male
+_chr12_000177.1	flowers	0.0306041288173427	stratum 2	Y Male
+_chr12_000177.1	leaves	0.197032097011754	stratum 2	Y Male
+_chr12_001637.1	flowers	0.059460490819159	stratum 3	Y Male
+_chr12_001637.1	leaves	0.0998907545338002	stratum 3	Y Male
+_chr12_000914.1	flowers	0.0791387063618649	stratum 2	Y Male
+_chr12_000914.1	leaves	0.0514938307294916	stratum 2	Y Male
+_chr12_000867.1	flowers	0.0550591817464718	stratum 2	Y Male
+_chr12_000867.1	leaves	0.166342176324398	stratum 2	Y Male
+_chr12_000371.1	flowers	0.0478434114367192	stratum 2	Y Male
+_chr12_000371.1	leaves	0.0839399830255311	stratum 2	Y Male
+_chr12_000128.1	flowers	0.0278768637669655	stratum 1	Y Male
+_chr12_000128.1	leaves	0.0631991804330281	stratum 1	Y Male
+_chr12_004746.1	flowers	0.030305846864524	stratum 2	Y Male
+_chr12_004746.1	leaves	0.0676928275579971	stratum 2	Y Male
+_chr12_004315.1	flowers	0.0265804591897316	stratum 2	Y Male
+_chr12_004315.1	leaves	0.0390698686406057	stratum 2	Y Male
+_chr12_003584.1	flowers	0.0578838927273597	stratum 3	Y Male
+_chr12_003584.1	leaves	0.122750957763934	stratum 3	Y Male
+_chr12_004487.1	flowers	0.105592898582904	stratum 2	Y Male
+_chr12_004487.1	leaves	0.0442394263031197	stratum 2	Y Male
+_chr12_001625.1	flowers	0.11484330980021	stratum 3	Y Male
+_chr12_001625.1	leaves	0.229529934727094	stratum 3	Y Male
+_chr12_001406.1	flowers	0.06911185704999	stratum 2	Y Male
+_chr12_001406.1	leaves	0.0935834135717021	stratum 2	Y Male
+_chr12_005064.1	flowers	0.0531375927621601	stratum 1	Y Male
+_chr12_005064.1	leaves	0.0772726893721492	stratum 1	Y Male
+_chr12_004600.1	flowers	0.16578618286939	stratum 2	Y Male
+_chr12_004600.1	leaves	0.255270223353881	stratum 2	Y Male
+_chr12_004979.1	flowers	0.028075899872014	stratum 1	Y Male
+_chr12_004979.1	leaves	0.131356308302263	stratum 1	Y Male
+_chr12_003826.1	flowers	0.123598397554867	stratum 2	Y Male
+_chr12_003826.1	leaves	0.332499892531337	stratum 2	Y Male
+_chr12_001361.1	flowers	0.0279433561559789	stratum 2	Y Male
+_chr12_001361.1	leaves	0.0422406147273605	stratum 2	Y Male
+_chr12_001261.1	flowers	0.0545233804152468	stratum 2	Y Male
+_chr12_001261.1	leaves	0.0625504196684677	stratum 2	Y Male
+_chr12_003581.1	flowers	0.0419130806433384	stratum 3	Y Male
+_chr12_003581.1	leaves	0.0909285588578991	stratum 3	Y Male
+_chr12_001624.1	flowers	0.19105754015844	stratum 3	Y Male
+_chr12_001624.1	leaves	0.274234378589145	stratum 3	Y Male
+_chr12_000892.1	flowers	0.10721908951567	stratum 2	Y Male
+_chr12_000892.1	leaves	0.17460776515444	stratum 2	Y Male
+_chr12_000417.1	flowers	0.0653691314473095	stratum 2	Y Male
+_chr12_000417.1	leaves	0.068827465639514	stratum 2	Y Male
+_chr12_004988.1	flowers	0.0281588058841337	stratum 1	Y Male
+_chr12_004988.1	leaves	0.130364933090801	stratum 1	Y Male
+_chr12_004796.1	flowers	0.0810148936810462	stratum 2	Y Male
+_chr12_004796.1	leaves	0.0622569219656371	stratum 2	Y Male
+_chr12_000577.1	flowers	0.0546672509244303	stratum 2	Y Male
+_chr12_000577.1	leaves	0.0596448440376297	stratum 2	Y Male
+_chr12_000160.1	flowers	0.11220358632444	stratum 2	Y Male
+_chr12_000160.1	leaves	0.232939926838889	stratum 2	Y Male
+_chr12_000476.1	flowers	0.0404650123720515	stratum 2	Y Male
+_chr12_000476.1	leaves	0.0675851764637718	stratum 2	Y Male
+_chr12_000481.1	flowers	0.0249467556531192	stratum 2	Y Male
+_chr12_000481.1	leaves	0.0210663934776761	stratum 2	Y Male
+_chr12_000018.1	flowers	0.0653008171098565	stratum 1	Y Male
+_chr12_000018.1	leaves	0.068781136860082	stratum 1	Y Male
+_chr12_000019.1	flowers	0.068449497321535	stratum 1	Y Male
+_chr12_000019.1	leaves	0.0702146422814879	stratum 1	Y Male
+_chr12_000896.1	flowers	0	stratum 2	Y Male
+_chr12_000896.1	leaves	0	stratum 2	Y Male
+_chr12_001737.1	flowers	0.0337036389175809	stratum 3	Y Male
+_chr12_001737.1	leaves	0.0655098823929667	stratum 3	Y Male
+_chr12_000183.1	flowers	0.302373658117685	stratum 2	Y Male
+_chr12_000183.1	leaves	1.00585390081471	stratum 2	Y Male
+_chr12_003432.1	flowers	0	stratum 3	Y Male
+_chr12_003432.1	leaves	0.0187651869003233	stratum 3	Y Male
+_chr12_003438.1	flowers	0.141626885885587	stratum 3	Y Male
+_chr12_003438.1	leaves	0.16877045135823	stratum 3	Y Male
+_chr12_003446.1	flowers	0.0762942189727825	stratum 3	Y Male
+_chr12_003446.1	leaves	0.0592789664714621	stratum 3	Y Male
+_chr12_003573.1	flowers	0.121738078095165	stratum 3	Y Male
+_chr12_003573.1	leaves	0.0554875867135221	stratum 3	Y Male
+_chr12_003490.1	flowers	0.0141374679885312	stratum 3	Y Male
+_chr12_003490.1	leaves	0	stratum 3	Y Male
+_chr12_000595.1	flowers	0.328212670069435	stratum 2	Y Male
+_chr12_000595.1	leaves	0.358320231955373	stratum 2	Y Male
+_chr12_000403.1	flowers	0.0534499859266936	stratum 2	Y Male
+_chr12_000403.1	leaves	0.107580618849903	stratum 2	Y Male
+_chr12_005092.1	flowers	0.220713855915775	stratum 1	Y Male
+_chr12_005092.1	leaves	0.0881729708244924	stratum 1	Y Male
+_chr12_004083.1	flowers	0.0308172677285216	stratum 2	Y Male
+_chr12_004083.1	leaves	0.0403324144166013	stratum 2	Y Male
+_chr12_004084.1	flowers	0.0529624089692824	stratum 2	Y Male
+_chr12_004084.1	leaves	0.0300293025260743	stratum 2	Y Male
+_chr12_001054.1	flowers	0.0788391765030082	stratum 2	Y Male
+_chr12_001054.1	leaves	0.169838622772754	stratum 2	Y Male
+_chr12_001251.1	flowers	0.0355781451495315	stratum 2	Y Male
+_chr12_001251.1	leaves	0.0864928561157063	stratum 2	Y Male
+_chr12_001247.1	flowers	0.0545612716249121	stratum 2	Y Male
+_chr12_001247.1	leaves	0.054709099525547	stratum 2	Y Male
+_chr12_005021.1	flowers	0.0690354607782575	stratum 1	Y Male
+_chr12_005021.1	leaves	0.0541047194571844	stratum 1	Y Male
+_chr12_004893.1	flowers	0.0354241118015677	stratum 2	Y Male
+_chr12_004893.1	leaves	0.0432133547358204	stratum 2	Y Male
+_chr12_004897.1	flowers	0.0371699046101882	stratum 2	Y Male
+_chr12_004897.1	leaves	0.0267884032742406	stratum 2	Y Male
+_chr12_000248.1	flowers	0.121149177705511	stratum 2	Y Male
+_chr12_000248.1	leaves	0.169783802268023	stratum 2	Y Male
+_chr12_004765.1	flowers	0.037840853216424	stratum 2	Y Male
+_chr12_004765.1	leaves	0.105317098074819	stratum 2	Y Male
+_chr12_000813.1	flowers	0.0442912506579589	stratum 2	Y Male
+_chr12_000813.1	leaves	0.0551068822645257	stratum 2	Y Male
+_chr12_001509.1	flowers	0.0393594400819091	stratum 3	Y Male
+_chr12_001509.1	leaves	0.0532157355738353	stratum 3	Y Male
+_chr12_003798.1	flowers	0.021610070393949	stratum 2	Y Male
+_chr12_003798.1	leaves	0.0252796721732113	stratum 2	Y Male
+_chr12_004490.1	flowers	0.119818386206177	stratum 2	Y Male
+_chr12_004490.1	leaves	0.110027622993294	stratum 2	Y Male
+_chr12_004996.1	flowers	0.0219533176812652	stratum 1	Y Male
+_chr12_004996.1	leaves	0.0639017104331087	stratum 1	Y Male
+_chr12_001449.1	flowers	0.0596816826544524	stratum 2	Y Male
+_chr12_001449.1	leaves	0.0482360792366952	stratum 2	Y Male
+_chr12_000398.1	flowers	0.0386006713223189	stratum 2	Y Male
+_chr12_000398.1	leaves	0.0335233505946155	stratum 2	Y Male
+_chr12_000168.1	flowers	0.0609492798322193	stratum 2	Y Male
+_chr12_000168.1	leaves	0.158454358522441	stratum 2	Y Male
+_chr12_001009.1	flowers	0.0742775914037568	stratum 2	Y Male
+_chr12_001009.1	leaves	0.0793881884598385	stratum 2	Y Male
+_chr12_003502.1	flowers	0.0432304313384752	stratum 3	Y Male
+_chr12_003502.1	leaves	0.0411848032895388	stratum 3	Y Male
+_chr12_001683.1	flowers	0.0497649404487082	stratum 3	Y Male
+_chr12_001683.1	leaves	0.0737007707349807	stratum 3	Y Male
+_chr12_000167.1	flowers	0.0611293726709349	stratum 2	Y Male
+_chr12_000167.1	leaves	0.0849169590570019	stratum 2	Y Male
+_chr12_004956.1	flowers	0.0504298389267125	stratum 2	Y Male
+_chr12_004956.1	leaves	0.0656792869079508	stratum 2	Y Male
+_chr12_000547.1	flowers	0.110400645246252	stratum 2	Y Male
+_chr12_000547.1	leaves	0.0986400450846473	stratum 2	Y Male
+_chr12_004618.1	flowers	0.0507465374769177	stratum 2	Y Male
+_chr12_004618.1	leaves	0.0931112603064951	stratum 2	Y Male
+_chr12_004806.1	flowers	0.033798590682958	stratum 2	Y Male
+_chr12_004806.1	leaves	0.0305732697040527	stratum 2	Y Male
+_chr12_000362.1	flowers	0.0680361844250748	stratum 2	Y Male
+_chr12_000362.1	leaves	0.0392915487879056	stratum 2	Y Male
+_chr12_000363.1	flowers	0.0365934971298642	stratum 2	Y Male
+_chr12_000363.1	leaves	0.0537986655413171	stratum 2	Y Male
+_chr12_000828.1	flowers	0.0453333191115191	stratum 2	Y Male
+_chr12_000828.1	leaves	0.0869321321974215	stratum 2	Y Male
+_chr12_000832.1	flowers	0.0660858020650513	stratum 2	Y Male
+_chr12_000832.1	leaves	0.0853824607599824	stratum 2	Y Male
+_chr12_004825.1	flowers	0.275886570873183	stratum 2	Y Male
+_chr12_004825.1	leaves	0.113593109188152	stratum 2	Y Male
+_chr12_004828.1	flowers	0.0200657240845722	stratum 2	Y Male
+_chr12_004828.1	leaves	0.0747623330580931	stratum 2	Y Male
+_chr12_004830.1	flowers	0.348105081135783	stratum 2	Y Male
+_chr12_004830.1	leaves	0.1175972277785	stratum 2	Y Male
+_chr12_000106.1	flowers	0.14259825014263	stratum 1	Y Male
+_chr12_000106.1	leaves	0.115767597426478	stratum 1	Y Male
+_chr12_001634.1	flowers	0.0505338633203914	stratum 3	Y Male
+_chr12_001634.1	leaves	0.0510572842762212	stratum 3	Y Male
+_chr12_004886.1	flowers	0.0245912919011433	stratum 2	Y Male
+_chr12_004886.1	leaves	0.0388361731631091	stratum 2	Y Male
+_chr12_004887.1	flowers	0.0252501154089845	stratum 2	Y Male
+_chr12_004887.1	leaves	0.101347080957565	stratum 2	Y Male
+_chr12_004002.1	flowers	0.0398233263471235	stratum 2	Y Male
+_chr12_004002.1	leaves	0.0531951034676268	stratum 2	Y Male
+_chr12_001411.1	flowers	0.0827430279233621	stratum 2	Y Male
+_chr12_001411.1	leaves	0.127495783677616	stratum 2	Y Male
+_chr12_000494.1	flowers	0.110412010574675	stratum 2	Y Male
+_chr12_000494.1	leaves	0.184021174012659	stratum 2	Y Male
+_chr12_005014.1	flowers	0.110645589066373	stratum 1	Y Male
+_chr12_005014.1	leaves	0.119503604377603	stratum 1	Y Male
+_chr12_004464.1	flowers	0.0306120466856867	stratum 2	Y Male
+_chr12_004464.1	leaves	0.0607839154585721	stratum 2	Y Male
+_chr12_003462.1	flowers	0.20028639402104	stratum 3	Y Male
+_chr12_003462.1	leaves	0.266497421359644	stratum 3	Y Male
+_chr12_003552.1	flowers	0.0532838061088092	stratum 3	Y Male
+_chr12_003552.1	leaves	0.107725115350782	stratum 3	Y Male
+_chr12_003553.1	flowers	0.0613812194051416	stratum 3	Y Male
+_chr12_003553.1	leaves	0.121976951735542	stratum 3	Y Male
+_chr12_003649.1	flowers	0.122168821271059	stratum 3	Y Male
+_chr12_003649.1	leaves	0.178160654291607	stratum 3	Y Male
+_chr12_000006.1	flowers	0.019568215523204	stratum 1	Y Male
+_chr12_000006.1	leaves	0.0271066851374319	stratum 1	Y Male
+_chr12_001258.1	flowers	0.0969936017576167	stratum 2	Y Male
+_chr12_001258.1	leaves	0.364910404010179	stratum 2	Y Male
+_chr12_003626.1	flowers	0.110996263985802	stratum 3	Y Male
+_chr12_003626.1	leaves	0.132552467343423	stratum 3	Y Male
+_chr12_001583.1	flowers	0.160533168194926	stratum 3	Y Male
+_chr12_001583.1	leaves	0.079673133273788	stratum 3	Y Male
+_chr12_001496.1	flowers	0.0462819717593266	stratum 3	Y Male
+_chr12_001496.1	leaves	0.0641839305187733	stratum 3	Y Male
+_chr12_003621.1	flowers	0.0535053244965146	stratum 3	Y Male
+_chr12_003621.1	leaves	0.0481358996274328	stratum 3	Y Male
+_chr12_003537.1	flowers	0.0390396759715981	stratum 3	Y Male
+_chr12_003537.1	leaves	0.0975653330894516	stratum 3	Y Male
+_chr12_003541.1	flowers	0.159592885885986	stratum 3	Y Male
+_chr12_003541.1	leaves	0.156167208682784	stratum 3	Y Male
+_chr12_004134.1	flowers	0.0376580518551835	stratum 2	Y Male
+_chr12_004134.1	leaves	0.0330199546968754	stratum 2	Y Male
+_chr12_003545.1	flowers	0	stratum 3	Y Male
+_chr12_003545.1	leaves	0	stratum 3	Y Male
+_chr12_003885.1	flowers	0.0547143834118767	stratum 2	Y Male
+_chr12_003885.1	leaves	0.0802023770362149	stratum 2	Y Male
+_chr12_001639.1	flowers	0.16058547387295	stratum 3	Y Male
+_chr12_001639.1	leaves	0.162028991282925	stratum 3	Y Male
+_chr12_003761.1	flowers	0.0141374679885312	stratum 3	Y Male
+_chr12_003761.1	leaves	0	stratum 3	Y Male
+_chr12_003762.1	flowers	0.103172645375187	stratum 3	Y Male
+_chr12_003762.1	leaves	0.300822980397424	stratum 3	Y Male
+_chr12_003451.1	flowers	0.130338482127111	stratum 3	Y Male
+_chr12_003451.1	leaves	0.183630806558103	stratum 3	Y Male
+_chr12_003452.1	flowers	0.0141374679885312	stratum 3	Y Male
+_chr12_003452.1	leaves	0	stratum 3	Y Male
+_chr12_004519.1	flowers	0.0140711226201817	stratum 2	Y Male
+_chr12_004519.1	leaves	0.0315995902165141	stratum 2	Y Male
+_chr12_004511.1	flowers	0.0454152658500507	stratum 2	Y Male
+_chr12_004511.1	leaves	0.0594864069251325	stratum 2	Y Male
+_chr12_000525.1	flowers	0.0409709098449322	stratum 2	Y Male
+_chr12_000525.1	leaves	0.0520889794949411	stratum 2	Y Male
+_chr12_001718.1	flowers	0.0175723169331398	stratum 3	Y Male
+_chr12_001718.1	leaves	0	stratum 3	Y Male
+_chr12_000004.1	flowers	0.0461123313268332	stratum 1	Y Male
+_chr12_000004.1	leaves	0.0324401867235649	stratum 1	Y Male
+_chr12_000572.1	flowers	0.0140711226201817	stratum 2	Y Male
+_chr12_000572.1	leaves	0.0162581275599032	stratum 2	Y Male
+_chr12_004609.1	flowers	0.0378017539798985	stratum 2	Y Male
+_chr12_004609.1	leaves	0.0328786258306453	stratum 2	Y Male
+_chr12_000586.1	flowers	0.130218630988412	stratum 2	Y Male
+_chr12_000586.1	leaves	0.0930758011856877	stratum 2	Y Male
+_chr12_004362.1	flowers	0.0369520348716508	stratum 2	Y Male
+_chr12_004362.1	leaves	0	stratum 2	Y Male
+_chr12_004500.1	flowers	0.0233620442716026	stratum 2	Y Male
+_chr12_004500.1	leaves	0.0566785236989356	stratum 2	Y Male
+_chr12_000272.1	flowers	0.149252912254324	stratum 2	Y Male
+_chr12_000272.1	leaves	0.219022679740514	stratum 2	Y Male
+_chr12_000275.1	flowers	0.0479103366838573	stratum 2	Y Male
+_chr12_000275.1	leaves	0.194989207651356	stratum 2	Y Male
+_chr12_000277.1	flowers	0.119197039614585	stratum 2	Y Male
+_chr12_000277.1	leaves	0.197636828538154	stratum 2	Y Male
+_chr12_000279.1	flowers	0.101161055358776	stratum 2	Y Male
+_chr12_000279.1	leaves	0.191945390853937	stratum 2	Y Male
+_chr12_000280.1	flowers	0.0953206044064205	stratum 2	Y Male
+_chr12_000280.1	leaves	0.205748341146349	stratum 2	Y Male
+_chr12_000281.1	flowers	0.101235315600382	stratum 2	Y Male
+_chr12_000281.1	leaves	0.208277269536353	stratum 2	Y Male
+_chr12_000282.1	flowers	0.0740900181045622	stratum 2	Y Male
+_chr12_000282.1	leaves	0.110098991134612	stratum 2	Y Male
+_chr12_000284.1	flowers	0.0835316429598489	stratum 2	Y Male
+_chr12_000284.1	leaves	0.0785146958985916	stratum 2	Y Male
+_chr12_000285.1	flowers	0.0242623822113233	stratum 2	Y Male
+_chr12_000285.1	leaves	0	stratum 2	Y Male
+_chr12_000286.1	flowers	0.219220621348954	stratum 2	Y Male
+_chr12_000286.1	leaves	0.265158253755612	stratum 2	Y Male
+_chr12_000288.1	flowers	0.100092964758615	stratum 2	Y Male
+_chr12_000288.1	leaves	0.173431763039717	stratum 2	Y Male
+_chr12_000289.1	flowers	0.0272044796550665	stratum 2	Y Male
+_chr12_000289.1	leaves	0.0487743826797095	stratum 2	Y Male
+_chr12_000290.1	flowers	0.0143909575878429	stratum 2	Y Male
+_chr12_000290.1	leaves	0.0810414421915868	stratum 2	Y Male
+_chr12_000298.1	flowers	0.135391828140014	stratum 2	Y Male
+_chr12_000298.1	leaves	0.20288091471715	stratum 2	Y Male
+_chr12_000300.1	flowers	0.0722258750439469	stratum 2	Y Male
+_chr12_000300.1	leaves	0.112847618444956	stratum 2	Y Male
+_chr12_000301.1	flowers	0.0141374679885312	stratum 2	Y Male
+_chr12_000301.1	leaves	0.029057344767288	stratum 2	Y Male
+_chr12_000306.1	flowers	0.0792186810724926	stratum 2	Y Male
+_chr12_000306.1	leaves	0.168963139381233	stratum 2	Y Male
+_chr12_000321.1	flowers	0.581315600304309	stratum 2	Y Male
+_chr12_000321.1	leaves	0.40497268568044	stratum 2	Y Male
+_chr12_000333.1	flowers	0.0362543438006038	stratum 2	Y Male
+_chr12_000333.1	leaves	0.0571771778939014	stratum 2	Y Male
+_chr12_000334.1	flowers	0.0139384318834827	stratum 2	Y Male
+_chr12_000334.1	leaves	0.0126398360866056	stratum 2	Y Male
+_chr12_003991.1	flowers	0.0427636012607863	stratum 2	Y Male
+_chr12_003991.1	leaves	0.0709955125737726	stratum 2	Y Male
+_chr12_004711.1	flowers	0.123275521823284	stratum 2	Y Male
+_chr12_004711.1	leaves	0.151101475292967	stratum 2	Y Male
+_chr12_000426.1	flowers	0.0415468583857498	stratum 2	Y Male
+_chr12_000426.1	leaves	0.0857213100921817	stratum 2	Y Male
+_chr12_004639.1	flowers	0.0402942401856612	stratum 2	Y Male
+_chr12_004639.1	leaves	0.0659772623174823	stratum 2	Y Male
+_chr12_004926.1	flowers	0.0443720036945148	stratum 2	Y Male
+_chr12_004926.1	leaves	0.051841269000618	stratum 2	Y Male
+_chr12_004200.1	flowers	0.0305307013426992	stratum 2	Y Male
+_chr12_004200.1	leaves	0.0357852177355902	stratum 2	Y Male
+_chr12_004998.1	flowers	0.0139833755201066	stratum 1	Y Male
+_chr12_004998.1	leaves	0.0252796721732113	stratum 1	Y Male
+_chr12_000390.1	flowers	0.0262593616540113	stratum 2	Y Male
+_chr12_000390.1	leaves	0.0252796721732113	stratum 2	Y Male
+_chr12_004244.1	flowers	0.0920568438224091	stratum 2	Y Male
+_chr12_004244.1	leaves	0.0891465998641103	stratum 2	Y Male
+_chr12_001614.1	flowers	0.0648541883005982	stratum 3	Y Male
+_chr12_001614.1	leaves	0.165011747254902	stratum 3	Y Male
+_chr12_000353.1	flowers	0.0285031846072744	stratum 2	Y Male
+_chr12_000353.1	leaves	0.0463513915452927	stratum 2	Y Male
+_chr12_000354.1	flowers	0.0619346893539885	stratum 2	Y Male
+_chr12_000354.1	leaves	0.123928180180997	stratum 2	Y Male
+_chr12_001358.1	flowers	0.0538559804494864	stratum 2	Y Male
+_chr12_001358.1	leaves	0.0633318380265001	stratum 2	Y Male
+_chr12_003754.1	flowers	0.0947556655150546	stratum 3	Y Male
+_chr12_003754.1	leaves	0.159936158584768	stratum 3	Y Male
+_chr12_004053.1	flowers	0.155849556407285	stratum 2	Y Male
+_chr12_004053.1	leaves	0.206558122580239	stratum 2	Y Male
+_chr12_005095.1	flowers	0.102230308295116	stratum 1	Y Male
+_chr12_005095.1	leaves	0.0897253679633709	stratum 1	Y Male
+_chr12_001604.1	flowers	0.0218124259739216	stratum 3	Y Male
+_chr12_001604.1	leaves	0.0252796721732113	stratum 3	Y Male
+_chr12_000381.1	flowers	0.0614672809844503	stratum 2	Y Male
+_chr12_000381.1	leaves	0.212980558147685	stratum 2	Y Male
+_chr12_001588.1	flowers	0.032734121767426	stratum 3	Y Male
+_chr12_001588.1	leaves	0.0348155171021383	stratum 3	Y Male
+_chr12_000598.1	flowers	0.0397346720520209	stratum 2	Y Male
+_chr12_000598.1	leaves	0.0766993378190303	stratum 2	Y Male
+_chr12_004278.1	flowers	0.0837631453674602	stratum 2	Y Male
+_chr12_004278.1	leaves	0.117970113021645	stratum 2	Y Male
+_chr12_001382.1	flowers	0.0554760029348663	stratum 2	Y Male
+_chr12_001382.1	leaves	0.258373775120531	stratum 2	Y Male
+_chr12_004614.1	flowers	0.0474288849003736	stratum 2	Y Male
+_chr12_004614.1	leaves	0.157011643790646	stratum 2	Y Male
+_chr12_004719.1	flowers	0.160566741273188	stratum 2	Y Male
+_chr12_004719.1	leaves	0.229978355914412	stratum 2	Y Male
+_chr12_004047.1	flowers	0.11024313459022	stratum 2	Y Male
+_chr12_004047.1	leaves	0.0979822454227338	stratum 2	Y Male
+_chr12_004795.1	flowers	0.0415778536973733	stratum 2	Y Male
+_chr12_004795.1	leaves	0.0718209523956427	stratum 2	Y Male
+_chr12_003084.1	flowers	0.0432965532039178	stratum 3	Y Male
+_chr12_003084.1	leaves	0.0690174780205606	stratum 3	Y Male
+_chr12_005031.1	flowers	0.22094190041994	stratum 1	Y Male
+_chr12_005031.1	leaves	0.337064423531561	stratum 1	Y Male
+_chr12_000215.1	flowers	0.0210071658777484	stratum 2	Y Male
+_chr12_000215.1	leaves	0	stratum 2	Y Male
+_chr12_004418.1	flowers	0.109185574609776	stratum 2	Y Male
+_chr12_004418.1	leaves	0.154884235974148	stratum 2	Y Male
+_chr12_004598.1	flowers	0.0308310511188637	stratum 2	Y Male
+_chr12_004598.1	leaves	0.0334523979536477	stratum 2	Y Male
+_chr12_005083.1	flowers	0.0875923818250865	stratum 1	Y Male
+_chr12_005083.1	leaves	0.121127580803086	stratum 1	Y Male
+_chr12_005070.1	flowers	0.0830301112933435	stratum 1	Y Male
+_chr12_005070.1	leaves	0.117122131450565	stratum 1	Y Male
+_chr12_000927.1	flowers	0.0278956407580078	stratum 2	Y Male
+_chr12_000927.1	leaves	0	stratum 2	Y Male
+_chr12_001081.1	flowers	0.045864512193308	stratum 2	Y Male
+_chr12_001081.1	leaves	0.0567853057948686	stratum 2	Y Male
+_chr12_001324.1	flowers	0.0686276582290997	stratum 2	Y Male
+_chr12_001324.1	leaves	0.0496876315128635	stratum 2	Y Male
+_chr12_000541.1	flowers	0.0797746931165319	stratum 2	Y Male
+_chr12_000541.1	leaves	0.130623090419888	stratum 2	Y Male
+_chr12_003751.1	flowers	0.043286841528241	stratum 3	Y Male
+_chr12_003751.1	leaves	0.0465656705683339	stratum 3	Y Male
+_chr12_000137.1	flowers	0.0400530197538889	stratum 1	Y Male
+_chr12_000137.1	leaves	0.0476502394471476	stratum 1	Y Male
+_chr12_001695.1	flowers	0.0222041953777123	stratum 3	Y Male
+_chr12_001695.1	leaves	0.0360291588486207	stratum 3	Y Male
+_chr12_003508.1	flowers	0	stratum 3	Y Male
+_chr12_003508.1	leaves	0	stratum 3	Y Male
+_chr12_000136.1	flowers	0.0318093029741953	stratum 1	Y Male
+_chr12_000136.1	leaves	0.124637583269279	stratum 1	Y Male
+_chr12_004145.1	flowers	0.121037665058132	stratum 2	Y Male
+_chr12_004145.1	leaves	0.0938885222590835	stratum 2	Y Male
+_chr12_000033.1	flowers	0.178385898913978	stratum 1	Y Male
+_chr12_000033.1	leaves	0.280235947347049	stratum 1	Y Male

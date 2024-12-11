@@ -1,0 +1,293 @@
+---
+title: "scl4_expression"
+author: "Eddy Mendoza"
+date: "2024-10-22"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(reshape2)
+library(stringr)
+library(MetBrewer)
+```
+
+
+This code was used to quantify and analyse the expression of SCL4 copies in Silene latifolia.
+The original data was published in Muyle, et al. 2012.
+
+
+```{bash raw data downloading}
+#!/usr/bin/env bash
+curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR404/SRR404981/SRR404981_1.fastq.gz -o U10_49_male_1.fastq.gz
+curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR404/SRR404981/SRR404981_2.fastq.gz -o U10_49_male_2.fastq.gz
+curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR404/SRR404983/SRR404983_1.fastq.gz -o U10_34_female_1.fastq.gz
+curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR404/SRR404983/SRR404983_2.fastq.gz -o U10_34_female_2.fastq.gz
+curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR404/SRR404982/SRR404982_1.fastq.gz -o U10_09_male_1.fastq.gz
+curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR404/SRR404982/SRR404982_2.fastq.gz -o U10_09_male_2.fastq.gz
+curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR404/SRR404980/SRR404980_1.fastq.gz -o U10_11_male_1.fastq.gz
+curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR404/SRR404980/SRR404980_2.fastq.gz -o U10_11_male_2.fastq.gz
+curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR404/SRR404984/SRR404984_1.fastq.gz -o U10_37_female_1.fastq.gz
+curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR404/SRR404984/SRR404984_2.fastq.gz -o U10_37_female_2.fastq.gz
+curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR404/SRR404985/SRR404985_1.fastq.gz -o U10_39_female_1.fastq.gz
+curl -L ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR404/SRR404985/SRR404985_2.fastq.gz -o U10_39_female_2.fastq.gz
+```
+
+
+```{bash TrimGalore}
+#!/bin/bash
+# Name: Clean FASTQ files
+# Author: Eddy Mendoza
+# Date: 21/10/24
+
+# === SLURM Config ==
+#SBATCH --job-name=trimg
+#SBATCH --cpus-per-task=1
+#SBATCH --ntasks-per-node=8
+#SBATCH --mem=10G
+#SBATCH --time=08:00:00
+#SBATCH -p general      # partition 
+#SBATCH -q public       # QOS
+#SBATCH --array=1-6
+#SBATCH --output=scripts/exegfiles/trimg.out
+#SBATCH --error=scripts/exegfiles/trimg.err
+
+# Environment config
+
+# Load modules
+ml trimgalore-0.6.10-gcc-12.1.0 py-cutadapt-2.10-gcc-11.2.0 fastqc-0.11.3-gcc-12.1.0
+
+cd scratch/lats/
+
+# Set array instructions
+KEY="raw/sample.list"
+line=$(sed -n "$SLURM_ARRAY_TASK_ID"p ${KEY})
+
+# Workflow
+name=$(basename ${line} _1.fastq.gz)
+echo "WORKING WITH ${name}"
+
+# run trim galore
+# they recommend using only 8 cores
+trim_galore \
+    --fastqc \
+    -j 8 \
+    --basename ${name} \
+    --output_dir trimmed/ \
+    --paired \
+    raw/${name}_1.fastq.gz \
+    raw/${name}_2.fastq.gz
+```
+
+
+
+```{bash kallisto script}
+#!/bin/bash
+# Name: Kallisto
+# Author: Eddy Mendoza
+# Date: 21/10/24
+
+# === SLURM Config ==
+#SBATCH --job-name=kall
+#SBATCH --cpus-per-task=1
+#SBATCH --ntasks-per-node=16
+#SBATCH --mem=10G
+#SBATCH --time=08:00:00
+#SBATCH -p general      # partition 
+#SBATCH -q public       # QOS
+#SBATCH --array=1-6
+#SBATCH --output=scripts/exegfiles/kall.out
+#SBATCH --error=scripts/exegfiles/kall.err
+
+# Environment config
+
+# Load modules and organize directories
+ml mamba
+source activate metl
+
+cd scratch/lats/
+
+# Set array instructions
+KEY="raw/sample.list"
+line=$(sed -n "$SLURM_ARRAY_TASK_ID"p ${KEY})
+
+# Workflow
+name=$(basename ${line} _1.fastq.gz)
+echo "WORKING WITH ${name}"
+
+# make a directory for each sample
+rm -R res/${name}/
+mkdir res/${name}
+
+# run kallisto 0.48.0
+kallisto quant --pseudobam -i scl4_act2.kindex -o res/${name} trimmed/${name}_val_1.fq.gz trimmed/${name}_val_2.fq.gz
+```
+
+
+```{r}
+# Read all abundance tables, merge them and transfrom data
+expression = list.files(pattern = ".tsv", full.names = TRUE) %>%
+  set_names() %>% # This sets the file name as the name of each list element
+  map_df(~ read_tsv(.x) %>% mutate(file_name = basename(.x)), .id = "file_name") %>%
+  mutate(sex = str_extract(file_name, "female"),
+         sex = replace_na(sex, "male"),
+         file_name = gsub("./", "", file_name),
+         file_name = gsub("_male.tsv", "", file_name),
+         file_name = gsub("_female.tsv", "", file_name)) %>%
+  rename("individual" = "file_name", "gene" = "target_id") %>%
+  select(individual, sex, gene, est_counts, tpm)
+  
+# run a linear model for the Y copy to see if there are differences
+summary(lm(est_counts ~ sex, data = filter(expression, gene == "Y_copy"))) # p=0.29, no differences
+# try with 
+kruskal.test(est_counts ~ sex, data = filter(expression, gene == "Y_copy")) # p=0.27
+
+# add levels to the gene factor
+expression$gene = factor(expression$gene, levels = c("ACT2", "A_copy", "X_copy", "Y_copy"))
+
+# plot
+expression %>%
+  group_by(gene, sex) %>%
+  mutate(mean_tpm = mean(tpm),
+         sd_tpm = sd(tpm)) %>%
+  ungroup() %>%
+  ggplot() +
+  geom_jitter(aes(sex, log(tpm)), width = 0.4) +
+  geom_point(aes(sex, log(mean_tpm), color=sex), size = 2) +
+  geom_errorbar(aes(sex, ymin = log(mean_tpm-sd_tpm), ymax = log(mean_tpm+sd_tpm), color=sex), size=1, width=0.2) +
+  facet_wrap(~gene, nrow = 1, scales="free") +
+  labs(y = "log(TPM)", x = "Sex") +
+  scale_color_manual(values = met.brewer("Derain")) +
+  theme_bw() +
+  theme(legend.position = "none",
+        text = element_text(size=20),
+        panel.grid.major = element_blank(),
+        panel.grid.major.y = element_blank(),
+        panel.grid.minor = element_blank(),
+        strip.background = element_blank(),
+        panel.border = element_rect(color = 'black'),
+        panel.spacing = unit(1, "lines")
+    )
+
+ggsave("expression.png", width = 8, height = 4, dpi = 600)
+
+# save table
+expression %>%
+  write.table(file = "scl4_expression_Muyle_2012.kallisto",
+            quote = F,
+            sep = "\t",
+            row.names = F,
+            col.names = T)
+```
+
+
+```{r}
+# read and transform all files
+depth = list.files(pattern = ".txt", full.names = TRUE) %>%
+  set_names() %>%
+  map_df(~ read_tsv(.x, col_names=F) %>% mutate(file_name = basename(.x)), .id = "file_name") %>%
+  mutate(sex = str_extract(file_name, "female"),
+         sex = replace_na(sex, "male"),
+         file_name = gsub("./", "", file_name),
+         file_name = gsub("_male.bam.txt", "", file_name),
+         file_name = gsub("_female.bam.txt", "", file_name)) %>%
+  rename("individual" = "file_name", 
+         "gene" = "X1", 
+         "CDS_position" = "X2",
+         "depth" = "X3")
+
+# add levels to the gene factor
+depth$gene = factor(depth$gene, levels = c("ACT2", "A_copy", "X_copy", "Y_copy"))
+
+# convert to mean TPM, use cross-multiplication, how much one count equals in TPM
+expression %>%
+  group_by(gene, sex) %>%
+  mutate(mean_tpm = mean(tpm),
+         mean_counts = mean(est_counts)) %>%
+  ungroup() %>%
+  filter(sex == "male", gene == "Y_copy")
+# 1 * 551.731 / 23 = 23.98
+# one of depth equals to 23.98 TPM in average
+
+# plot mean depth per position
+# for the paper, select only the Y copy
+# add primer positions 965-984 for the forward and 1052-1072 for the reverse
+depth %>%
+  group_by(gene, sex, CDS_position) %>%
+  mutate(mean_depth = mean(depth)) %>%
+  ungroup() %>%
+  filter(sex == "male", gene == "Y_copy") %>%
+  ggplot() +
+  geom_segment(aes(x=CDS_position, xend=CDS_position, y=0, yend=mean_depth*23.98, color=sex)) +
+  geom_segment(x = 965, y = 0,
+               xend = 984, yend = 0,
+               lineend = "round",
+               linejoin = "round",
+               size = 0.5, 
+               arrow = arrow(length = unit(0.1, "inches")),
+               colour = "gray20" ) +
+  geom_segment(x = 1072, y = 0,
+               xend = 1052, yend = 0,
+               lineend = "round",
+               linejoin = "round",
+               size = 0.5, 
+               arrow = arrow(length = unit(0.1, "inches")),
+               colour = "gray20" ) +
+  #facet_grid(gene~sex, scales = "free") +
+  labs(y = "TPM", x = "CDS position") +
+  scale_x_continuous(limits = c(2, 2200)) +
+  scale_color_manual(values = "blue") +
+  theme_bw() +
+  theme(legend.position = "none",
+        text = element_text(size=10),
+        panel.grid.major = element_blank(),
+        panel.grid.major.y = element_blank(),
+        panel.grid.minor = element_blank(),
+        strip.background = element_blank(),
+        panel.border = element_rect(color = 'black'),
+        panel.spacing = unit(1, "lines")
+    )
+
+ggsave("depth_Y.png", width = 4, height = 1.5, dpi = 600)
+
+# do one version without the arrows
+depth %>%
+  group_by(gene, sex, CDS_position) %>%
+  mutate(mean_depth = mean(depth)) %>%
+  ungroup() %>%
+  filter(sex == "male", gene == "Y_copy") %>%
+  ggplot() +
+  geom_segment(aes(x=CDS_position, xend=CDS_position, y=0, yend=mean_depth*23.98, color=sex)) +
+  #facet_grid(gene~sex, scales = "free") +
+  labs(y = "TPM", x = "CDS position") +
+  scale_x_continuous(limits = c(2, 2200)) +
+  scale_color_manual(values = "blue") +
+  theme_bw() +
+  theme(legend.position = "none",
+        text = element_text(size=10),
+        panel.grid.major = element_blank(),
+        panel.grid.major.y = element_blank(),
+        panel.grid.minor = element_blank(),
+        strip.background = element_blank(),
+        panel.border = element_rect(color = 'black'),
+        panel.spacing = unit(1, "lines")
+    )
+ggsave("depth_Y_no_arrows.png", width = 4, height = 1.5, dpi = 600)
+#ggsave("depth.png", width = 8, height = 6, dpi = 600)
+
+# save data
+depth %>%
+  write.table(file = "scl4_depth_Muyle_2012.kallisto",
+            quote = F,
+            sep = "\t",
+            row.names = F,
+            col.names = T)
+```
+
+
+
+
+
+
+

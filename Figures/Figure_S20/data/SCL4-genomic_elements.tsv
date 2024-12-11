@@ -1,0 +1,7 @@
+chr	start	end	element	bias	name	identity 	orientation
+chrX	18898284	18900484	gene	female-biased	_chr12_004640.1	X-copy	FALSE
+chrX	18900702	18900853	CHH_DMR	female-biased	DMR_27152	X-copy	TRUE
+chrX	18901527	18901589	CHH_DMR	male-biased	DMR_339905	X-copy	TRUE
+chr1	195786653	195788680	gene	female-biased	_chr1_002247.1	Autosomal	TRUE
+chr1	195784621	195785267	CHH_DMR	male-biased	DMR_63361	Autosomal	TRUE
+chrY	275334312	275336368	gene	NA	_scaffold_12_000335.1	Y-copy	FALSE

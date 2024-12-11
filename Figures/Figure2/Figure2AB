@@ -1,0 +1,27 @@
+###Synteny and changepoint analysis for Figure 2 panels A and B
+#Files
+dS4mcp_QR
+syn_SilvuSilco
+syn_SilcoSillaX
+syn_SillaYSillaX
+karyo_SilcoSillaX
+karyo_SillaYSillaX
+karyo_SilvuSilco
+YonXidx_wv.paf
+
+#Changepoint analysis R version 4.4.2
+library(mcp) #And its dependencies if not already in the session (e.g. coda. stringr, tidybayes etc)
+QRdS<-read.table("dS4mcp_QR",h=T)
+QRcp4i1e4Xidx<-mcp(list(Ds ~ 1, ~ 1, ~ 1, ~1), data=subset(QRdS, Ds<0.3 & Xidx<2500), par_x="Xidx", iter=10000, cores=3, chains=3)
+plot(QRcp4i1e4Xidx)
+
+#Synteny plots R version 4.3.1
+require(RIdeogram)
+library(pafr)
+ideogram(karyotype = read.table("karyo_SillaYSillaX" , h=T), synteny = read.table("syn_SillaYSillaX", h=T), out = "YonX.svg")
+ideogram(karyotype = read.table("karyo_SilcoYSillaX" , h=T), synteny = read.table("syn_SilcoSillaX", h=T), out = "COonX.svg")
+ideogram(karyotype = read.table("karyo_SilvuSilco" , h=T), synteny = read.table("syn_SilvuSillvo", h=T), out = "VUonCO.svg")
+silaYonXidx<-read_paf("YonXidx_wv.paf")
+plot_synteny(subset(silaYonXidx, strand=="S1a"), q_chrom="chrY", t_chrom="chrX")/ plot_synteny(subset(silaYonXidx, strand=="S3"), q_chrom="chrY", \
+t_chrom="chrX") / plot_synteny(subset(silaYonXidx, strand=="S1b"), q_chrom="chrY", t_chrom="chrX") / plot_synteny(subset(silaYonXidx, strand=="S2"), \
+q_chrom="chrY", t_chrom="chrX")

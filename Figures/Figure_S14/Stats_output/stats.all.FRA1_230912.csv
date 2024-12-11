@@ -1,0 +1,4 @@
+"comparison","chr.type","no.RADtags.tot","no.SNP.tot","no.SNP.per.RADtag.med","no.SNP.per.RADtag.q1","no.SNP.per.RADtag.q3","window_length.med","window_length.min","window_length.max","dist.med","dist.q1","dist.q3"
+"1","FRA1","Autosomes",23170,2668538,116,107,120,120,100,361,10108,290,83697
+"2","FRA1","X-chr.",9319,1109098,120,112,124,123,101,484,4318,287,43351
+"3","FRA1","Y-chr.",42,4764,114,106.2,118,120,115,125,7987310,18321,17687603

@@ -1,0 +1,23 @@
+#1 EDTA command: all chromosomes were analysed separately e.g.:
+$ EDTA.pl --genome Slat_chr1.fa --species others --step all --sensitive 0 --anno 1 --threads 6
+
+#2 LTR retrotransposon protein domain annotation. e.g.:
+$ dante.py -q Slat_chr1.fa.mod.EDTA.intact.fa -pdb /home/pavel/Documents/Soft/dante/tool-data/protein_domains/Viridiplantae_v3.0_pdb -cs /home/pavel/Documents/Soft/dante/tool-data/protein_domains/Viridiplantae_v3.0_class
+
+#3 LTR retrotransposon were reannotated using DANTE output
+$ python3 reannotate_edta_gff.py chr1.fa.mod.EDTA.TEanno.gff3 chr1_dante.tab
+
+#4 Annotation of satellites, LINEs and rDNA from known references e.g.:
+$ RepeatMasker -lib satDNA.fa -gff -pa 6 Slat_chr1.fa 
+
+#5 the classification was modified
+$ python3 mod_classif_in_rmOut.py Slat_chr1_RM.gff
+
+# The all chromosome specific repDNA annotations were merged:
+$ cat Slat_repDNA_chr*.gff >> Slat_v4_crossMap_repDNA_annot_Aug29.gff
+
+# Repeats proportions were quantified in jupyter notebook:
+Analyze_repDNA_Slat_v4_Aug2023.ipynb
+
+# All repeats annotation and their position were binned by 1Mbp and collected in one TABLE:
+Slat_v4_AYX_repDistrPattern_allChromosomes.tab

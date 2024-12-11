@@ -1,0 +1,4 @@
+"comparison","chr.type","no.RADtags.tot","no.SNP.tot","no.SNP.per.RADtag.med","no.SNP.per.RADtag.q1","no.SNP.per.RADtag.q3","window_length.med","window_length.min","window_length.max","dist.med","dist.q1","dist.q3"
+"1","between_BELPOL","Autosomes",10353,84147,7,4,11,120,100,361,46126,311,219524
+"2","between_BELPOL","X-chr.",2307,17110,6,4,10,120,100,248,45457,313,182981
+"3","between_BELPOL","Y-chr.",30,128,4,2,5,120,102,125,6519229,322130,16844149
