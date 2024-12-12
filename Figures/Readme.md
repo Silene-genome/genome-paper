@@ -4,14 +4,15 @@
 ## Main Figures
 
 ### Figure1
-The code used to generate Figure 1 (Panel A) is available [here](Figure1/silene-figs-v02.Rmd).
+The code used to generate Figure 1 is available [here](Figure1/silene-figs-v02.Rmd).
 
 
 ### Figure2
-The code used to generate Figure 1 (Panel A) is available [here](Figure2/Figure2EFGH_Aline.R).
+The code used to generate Figure 2 is available [here](Figure2/Figure2EFGH_Aline.R).
 
 ### Figure3
-The code used to generate Figure 1 (Panel A) is available [here](Figure3/).
+The code used to generate Figure 3 is available [here](Figure3/).
+
 
 ## Supplementary Figures
 
