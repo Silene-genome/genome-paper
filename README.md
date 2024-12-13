@@ -4,6 +4,7 @@ This repository contains the source code and associated scripts used for analyse
 The resources include genome assembly workflows, annotation pipelines, 
 and scripts for genomic analyses, tailored to explore the unique features of Silene latifolia, particularly its exceptionally large Y chromosome.
 
+
 # folders
 
 ## Assembly
@@ -29,4 +30,13 @@ main and supplementary figures
 this folder contains:
 
 genetic diversity and transcriptomic
+
+## Preprint
+
+Our preprint is avalaible here:
+
+```
+https://www.biorxiv.org/content/10.1101/2023.09.21.558754v1
+```
+
 
