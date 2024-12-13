@@ -195,6 +195,31 @@ singularity exec -B /beegfs:/beegfs $CONTAINER salsa -a bwa-step-1/silene_purge_
 7. Anchoring chromosomes, we run ALLMAPS:
 
 ```
+#to map the markers to the new fasta
+minimap2 -x sr -t 6 -a scaffolds_FINAL.agp.fix.fasta final.10k.isolated.filtrado.fasta > markers.sam
+
+#generating a txt file with the selected markers
+python3 parse-sam-markers.py markers.sam 
+sed 's/seq-//g' selected-sam-markers.txt > selected-sam-markers-edited.txt
+sed 's/_seq1//g' selected-sam-markers-edited.txt > selected-sam-markers-edited.2.txt
+python3 integrate-sam-info-markers.py selected-sam-markers-edited.2.txt info-markers.txt
+
+#to run allmaps
+#continue here, after copy the files generated in the server
+awk '{if($0~"NA"){}else{print $0}}' selected-male-sam-markers.txt > Male.csv
+awk '{if($0~"NA"){}else{print $0}}' selected-female-sam-markers.txt > Female.csv
+
+#before run allmaps, build the environment
+cd /Users/cmoraga/Desktop/projects/silene-assembly/silene-genetic-map/allmaps
+. build-env-allmaps.sh
+
+#step 1. generate weights file
+
+python -m jcvi.assembly.allmaps merge Male.csv Female.csv -o fix.bed 
+
+#step2. running allmaps
+
+python -m jcvi.assembly.allmaps path fix.bed scaffolds_FINAL.agp.fix.fasta 
 
 ```
 
