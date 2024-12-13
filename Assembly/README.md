@@ -5,11 +5,16 @@
 All the codes to generate the assembly, annotation and analysis described in our manuscript "The Silene latifolia genome and its giant Y chromosome".
 
 
-Abstract
-============
 
-In some species, the Y is a tiny chromosome but the dioecious plant Silene latifolia has a giant ∼550 Mb Y chromosome, which has remained unsequenced so far. Here we used a hybrid approach to obtain a high-quality male S. latifolia genome. Using mutants for sexual phenotype, we identified candidate sex-determining genes on the Y. Comparative analysis of the sex chromosomes with outgroups showed the Y is surprisingly rearranged and degenerated for a ∼11 MY-old system. Recombination suppression between X and Y extended in a stepwise process, and triggered a massive accumulation of repeats on the Y, as well as in the non-recombining pericentromeric region of the X, leading to giant sex chromosomes.
+### Assembly steps
 
+| Step  |  Description  |   
+|-------|---------------|
+| Flye assembly   | We run flye to generate the first draft using long reads (ONT). |
+|  Polishing | We run first using long reads and then using short reads based on a Kmer approach (40, 50, 60, kmer sizes. |
+| Genome size reduction | to remove all the redundant contigs obtained from the assembly graph because of the heterozygosity. |
+| Scaffolding | to generate scaffolds from contigs to achieve contiguity from optical data (HI-C). |
+| Anchoring Chromosomes | we run ALLMAPS using genetic markers to reach complete chromosomes from scaffolds. |
 
 ## Assembly
 
@@ -173,13 +178,28 @@ all: ont_silene.bam ont_silene.bam.gencov silene_coverage_stats.csv silene_purge
 
 ```
 
+6. Scaffolding step, we run SALSA:
 
-### BrumiR outputs
+```
+CONTAINER=salsa_v1.0.sif
 
-| File  |  Description  |   
-|-------|---------------|
-| prefix.brumir.candidate_miRNA.fasta   |  fasta file with all the candidates with their KM and KC values respectively. |
-|  prefix.brumir.other_sequences.txt |  asta file with all long sequences expressed in the sample, they are putative long non-coding RNAs. |
-| prefix.brumir.RFAM_HITS.txt | table with a list of putative tRNAs or rRNAs present in the RFAM database. |
+singularity exec -B /beegfs:/beegfs $CONTAINER minimap2 -t 40 -ax map-ont flye-polish-100-v2.0.pilon_round3.fa ../ONT/silene_ont_all.fastq.gz --secondary=no | samtools view -b - | samtools sort -m 1G -o aligned-silene-ont.bam -T tmp.aln
+
+bwa mem -t 64 silene_purge_r1.fasta ../../HI-C/CUY_AAOSDF_1_1_H7W3JDRXY.IND8_clean.fastq.gz ../../HI-C/CUY_AAOSDF_1_2_H7W3JDRXY.IND8_clean.fastq.gz > silene_purge_r1.HI-C.sam
+samtools view -S -b silene_purge_r1.HI-C.sam > silene_purge_r1.HI-C.bam
+
+singularity exec -B /beegfs:/beegfs $CONTAINER salsa -a bwa-step-1/silene_purge_r1.fasta -l bwa-step-1/silene_purge_r1.fasta.fai -b bwa-step-1/silene_purge_r1.HI-C.bed -e GATC -o scaffolds2
+
+```
+
+7. Anchoring chromosomes, we run ALLMAPS:
+
+```
+
+```
+
+
+
+
 
  
